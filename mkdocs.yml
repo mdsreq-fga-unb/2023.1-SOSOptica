@@ -17,3 +17,4 @@ markdown_extensions:
 
 nav:
   - Sobre: index.md
+  - Visão do produto e projeto: visao.md
