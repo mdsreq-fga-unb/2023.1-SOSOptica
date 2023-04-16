@@ -7,6 +7,7 @@
 | **Data** | **Versão** | **Descrição** | **Autor** |
 |---|---|---|---|
 | 15/04/2023 | 0.1 | Criação do documento | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
+| 16/04/2023 | 0.5 | Adiciona as seção 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
 
 ### 1.1 Declaração de Posição do Produto
 
@@ -27,10 +28,16 @@ Ajudar a automatizar muitos dos processos de gerenciamento da óptica, tornando-
 
 ### 1.3. Tecnologias a Serem Utilizadas
 
-à definir
+  Spring Boot, JUnit, PostgreSQL, React, Docker e Docker Compose  
 
 ## 2 VISÃO GERAL DO PROJETO
-
+  | Perfil | Atribuições | Responsável | Participantes |
+|---|---|---|---|
+| Scrum Master | Garantir que o time scrum se oriente pelos valores e práticas do Scrum | [Tales](https://github.com/TalesRG) | [Tales](https://github.com/TalesRG) |
+| Product Owner | Define as funcionalidades do produto e prioriza os itens de Product Backlog. | Luis Felipe | Luis Felipe |
+| Desenvolvedores Frontend | Desenvolvedor frontend é responsável por criar a interface do usuário garantindo que seja   atraente, intuitiva e funcional. | [Ana](https://github.com/anafernanndess) e [Renato](https://github.com/Osidious)  | Time |
+| Desenvolvedores Backend | Desenvolvedor backend é responsável por desenvolver e manter a lógica e a infraestrutura do servidor de um aplicativo, que é responsável por processar, armazenar e recuperar dados do usuário | [Luis](https://github.com/luishenrrique) e [Tales](https://github.com/TalesRG)  | Time |
+| DevOps | Atuar na unificação e a automação de processos | [Weslley Barros](https://github.com/weslley17w) | Time |
 ### 2.1 Organização do Projeto
 
 à definir
