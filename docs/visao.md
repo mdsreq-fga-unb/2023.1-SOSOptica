@@ -12,8 +12,8 @@
 
 |  |  |
 |---|---|
-| Para | Facilitar o gerenciamento de clientes da ótica opção |
-| Quem |  |
+| Para | Optica Opção |
+| Quem | Necessita de mais eficiência no gerenciamento de clientes |
 | O (nome do produto) | É um software voltado para gerenciar os clientes da Óptica Opção  |
 | Que | Ajuda a ótica gerenciar seus clientes facilitando encontrar dados do cliente e enviar mensagens de formas automáticas. |
 | Ao contrário | [ssOtica](https://ssotica.com.br/) que é voltada para gerenciamento de clientes, estoques, emitir nota fiscal e gerenciamento de vendas. |
@@ -85,7 +85,7 @@ Levamos em conta as três natureza distintas apontadas por Sommerville: Técnica
 </p>
 
 - *Questões Humanas:*  <br>
-<p style="margin-left: 70px; text-indent: 20px; font-style: italic;">
+<p style="margin-left: 70px; font-style: italic;">
 Quais abordagens de desenvolvimento os desenvolvedores são familiarizados? <b>
 Toda a equipe é familiar com SCRUM e parte da equipe é familiar com XP.</b><br>
 Quais tecnologias estão disponíveis para apoiar o desenvolvimento do sistema? 
@@ -93,14 +93,14 @@ Quais tecnologias estão disponíveis para apoiar o desenvolvimento do sistema?
 </p>
 
 - *Questões Organizacionais:* <br>
-<p style="margin-left: 70px; text-indent: 20px; font-style: italic;">
+<p style="margin-left: 70px; 20px; font-style: italic;">
 É necessária uma especificação detalhada antes de começar a fase de implementação 
 do projeto? <b>Não. E além disso  parte dos requisitos ainda não são conhecidos 
 ou estão sujeitos a reformulação.</b><br>Um esquema de entrega incremental é 
 realista? <b>Sim</b>.
 </p>
 
-<p style="margin-left: 70px; text-indent: 20px; font-style: italic;">
+<p style="margin-left: 70px; 20px; font-style: italic;">
 O cliente está disposto e disponível para participar do time de desenvolvimento?
 <b> Sim. Temos contato próximo ao cliente o que nos garante sua participação no
 projeto.</b>
@@ -108,9 +108,7 @@ projeto.</b>
 
 <p style="text-indent: 20px; font-style: italic;">
 Tendo em mente as respostas obtidas identifcamos a oportunidade de trabalhar com
- uma abordagem iterativa fazendo uso de uma abordagem mais próxima da 
- metodologia Ágil. Dessa maneira optamos por utilizar o SCRUM com elementos do 
- XP(Extreme Programing) pelos seguintes motivos:
+uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamos por utilizar o SCRUM com elementos do XP(Extreme Programing) pelos seguintes motivos:
 </p>
 
 - *Feedback contínuo com o cliente;*
@@ -146,7 +144,7 @@ aceitação ao longo do processo de desenvolvimento
 manter a base de dados coesa e consistente.
 
 ### 3.3 Atividades
-d
+
 #### 3.3.1 Planejamento da Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega**                                                                              |
