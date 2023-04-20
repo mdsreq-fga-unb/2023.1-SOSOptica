@@ -159,7 +159,7 @@ manter a base de dados coesa e consistente.
 | Elicitação de Requisitos | Brainstorming | Discord | Requisitos levantados e suas prioridade                                                  |
 | Verificação Validação | Reunião com o cliente | a definir | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
 
-#### 3.3.2 Planejamento da Sprint
+#### 3.3.2 Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
