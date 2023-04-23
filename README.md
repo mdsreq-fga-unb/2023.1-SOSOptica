@@ -1,1 +1,1 @@
-# 2023.1-SOSoptica
+# 2023.1-SOSóptica
