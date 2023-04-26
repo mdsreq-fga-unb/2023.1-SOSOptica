@@ -88,11 +88,11 @@ A necessidade da equipe mudar:
 
 ### 3.1 Engenharia de Requisitos
 
-![Facetas](imgs/FacetasER.png)
+![Facetas](mgs/FacetasER.png)
 *Fonte: Handbook IREB CPRE Foundation Level, Version 1.1.0, september 2022.*
 
 <p style="text-indent: 20px; text-align: justify;">
-Analisando as três facetas da engenharia de requisitos:alvo, propósito e tempo, chegamos a conclusão que o processo participativo é o mais adequado dadas suas características:</p>
+Analisando as três facetas da engenharia de requisitos: Alvo, propósito e tempo, chegamos a conclusão que o processo participativo é o mais adequado dadas suas características:</p>
 
 - **Iterativo:**
 
