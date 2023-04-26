@@ -9,6 +9,7 @@
 | 15/04/2023 | 0.1 | Criação do documento | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
 | 16/04/2023 | 0.2 | Adiciona as seções 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
 | 26/04/2023 | 0.3 | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)|
+| 26/04/2023 | 0.4 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w)|
 
 ### 1.1 Declaração de Posição do Produto
 
@@ -45,9 +46,14 @@ Ajudar a automatizar muitos dos processos de gerenciamento da óptica, tornando-
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
-| **Sprint** | **Produto (Entrega)** | **Data Início** | **Data Fim** |
-|------------|-----------------------|-----------------|--------------|
-| Sprint 1   | Definição do Produto  | 03/04/22        | 17/04/22     |
+ **Sprint** | **Data de início** | **Data de término** | **Produto(Entrega)**                                         
+------------|--------------------|---------------------|--------------------------------------------------------------
+ Sprint 1   | 24/04/2023         | 28/04/2023          | Visão geral do produto e projeto                             
+ Sprint 2   | 02/05/2023         | 02/05/2023          | Definição do Backlog                                         
+ Sprint 3   | 08/05/2023         | 12/05/2023          | User Story                                                   
+ Sprint 4   | 15/05/2023         | 19/05/2023          | Desenvolvimento das US de acordo com a prioridade do cliente 
+ Sprint 5   | 22/05/2023         | 26/05/2023          | Entrega da primeira major                                    
+
 
 ### 2.3 Matriz de Comunicação
 
