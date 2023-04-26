@@ -7,7 +7,8 @@
 | **Data** | **Versão** | **Descrição** | **Autor** |
 |---|---|---|---|
 | 15/04/2023 | 0.1 | Criação do documento | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
-| 16/04/2023 | 0.5 | Adiciona as seção 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
+| 16/04/2023 | 0.2 | Adiciona as seções 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
+| 26/04/2023 | 0.3 | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)|
 
 ### 1.1 Declaração de Posição do Produto
 
@@ -79,41 +80,69 @@ A necessidade da equipe mudar:
 
 ## 3 PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
 
-<p style="text-indent: 20px; text-align: justify; font-style: italic;">
+### 3.1 Engenharia de Requisitos
+
+![Facetas](mgs/FacetasER.png)
+*Fonte: Handbook IREB CPRE Foundation Level, Version 1.1.0, september 2022.*
+
+<p style="text-indent: 20px; text-align: justify;">
+Analisando as três facetas da engenharia de requisitos:alvo, propósito e tempo, chegamos a conclusão que o processo participativo é o mais adequado dadas suas características:</p>
+
+- **Iterativo:**
+
+<p style="margin-left: 70px;">
+Muitos requisitos desconhecidos ou emergentes.<br>
+Stakeholders estão disponíveis para encontros frequentes de forma a reduzir o risco do desenvolvimento errado do sistema.<br>
+A duração do desenvolvimento permite mais do que apenas duas ou três iterações.<br>
+</p>
+
+- **Exploratório:**
+  
+<p style="margin-left: 70px;">
+Stakeholders não possuem uma ideia concreta dos requisitos do projeto.<br>
+O prazo da disciplina toma prescedência sobre as funcionalidades e o escopo do projeto.<br>
+Não é claro inicialmente quais requisitos serão desenvolvidos e em qual ordem.<br>
+</p>
+
+- **Cliente-Específico:**
+<p style="margin-left: 70px;">
+Indivíduos podem ser identificados como stakeholders.<br>
+O sistema será utilizado majoritariamente pelo cliente que estará envolvido no desenvolvimento<br>
+</p>
+
+### 3.2 Metodologia
+<p style="text-indent: 20px; text-align: justify;">
 Levamos em conta as três natureza distintas apontadas por Sommerville: Técnicas, Humanas e Organizacionais. para formular perguntas que nos guiaram a abordagem de processo mais indicada para o nosso projeto.
 </p>
 
 
-- *Questões Técnicas:* <br>
-<p style="margin-left: 70px; font-style: italic;">
+- **Questões Técnicas:** <br>
+<p style="margin-left: 70px;">
   O sistema está sujeito a controle externo? <b>Sim</b>.<br>
   Que tipo de sistema está sendo desenvolvido? <b>Uma aplicação web</b><br>
   Qual o tamanho do projeto? <b>É um projeto pequeno</b>
 </p>
 
-- *Questões Humanas:*  <br>
-<p style="margin-left: 70px; font-style: italic;">
+- **Questões Humanas:**  <br>
+<p style="margin-left: 70px;">
 Quais abordagens de desenvolvimento os desenvolvedores são familiarizados? <b>
 Toda a equipe é familiar com SCRUM e parte da equipe é familiar com XP.</b><br>
 Quais tecnologias estão disponíveis para apoiar o desenvolvimento do sistema? 
-<b>HTML, CSS e JS</b>
-</p>
+<b>HTML, CSS e JS</b></p>
 
-- *Questões Organizacionais:* <br>
-<p style="margin-left: 70px; 20px; font-style: italic;">
+- **Questões Organizacionais:** <br>
+<p style="margin-left: 70px;">
 É necessária uma especificação detalhada antes de começar a fase de implementação 
 do projeto? <b>Não. E além disso  parte dos requisitos ainda não são conhecidos 
-ou estão sujeitos a reformulação.</b><br>Um esquema de entrega incremental é 
-realista? <b>Sim</b>.
-</p>
-
-<p style="margin-left: 70px; 20px; font-style: italic;">
+ou estão sujeitos a reformulação.</b>
+<br>Um esquema de entrega incremental é 
+realista? <b>Sim</b>.<br>
 O cliente está disposto e disponível para participar do time de desenvolvimento?
 <b> Sim. Temos contato próximo ao cliente o que nos garante sua participação no
 projeto.</b>
 </p>
 
-<p style="text-indent: 20px; font-style: italic;">
+<p style="text-indent: 20px; ">
 Tendo em mente as respostas obtidas identifcamos a oportunidade de trabalhar com
 uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamos por utilizar o SCRUM com elementos do XP(Extreme Programing) pelos seguintes motivos:
 </p>
@@ -123,7 +152,7 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 - *Requisitos flexíveis;*
 - *Familiaridade da equipe.*
 
-### 3.1 SCRUM:
+### 3.3 SCRUM:
 
 - **Planejamento da sprint:** Onde é traçado o plano de atividades da sprint da 
 semana. Realizado no primeiro dia de cada sprint.
@@ -134,7 +163,7 @@ junto com o PO(Product Owner) para validar as - atividades da sprint.
 - **Retrospectiva da sprint:** Processo também realizado ao final de cada sprint para
  verificar a qualidade do produto e da equipe.
 
-### 3.2 XP(Extreme programming):
+### 3.4 XP(Extreme programming):
 
 - **Programação em pares**: Processo em que dois programadores trabalham juntos em
  uma mesma máquina, um codifica e outro o acompanha, faz críticas e apresenta
@@ -150,16 +179,16 @@ aceitação ao longo do processo de desenvolvimento
 - **Integração Contínua:** O código deve ser integrado frequentemente de forma a
 manter a base de dados coesa e consistente.
 
-### 3.3 Atividades
+### 3.5 Atividades
 
-#### 3.3.1 Planejamento da Sprint
+#### 3.5.1 Planejamento da Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega**                                                                              |
 |---|---|---|---|
 | Elicitação de Requisitos | Brainstorming | Discord | Requisitos levantados e suas prioridade                                                  |
 | Verificação Validação | Reunião com o cliente | a definir | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
 
-#### 3.3.2 Sprint
+#### 3.5.2 Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
@@ -167,13 +196,13 @@ manter a base de dados coesa e consistente.
 | Desenvolvimento | Pair Programming | VsCode,Live Share(extensão) e Discord | Incremento do produto |
 | Testes | Testes Unitários, de Integração e de Aceitação | VsCode | Testes elaborados com o objetivo de reduzir o número de falhas e garantir o bom funcionamento da aplicação |
 
-#### 3.3.3 Review da Sprint
+#### 3.5.3 Review da Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
 | Análise do progresso | Reunião com o cliente | a definir | Conjunto de atividades desenvolvidas no decorrer da sprint |
 
-#### 3.3.4 Retrospectiva da Sprint
+#### 3.5.4 Retrospectiva da Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
@@ -191,4 +220,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 * [Scrum Guide](https://scrumguides.org/)
 * [Extreme Programming](http://www.extremeprogramming.org)
+* [IREB - Foundation Level Handbook](https://www.ireb.org/content/downloads/3-cpre-foundation-level-handbook/cpre_foundationlevel_handbook_en_v1.1.pdf)
 * Material da disciplina disponivel no aprender
