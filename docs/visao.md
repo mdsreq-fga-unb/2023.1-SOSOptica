@@ -88,7 +88,8 @@ A necessidade da equipe mudar:
 
 ### 3.1 Engenharia de Requisitos
 
-![Facetas](mgs/FacetasER.png)
+![Facetas](imgs/FacetasER.png)
+
 *Fonte: Handbook IREB CPRE Foundation Level, Version 1.1.0, september 2022.*
 
 <p style="text-indent: 20px; text-align: justify;">
