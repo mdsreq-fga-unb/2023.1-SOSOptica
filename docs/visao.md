@@ -10,6 +10,7 @@
 | 16/04/2023 | 0.2 | Adiciona as seções 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Ana](https://github.com/anafernanndess), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
 | 26/04/2023 | 0.3 | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)|
 | 26/04/2023 | 0.4 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w)|
+| 27/04/2023 | 1.0 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)|
 
 ### 1.1 Declaração de Posição do Produto
 
@@ -224,7 +225,7 @@ manter a base de dados coesa e consistente.
 ## 4.1 Unidade 1
 
 <p style="text-indent: 20px;">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Na unidade 1, aprendemos sobre a importância de entender as necessidades do usuário para organizar os requisitos de um projeto. Também aprendemos a dar prioridade aos requisitos essenciais e manter uma comunicação aberta com todas as partes interessadas. Outro ponto importante discutido foi a escolha de métodos de desenvolvimento e ciclos de vida, considerando o escopo, tempo e recursos disponíveis. Também aprendemos a analisar riscos e gerenciar problemas, além de dividir tarefas de forma justa e criar um ambiente agradável para trabalhar em equipe.
 </p>
 
 ## 5 REFERÊNCIAS BIBLIOGRÁFICAS
