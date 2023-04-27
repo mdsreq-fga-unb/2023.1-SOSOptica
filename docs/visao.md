@@ -35,7 +35,7 @@ Essa abordagem pode ajudar a óptica a fornecer um excelente serviço ao cliente
 
 ### 1.3. Tecnologias a Serem Utilizadas
 
-  Spring Boot, JUnit, PostgreSQL, React, Docker e Docker Compose  
+  Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker e Docker Compose  
 
 ## 2 VISÃO GERAL DO PROJETO
 
