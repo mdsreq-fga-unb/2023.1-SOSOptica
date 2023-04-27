@@ -212,7 +212,7 @@ manter a base de dados coesa e consistente.
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
-| Análise do progresso | Reunião com o cliente | a Jira | Conjunto de atividades desenvolvidas no decorrer da sprint |
+| Análise do progresso | Reunião com o cliente | Jira | Conjunto de atividades desenvolvidas no decorrer da sprint |
 
 #### 3.5.4 Retrospectiva da Sprint
 
