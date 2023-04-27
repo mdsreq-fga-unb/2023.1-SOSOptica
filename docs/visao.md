@@ -130,7 +130,7 @@ Levamos em conta as três natureza distintas apontadas por Sommerville: Técnica
 
 - **Questões Técnicas:** <br>
 <p style="margin-left: 70px;">
-  O sistema está sujeito a controle externo? <b>Sim</b>.<br>
+  O sistema está sujeito a controle externo? <b>Não</b>.<br>
   Que tipo de sistema está sendo desenvolvido? <b>Uma aplicação web</b><br>
   Qual o tamanho do projeto? <b>É um projeto pequeno</b>
 </p>
