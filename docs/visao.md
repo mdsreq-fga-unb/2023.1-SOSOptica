@@ -198,7 +198,7 @@ manter a base de dados coesa e consistente.
 | **Atividade** | **Método** | **Ferramenta** | **Entrega**                                                                              |
 |---|---|---|---|
 | Elicitação de Requisitos | Brainstorming | Discord | Requisitos levantados e suas prioridade                                                  |
-| Verificação Validação | Reunião com o cliente | a definir | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
+| Verificação Validação | Reunião com o cliente | Teams | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
 
 #### 3.5.2 Sprint
 
@@ -212,7 +212,7 @@ manter a base de dados coesa e consistente.
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
-| Análise do progresso | Reunião com o cliente | a definir | Conjunto de atividades desenvolvidas no decorrer da sprint |
+| Análise do progresso | Reunião com o cliente | a Jira | Conjunto de atividades desenvolvidas no decorrer da sprint |
 
 #### 3.5.4 Retrospectiva da Sprint
 
