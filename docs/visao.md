@@ -26,9 +26,9 @@
 ### 1.2. Objetivos do Produto
 
 <p style="text-indent: 20px; text-align: justify">
-Automatizar processos de gerenciamento da óptica significa utilizar tecnologia e softwares para realizar tarefas rotineiras e repetitivas de maneira mais eficiente e precisa. Isso pode incluir, por exemplo, automatizar o agendamento de consultas, acompanhamento de vendas e busca por informações do cliente, entre outras atividades.
+Facilitar o gerenciamento dos dados dos seus clientes, permitindo que acesse rapidamente as informações relevantes sobre cada cliente e venda. Ele deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
 
-Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe, pois muitas tarefas manuais são substituídas por sistemas automatizados. Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas, reduzindo retrabalho e melhorando a tomada de decisões.
+Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe, pois muitas tarefas que antes feitas por uma planilha são substituídas por um sistema mais produtivo e organizado. Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas, reduzindo retrabalho e melhorando a tomada de decisões.
 
 Essa abordagem pode ajudar a óptica a fornecer um excelente serviço ao cliente, pois a equipe terá mais tempo para se concentrar em tarefas que exigem atenção pessoal, como atender clientes, fornecer orientações e tirar dúvidas.
 </p>
