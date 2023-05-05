@@ -1,4 +1,4 @@
-package model.entity;
+package sosoptica.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,13 +6,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-
-@Entity
-@Table(name = "usuario",schema = "otica")
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Data
+@Entity
+@Table(name = "usuario")
 public class Usuario {
     @Id
     @Column(name = "id")

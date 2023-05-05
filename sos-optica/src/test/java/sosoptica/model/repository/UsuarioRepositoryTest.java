@@ -1,31 +1,28 @@
-package service.impl;
+package sosoptica.model.repository;
 
-import model.entity.Usuario;
-import model.repository.UsuarioRepository;
+import org.springframework.boot.test.context.SpringBootTest;
+import sosoptica.model.entity.Usuario;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-@ActiveProfiles("test")
-public class UsuarioServiceImplTest {
+public class UsuarioRepositoryTest {
 
     @Autowired
     UsuarioRepository usuarioRepository;
 
+
     @Test
     public void deveVerificarSeEmailExiste(){
-        Usuario usuario = Usuario.builder().nome("teste").senha("1234").email("teste@gmail.com").build();
+        Usuario usuario = Usuario.builder().nome("admin").senha("1234").email("admin@gmail.com").build();
         usuarioRepository.save(usuario);
 
-        boolean existe = usuarioRepository.existsByEmail(usuario.getEmail());
+        boolean existe = usuarioRepository.existsByEmail("admin@gmail.com");
 
         Assertions.assertThat(existe).isTrue();
     }

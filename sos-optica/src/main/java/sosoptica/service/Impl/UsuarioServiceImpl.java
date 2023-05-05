@@ -1,12 +1,12 @@
-package service.Impl;
+package sosoptica.service.Impl;
 
-import exception.ErroAutenticacao;
-import exception.RegraDeNegocioException;
-import model.entity.Usuario;
-import model.repository.UsuarioRepository;
+import sosoptica.exception.ErroAutenticacao;
+import sosoptica.exception.RegraDeNegocioException;
+import sosoptica.model.entity.Usuario;
+import sosoptica.model.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.UsuarioService;
+import sosoptica.service.UsuarioService;
 
 import java.util.Optional;
 
@@ -50,4 +50,5 @@ public class UsuarioServiceImpl implements UsuarioService {
             throw new RegraDeNegocioException("Ja existe este email cadastrado");
         }
     }
+
 }

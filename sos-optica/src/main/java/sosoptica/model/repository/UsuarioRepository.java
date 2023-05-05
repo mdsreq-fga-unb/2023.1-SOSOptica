@@ -1,7 +1,8 @@
-package model.repository;
+package sosoptica.model.repository;
 
-import model.entity.Usuario;
+import sosoptica.model.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.util.Optional;
 
 
