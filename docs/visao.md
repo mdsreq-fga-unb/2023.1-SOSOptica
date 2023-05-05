@@ -68,8 +68,8 @@ O WhatsApp e o Discord serão as principais plataformas de comunicação utiliza
 
 | **Descrição**                                                                      | **Área/Envolvidos**          | **Periodicidade** | **Produtos Gerados** |
 |------------------------------------------------------------------------------------|------------------------------|-------------------|----------------------|
-| \- *Acompanhamento das Atividades em Andamento; <br> \-  Planejamento de atividades* | \- *Equipe do Projeto*         | \- *Semanal*        | \- *Nenhum*            |
-| \- *Daily*                                                                           | \- *Equipe*                    | \- *Diária*         | \- *Nenhum*            |
+| \- *Acompanhamento das Atividades em Andamento; <br> \-  Planejamento da Sprint* | \- *Equipe do Projeto*         | \- *Semanal*        | \- *Backlog do sprint, atualização do jira*            |
+| \- *Daily*                                                                           | \- *Equipe*                    | \- *Diária*         | \- *Feedback da sprint*            |
 | \- *Reunião com cliente*                                                             | \- *Equipe <br><br>\- Cliente* | \- *Aperiódica*     | \- *Vídeo da reunião*  |
 
 ### 2.4 Gerenciamento de Riscos
