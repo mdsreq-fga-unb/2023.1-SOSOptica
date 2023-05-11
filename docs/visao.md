@@ -71,6 +71,7 @@ O WhatsApp e o Discord serão as principais plataformas de comunicação utiliza
 | \- *Acompanhamento das Atividades em Andamento; <br> \-  Planejamento da Sprint* | \- *Equipe do Projeto*         | \- *Semanal*        | \- *Backlog do sprint, atualização do jira*            |
 | \- *Daily*                                                                           | \- *Equipe*                    | \- *Diária*         | \- *Feedback da sprint*            |
 | \- *Reunião com cliente*                                                             | \- *Equipe <br><br>\- Cliente* | \- *Aperiódica*     | \- *Vídeo da reunião*  |
+| \- *Reunião com a monitora*                                                             | \- *Equipe <br><br>\- Bruna* | \- *Quinzenal*     | \- *Feedback da monitora*  |
 
 ### 2.4 Gerenciamento de Riscos
 
@@ -197,15 +198,15 @@ manter a base de dados coesa e consistente.
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega**                                                                              |
 |---|---|---|---|
-| Elicitação de Requisitos | Brainstorming | Discord | Requisitos levantados e suas prioridade                                                  |
-| Verificação Validação | Reunião com o cliente | Teams | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
+| Elicitação de Requisitos | - Brainstorming<br>- Análise de Concorrentes | Discord | Requisitos levantados e suas prioridade |
+| Analise e Concenso | - Brainstorming | Teams | Aval do PO sobre os requisitos levantados |
 
-#### 3.5.2 Sprint
+#### 3.5.2 Desenvolvimento
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
-| Prototipagem | Mock-up | Figma, Miro | Protótipo do Requisito levantado durante o backlog |
-| Desenvolvimento | Pair Programming | VsCode,Live Share(extensão) e Discord | Incremento do produto |
+| Prototipagem | Mock-up | Figma, Miro | Protótipo do Requisito levantado durante o backlog da sprint|
+| Codificação | Pair Programming | VsCode,Live Share(extensão) e Discord | Incremento do produto |
 | Testes | Testes Unitários, de Integração e de Aceitação | VsCode | Testes elaborados com o objetivo de reduzir o número de falhas e garantir o bom funcionamento da aplicação |
 
 #### 3.5.3 Review da Sprint
@@ -213,12 +214,15 @@ manter a base de dados coesa e consistente.
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
 | Análise do progresso | Reunião com o cliente | Jira | Conjunto de atividades desenvolvidas no decorrer da sprint |
+| Verificação Validação | Reunião com o cliente | Teams | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente  |
+| Organização e Atualização | Pontos por História | Discord | Refinamento do Backlog |
 
 #### 3.5.4 Retrospectiva da Sprint
 
 | **Atividade** | **Método** | **Ferramenta** | **Entrega** |
 |---|---|---|---|
 | Análise da Equipe | Brainstorming | Discord | Levantamento das dificuldades no decorrer da sprint |
+
 
 ## 4 LIÇÕES APRENDIDAS
 
