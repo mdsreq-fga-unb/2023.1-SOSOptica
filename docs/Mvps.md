@@ -11,13 +11,14 @@
 |US09 - Eu, como administrador, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.|2|3|3|8|
 |US23 - Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.|3|2|3|8|
 |US02 - Eu, como administrador desejo poder fazer login na minha conta para acessar o sistema.|2|3|3|8|
-|US21 - Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.|2|3|2|7|
-|US22 - Eu, como administrador, gostaria de poder deletar uma receita, para o caso de o cliente cancelar um pedido.|2|3|2|7|
+
 
 # MVP 2
 
 |US|Valor de Negócio| Viabilidade | Complexidade | Total |
 |---|:-:|:-:|:-:|:-:|
+|US21 - Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.|2|3|2|7|
+|US22 - Eu, como administrador, gostaria de poder deletar uma receita, para o caso de o cliente cancelar um pedido.|2|3|2|7|
 |US05 - Eu, como administrador, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.|3|3|1|7|
 |US12 - Eu, como administrador, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.|2|3|2|7|
 |US07 - Eu, como administrador, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.|3|2|2|7|
