@@ -34,3 +34,7 @@
 |US18 - Eu, como administrador, gostaria de poder ter a capacidade de excluir templates de mensagens que não são mais necessários. Para manter a lista de templates organizada e evitar a seleção acidental de templates obsoletos.|1|3|1|5|
 |US19 - Eu, como administrador, gostaria poder visualizar uma lista de todos os templates de mensagens disponíveis, Para identificar rapidamente os templates disponíveis.|1|3|1|5|
 |US15 - Eu, como administrador, gostaria de poder editar as informações de uma venda existente, Para corrigir erros, atualizar detalhes ou adicionar informações.|1|2|2|5|
+
+![Complexidade](imgs/Complexidade.png)
+![Valor De Negócio](imgs/ValorDeNeg%C3%B3cio.png)
+![Viabilidade](imgs/Viabilidade.png)
