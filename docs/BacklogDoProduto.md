@@ -7,14 +7,6 @@ O Backkog do Produto é um artefato da metodologia ágil SCRUM, que consiste em 
 | ---------- | ------ | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 24/05/2023 | 1.0    | Primeira versão do Backlog do Produto | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
 
-## Personas
-
-| Persona       | Descrição                                                                       |
-| ------------- | ------------------------------------------------------------------------------- |
-| Administrador | Funcionário da ótica com privilégios para cadastrar, editar e excluir usuários  |
-| Usuário       | Funcionários da ótica que utilizarão o sistema para tarefas cotidianas venda cadastro cliente etc |
-| Cliente | Cliente da ótica |
-
 
 ## Product Backlog
 
