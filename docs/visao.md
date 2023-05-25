@@ -24,6 +24,7 @@
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção |
 
 ### 1.2 Objetivos do Produto
+  - Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. 
 - Facilitar o gerenciamento dos dados dos seus clientes 
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda. 
 - Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
