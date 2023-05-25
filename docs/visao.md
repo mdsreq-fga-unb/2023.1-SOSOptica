@@ -24,31 +24,13 @@
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção |
 
 ### 1.2 Objetivos do Produto
-
-<p style="text-indent: 20px; text-align: justify">
-  
-
 - Facilitar o gerenciamento dos dados dos seus clientes 
-  
-  
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda. 
-
-  
 - Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
-
-  
 - Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe
-
-  
 - Tarefas antes feitas por uma planilha são substituídas por um sistema mais produtivo e organizado. 
-
-  
 - Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas
-
-  
 - reduzindo retrabalho e melhorando a tomada de decisões.
-  
-</p>
 
 ### 1.3 Tecnologias a Serem Utilizadas
 Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
