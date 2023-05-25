@@ -4,6 +4,7 @@
 Luis Felipe, 21 anos, dono da loja Óptica Opção, não consegue se organizar de maneira efetiva pois em seu estabelecimento há várias planilhas com os dados dos clientes, há também várias planilhas sobre os produtos da loja, ele deseja visualizar as informações dos clientes e da loja efetivamente.
 ## Jornadas:
 Luis Felipe gostaria de fazer uma Tranferência de base de dados de produtos já cadastrados.
+
 Luis Felipe, Atende um cliente em sua loja ➝ Caso o cliente queira comprar na loja ➝ Cadastra os dados do cliente ➝ Cadastra a receita do cliente ➝ Verifica quais produtos ainda estão disponíveis ➝ Armazena qual o produto que o cliente comprou 
 ## Proposta do MVP:
 |      |              | 
