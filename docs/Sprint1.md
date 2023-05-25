@@ -4,7 +4,7 @@
 
 ## Visão Geral
 
-**Período:** 05/05/23 a 21/04/23	 <br>
+**Período:** 21/04/23 - 05/05/23 	 <br>
 
 - [Sprint Board](https://talesrodriguesgoncalves98.atlassian.net/jira/software/projects/SOS/boards/1/reports/burnup)
 
