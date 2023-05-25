@@ -1,4 +1,5 @@
 # Backlog do Produto
+O Backkog do Produto é um artefato da metodologia ágil SCRUM, que consiste em uma lista dos requisitos funcionais emergentes para o desenvolvimento do produto.O escopo do projeto foi delimitado a partir da necessidade de criar um novo sistema de gerenciamento para uma otica. O objetivo é entregar um produto profissional com um custo abaixo do mercado, focado na agilidade em gerenciar cliente,produtos e vendas.
 
 ## Histórico de Revisão
 
