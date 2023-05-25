@@ -53,19 +53,13 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 
  **Sprint** | **Data de início** | **Data de término** | **Produto(Entrega)**                                         
 ------------|--------------------|---------------------|--------------------------------------------------------------
- Sprint 1   | 24/04/2023         | 28/04/2023          | Visão geral do produto e projeto                             
- Sprint 2   | 02/05/2023         | 02/05/2023          | Definição do Backlog                                         
- Sprint 3   | 08/05/2023         | 12/05/2023          | User Story                                                   
- Sprint 4   | 15/05/2023         | 19/05/2023          | Desenvolvimento das US de acordo com a prioridade do cliente 
- Sprint 5   | 22/05/2023         | 25/05/2023          | Entrega da primeira major                                    
- Sprint 6   |                    |                     |
- Sprint 7   |                    |                     |
- Sprint 8   |                    |                     |
- Sprint 9   |                    |                     |
- Sprint 10  |                    |                     | 
- Sprint 11  |                    |                     |
- Sprint 12  |                    |                     | 
- Sprint 13  |                    |                     |
+ Sprint 1   | 21/04/2023         | 05/05/2023          | Visão geral do produto e projeto                             
+ Sprint 2   | 05/05/2023         | 22/05/2023          | Definição do Backlog e User Story                                        
+ Sprint 3   | 22/05/2023         | 02/06/2023          | iniciar o Desenvolvimento das US do MVP1                             
+ Sprint 4   | 02/06/2023         | 22/06/2023          | Entrega da primeira major  
+ Sprint 5   | 22/06/2023         | 02/07/2023          | iniciar Desenvolvimento das US do MVP2                                 
+ Sprint 6   | 02/07/2023         | 11/07/2023          | Criação de modelo de caso de uso
+ Sprint 7   |11/07/2023          | 20/07/2023          | Entrega do MVP2
 ### 2.3 Matriz de Comunicação
 
 <p style="text-indent: 20px; text-align: justify">
