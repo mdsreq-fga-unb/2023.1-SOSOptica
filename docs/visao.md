@@ -9,7 +9,7 @@
 | 26/04/2023 | 0.3 | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)|
 | 26/04/2023 | 0.4 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w)|
 | 27/04/2023 | 1.0 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)|
-| 24/05/2023 | 1.1 | Refatorando Visão | [Ana Luiza](https://github.com/analufernanndess)|
+| 24/05/2023 | 1.1 | Refatorando Visão | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)|
 
 ## 1 VISÃO GERAL DO PRODUTO
 ### 1.1 Declaração de Posição do Produto
