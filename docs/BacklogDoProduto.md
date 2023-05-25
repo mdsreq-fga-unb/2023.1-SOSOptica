@@ -46,7 +46,7 @@ O Backkog do Produto é um artefato da metodologia ágil SCRUM, que consiste em 
 
 ## Mínimo Produto Viável
 
-| MVP | User Stories                                                     | Objetivo                              |
-| --- | ---------------------------------------------------------------- | ------------------------------------- |
+| MVP | User Stories                                                     | Objetivo                              | Prioridade                     |
+| --- | ---------------------------------------------------------------- | ------------------------------------- |--------------------------------|
 | 1   |  |  |
 | 2   |  |  |
