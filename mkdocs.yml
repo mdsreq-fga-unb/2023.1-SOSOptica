@@ -18,11 +18,8 @@ markdown_extensions:
 nav:
   - Sobre: index.md
    - Visão do produto e projeto: visao.md
-  ------------------------------------------
   - Sprints:
       - Sprint 1 : Sprint1.md
-      - Sprint 2 :
- --------------------------------------------
   - Entregas: entregas.md
   - MVPS: Mvps.md
 
