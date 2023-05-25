@@ -1,7 +1,5 @@
 <h1 align="center"><b>VISÃO DO PRODUTO E PROJETO</b></h1>
 
-## 1 VISÃO GERAL DO PRODUTO
-
 ## Histórico de Revisão
 
 | **Data** | **Versão** | **Descrição** | **Autor** |
@@ -11,7 +9,9 @@
 | 26/04/2023 | 0.3 | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)|
 | 26/04/2023 | 0.4 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w)|
 | 27/04/2023 | 1.0 | Adiciona a seções 2.2 | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)|
+| 24/05/2023 | 1.1 | Refatorando Visão | [Ana Luiza](https://github.com/analufernanndess)|
 
+## 1 VISÃO GERAL DO PRODUTO
 ### 1.1 Declaração de Posição do Produto
 
 |  |  |
@@ -23,19 +23,36 @@
 | Ao contrário | [ssOtica](https://ssotica.com.br/) que é voltada para gerenciamento de clientes, estoques. |
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção |
 
-### 1.2. Objetivos do Produto
+### 1.2 Objetivos do Produto
 
 <p style="text-indent: 20px; text-align: justify">
-Facilitar o gerenciamento dos dados dos seus clientes, permitindo que acesse rapidamente as informações relevantes sobre cada cliente e venda. Ele deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
+  
+- Facilitar o gerenciamento dos dados dos seus clientes 
+  
+- Permite o acesso rápido das informações relevantes sobre cada cliente e venda. 
 
-Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe, pois muitas tarefas que antes feitas por uma planilha são substituídas por um sistema mais produtivo e organizado. Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas, reduzindo retrabalho e melhorando a tomada de decisões.
+- Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
 
-Essa abordagem pode ajudar a óptica a fornecer um excelente serviço ao cliente, pois a equipe terá mais tempo para se concentrar em tarefas que exigem atenção pessoal, como atender clientes, fornecer orientações e tirar dúvidas.
+- Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe
+
+- Tarefas antes feitas por uma planilha são substituídas por um sistema mais produtivo e organizado. 
+
+- Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas
+
+- reduzindo retrabalho e melhorando a tomada de decisões.
 </p>
 
-### 1.3. Tecnologias a Serem Utilizadas
-
-  Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker e Docker Compose  
+### 1.3 Tecnologias a Serem Utilizadas
+| Tecnologias |
+| ------------|
+| Spring Boot |
+| JUnit |
+| Jira |
+| PostgreSQL |
+| React |
+| Jest |
+| Docker | 
+| Docker Compose |  
 
 ## 2 VISÃO GERAL DO PROJETO
 
@@ -58,9 +75,15 @@ Essa abordagem pode ajudar a óptica a fornecer um excelente serviço ao cliente
  Sprint 2   | 02/05/2023         | 02/05/2023          | Definição do Backlog                                         
  Sprint 3   | 08/05/2023         | 12/05/2023          | User Story                                                   
  Sprint 4   | 15/05/2023         | 19/05/2023          | Desenvolvimento das US de acordo com a prioridade do cliente 
- Sprint 5   | 22/05/2023         | 26/05/2023          | Entrega da primeira major                                    
-
-
+ Sprint 5   | 22/05/2023         | 25/05/2023          | Entrega da primeira major                                    
+ Sprint 6   |                    |                     |
+ Sprint 7   |                    |                     |
+ Sprint 8   |                    |                     |
+ Sprint 9   |                    |                     |
+ Sprint 10  |                    |                     | 
+ Sprint 11  |                    |                     |
+ Sprint 12  |                    |                     | 
+ Sprint 13  |                    |                     |
 ### 2.3 Matriz de Comunicação
 
 <p style="text-indent: 20px; text-align: justify">
@@ -77,7 +100,12 @@ O WhatsApp e o Discord serão as principais plataformas de comunicação utiliza
 ### 2.4 Gerenciamento de Riscos
 
 <p style="text-indent: 20px; text-align: justify">
-Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. Depois de definir as tarefas, a equipe apresentará as mesmas ao cliente para que este possa avaliar se as entregas propostas fazem sentido, lembrando que essa será a segunda verificação, sendo que a primeira foi feita durante a elicitação de requisitos. Ao final da sprint, será realizada uma reunião de revisão (review) com o cliente, onde serão apresentadas as entregas de valor. Nesta reunião, o cliente terá a oportunidade de dar um retorno sobre suas expectativas e verificar se o desenvolvimento do projeto está de acordo com o esperado. Se um risco for identificado durante a sprint, a equipe tomará as medidas necessárias para minimizar ou resolver o problema.
+
+ - Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. 
+
+ - Depois de definir as tarefas, a equipe apresentará as mesmas ao cliente para que este possa avaliar se as entregas propostas fazem sentido, lembrando que essa será a segunda verificação, sendo que a primeira foi feita durante a elicitação de requisitos. 
+
+- Ao final da sprint, será realizada uma reunião de revisão (review) com o cliente, onde serão apresentadas as entregas de valor. Nesta reunião, o cliente terá a oportunidade de dar um retorno sobre suas expectativas e verificar se o desenvolvimento do projeto está de acordo com o esperado. Se um risco for identificado durante a sprint, a equipe tomará as medidas necessárias para minimizar ou resolver o problema.
 </p>
 
 ### 2.5 Critérios de Replanejamento
@@ -231,6 +259,11 @@ manter a base de dados coesa e consistente.
 
 <p style="text-indent: 20px;">
 Na unidade 1, aprendemos sobre a importância de entender as necessidades do usuário para organizar os requisitos de um projeto. Também aprendemos a dar prioridade aos requisitos essenciais e manter uma comunicação aberta com todas as partes interessadas. Outro ponto importante discutido foi a escolha de métodos de desenvolvimento e ciclos de vida, considerando o escopo, tempo e recursos disponíveis. Também aprendemos a analisar riscos e gerenciar problemas, além de dividir tarefas de forma justa e criar um ambiente agradável para trabalhar em equipe.
+</p>
+
+## 4.1 Unidade 2
+<p style="text-indent: 20px;">
+Durante a Unidade 2, ampliamos nossos conhecimentos acerca dos requisitos funcionais e não funcionais, assim como suas classificações propostas por Sommerville. Exploramos também o conceito de backlog do produto, compreendendo como dividir o projeto em épicos, features e user stories. Por último, adquirimos o conhecimento necessário para definir e apresentar uma proposta de MVP por meio do modelo denominado Canvas MVP. Esse modelo engloba elementos como cronograma, jornadas, definição de personas, resultados esperados, funcionalidades e métricas para validação.
 </p>
 
 ## 5 REFERÊNCIAS BIBLIOGRÁFICAS
