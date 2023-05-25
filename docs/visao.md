@@ -24,7 +24,6 @@
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção |
 
 ### 1.2 Objetivos do Produto
-  - Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. 
 - Facilitar o gerenciamento dos dados dos seus clientes 
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda. 
 - Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
@@ -74,17 +73,9 @@ O WhatsApp e o Discord serão as principais plataformas de comunicação utiliza
 | \- *Reunião com a monitora*                                                             | \- *Equipe <br><br>\- Bruna* | \- *Quinzenal*     | \- *Feedback da monitora*  |
 
 ### 2.4 Gerenciamento de Riscos
-
-<p style="text-indent: 20px; text-align: justify">
-
- 
-  - Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. 
-
- 
-  - Depois de definir as tarefas, a equipe apresentará as mesmas ao cliente para que este possa avaliar se as entregas propostas fazem sentido, lembrando que essa será a segunda verificação, sendo que a primeira foi feita durante a elicitação de requisitos. 
-
-
-  - Ao final da sprint, será realizada uma reunião de revisão (review) com o cliente, onde serão apresentadas as entregas de valor. Nesta reunião, o cliente terá a oportunidade de dar um retorno sobre suas expectativas e verificar se o desenvolvimento do projeto está de acordo com o esperado. Se um risco for identificado durante a sprint, a equipe tomará as medidas necessárias para minimizar ou resolver o problema.
+- Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão. 
+- Depois de definir as tarefas, a equipe apresentará as mesmas ao cliente para que este possa avaliar se as entregas propostas fazem sentido, lembrando que essa será a segunda verificação, sendo que a primeira foi feita durante a elicitação de requisitos. 
+- Ao final da sprint, será realizada uma reunião de revisão (review) com o cliente, onde serão apresentadas as entregas de valor. Nesta reunião, o cliente terá a oportunidade de dar um retorno sobre suas expectativas e verificar se o desenvolvimento do projeto está de acordo com o esperado. Se um risco for identificado durante a sprint, a equipe tomará as medidas necessárias para minimizar ou resolver o problema.
 </p>
 
 ### 2.5 Critérios de Replanejamento
