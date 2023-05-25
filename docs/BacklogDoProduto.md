@@ -35,7 +35,23 @@ O Backkog do Produto é um artefato da metodologia ágil SCRUM, que consiste em 
 | | US-21 - Eu, como administrador, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.  |
 | | US-22 - Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.  |
 
+## Requisitos não funcionais
 
+<br>
+
+Os requisitos não funcionais (RNFs) definem os atributos do sistema, como segurança, confiabilidade, desempenho, capacidade de manutenção, usabilidade. Eles servem como restrições ou constrangimentos no design do sistema em diferentes pendências.
+
+<br>
+
+N° | Classificação | Requisitos Não Funcionais
+:---------: |  :-------: |  :-------:
+RNF01 | Requisitos de Implementação | A parte do Back-End do sistema deve ser desenvolvido em Java/Spring Boot
+RNF02 | Requisitos de Implementação | A parte do Front-End do sistema deve ser desenvolvido em React
+RNF03 | Requisitos de Implementação | O sistema deve ser desenvolvido em orientação a objetos
+RNF04 | Requisitos de Portabilidade | A aplicação deve ser WEB
+RFN05 | Requisitos de Usabilidade | A aplicação deve ser responsiva
+RFN06 | Requisitos de Usabilidade | A interface da aplicação deve ser de fácil manipulação
+RFN07 | Requisitos de Suportabilidade | O sistema deve ser testável em Java e React
 ## Mínimo Produto Viável
 
 | MVP | User Stories | Objetivo |
