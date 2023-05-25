@@ -21,7 +21,9 @@ nav:
   - Sprints:
       - Sprint 1 : Sprint1.md
       - Sprint 2 : Sprint2.md
-  - Entregas: entregas.md
+  - Entregas: 
+      - Unidade 1: entrega1.md
+      - Unidade 2: entrega2.md
   - Backlog do Produto: BacklogDoProduto.md
-
+  - Canvas MVP: Canvas MVP.md
 
