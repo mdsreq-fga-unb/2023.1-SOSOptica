@@ -52,6 +52,7 @@ RNF04 | Requisitos de Portabilidade | A aplicação deve ser WEB
 RFN05 | Requisitos de Usabilidade | A aplicação deve ser responsiva
 RFN06 | Requisitos de Usabilidade | A interface da aplicação deve ser de fácil manipulação
 RFN07 | Requisitos de Suportabilidade | O sistema deve ser testável em Java e React
+
 ## Mínimo Produto Viável
 
 | MVP | User Stories | Objetivo |
