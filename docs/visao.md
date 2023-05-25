@@ -48,6 +48,7 @@ Essa abordagem pode ajudar a óptica a fornecer um excelente serviço ao cliente
 | Desenvolvedores Frontend | Desenvolvedor frontend é responsável por criar a interface do usuário garantindo que seja   atraente, intuitiva e funcional. | [Ana](https://github.com/anafernanndess) e [Renato](https://github.com/Osidious)  | Time |
 | Desenvolvedores Backend | Desenvolvedor backend é responsável por desenvolver e manter a lógica e a infraestrutura do servidor de um aplicativo, que é responsável por processar, armazenar e recuperar dados do usuário | [Luis](https://github.com/luishenrrique) e [Tales](https://github.com/TalesRG)  | Time |
 | DevOps | Atuar na unificação e a automação de processos | [Weslley Barros](https://github.com/weslley17w) | Time |
+| Moitora |Acompanhar equipe no desenvolvimento do projeto | [Bruna Lima] | Time |
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
