@@ -15,7 +15,7 @@ Luis Felipe, Atende um cliente em sua loja ➝ Caso o cliente queira comprar na 
 |Que: |Beneficia donos de opticas e facilita o processo de gerenciamento.|
 |Diferentemente da: |Planilha do Excel|
 ## Funcionalidades:
-- Cadastrar clientes.O:SoSÓptica, um Website de gerenciamento de ótica
+- Cadastrar clientes.
 - Cadastrar Venda.
 - Cadastrar mensagens promocionais.
 - Cadastrar produtos.

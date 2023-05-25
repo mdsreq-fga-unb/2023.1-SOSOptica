@@ -39,7 +39,7 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 
 ### 2.1 Organização do Projeto
 
-  | Perfil | Atribuições | Responsável | Participantes |
+| Perfil | Atribuições | Responsável | Participantes |
 |---|---|---|---|
 | Scrum Master | Garantir que o time scrum se oriente pelos valores e práticas do Scrum | [Tales](https://github.com/TalesRG) | [Tales](https://github.com/TalesRG) |
 | Product Owner | Define as funcionalidades do produto e prioriza os itens de Product Backlog. | Luis Felipe | Luis Felipe |
