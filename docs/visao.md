@@ -59,6 +59,8 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
  Sprint 5   | 22/06/2023         | 02/07/2023          | iniciar Desenvolvimento das US do MVP2                                 
  Sprint 6   | 02/07/2023         | 11/07/2023          | Criação de modelo de caso de uso
  Sprint 7   |11/07/2023          | 20/07/2023          | Entrega do MVP2
+ 
+
 ### 2.3 Matriz de Comunicação
 
 <p style="text-indent: 20px; text-align: justify">
