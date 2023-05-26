@@ -1,10 +1,7 @@
 site_name: "SOSóptica"
 
-theme:
-  #logo: assets/logo/logo.png
-  #favicon: assets/logo/logo.png
-  name: material
-  language: "pt"
+theme: Cayman
+  
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
