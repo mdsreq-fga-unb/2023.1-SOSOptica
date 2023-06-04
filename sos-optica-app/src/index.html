@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Side Navigation Bar in HTML CSS JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="images/logo.png" alt="Optica Opção">
+      </div>
+<!-- 
+      <div class="search_bar">
+        <input type="text" placeholder="Busca" />
+      </div>
+ -->
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i class="bx bx-sun" id="darkLight"></i>
+        <i class="bx bx-bell" ></i>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <div class="menu_title menu_dahsboard"></div>
+          <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-home-alt"></i>
+              </span>
+              <span class="navlink">Home</span>
+            </a>
+          </li>
+        </ul>
+          <!-- end -->
+
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+<!--           <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="bx bx-grid-alt"></i>
+              </span>
+              <span class="navlink">Overview</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+                
+              <a href="#" class="nav_link sublink">Vendas
+                <span class="navlink_icon">
+                    <i class="bx bxs-shopping-bag"></i>
+                </span>
+              </a>
+            </ul>
+          </li>
+          <!-- end -->
+       <!-- </ul> -->
+
+        <ul class="menu_items">
+          <div class="menu_title menu_cliente"></div>
+          <!-- duplicate these li tag if you want to add or remove navlink only -->
+          <!-- Start -->
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bxs-user"></i>
+              </span>
+              <span class="navlink">Novo Cliente</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-glasses"></i>
+              </span>
+              <span class="navlink">Nova Receita</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bxs-book-reader"></i>
+              </span>
+              <span class="navlink">Clientes</span>
+            </a>
+          </li>
+          <!-- End -->
+        </ul>
+
+        <ul class="menu_items">
+            <div class="menu_title menu_vendas"></div>
+  
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="bx bxs-cart"></i>
+                </span>
+                <span class="navlink">Nova Venda</span>
+              </a>
+            </li>
+            <li class="item">
+                <a href="#" class="nav_link">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-bookmark-alt"></i>
+                  </span>
+                  <span class="navlink">Histórico</span>
+                </a>
+              </li>
+        </ul>
+
+        <ul class="menu_items">
+          <div class="menu_title menu_produtos"></div>
+
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bxs-truck"></i>
+              </span>
+              <span class="navlink">Estoque</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class="bx bx-log-in" ></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class="bx bx-log-out"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
