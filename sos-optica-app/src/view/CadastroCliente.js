@@ -1,21 +1,55 @@
 import React from "react";
 import Card from "../components/Card";
 import FormGroup from "../components/form-group";
+import ClienteService from "../service/ClienteService";
 
 class CadastroCliente extends React.Component{
 
+    state = {
+        nomeCliente : "",
+        emailCliente : "",
+        telefoneCliente : "",
+        dataDeNascimentoCliente : "",
+        cpf : "",
+    }
+    constructor() {
+        super();
+        this.clienteService = new ClienteService();
+    }
 
+    cadastrar = () =>{
+        const dadosCliente = {
+            nomeCliente: this.state.nomeCliente,
+            emailCliente : this.state.emailCliente,
+            telefoneCliente: this.state.telefoneCliente,
+            dataDeNascimentoCliente : this.state.dataDeNascimentoCliente,
+            cpf : this.state.cpf
+        }
+        console.log(dadosCliente)
+        this.clienteService.salvar(dadosCliente).then(response => {console.log("Cadastrado com sucesso")
+        console.log(this.state)
+
+        })
+            .catch(error => {
+                console.log("Algo deu errado!!")
+            });
+
+    }
     render() {
         return (
-            <div className="container" style={{position:"relative" ,left:"600px"}}>
                 <Card title="Cadastrar Cliente">
-                    <div className="row">
+
+                    <div className="row" style={{position:"relative",left:"500px"}}>
                         <div className="col-md-3" >
                             <FormGroup label="Nome * " htmlFor="inputDefault" >
                                 <input type="text"
+                                       name="nomeCliente"
                                        className="form-control"
                                        placeholder="Digite o nome do cliente"
-                                       id="inputDefault"/>
+                                       id="inputNome"
+                                       onChange={e => this.setState({nomeCliente: e.target.value})}
+                                />
+
                             </FormGroup>
 
 
@@ -23,52 +57,50 @@ class CadastroCliente extends React.Component{
                                 <input type="text"
                                        className="form-control"
                                        placeholder="000.000.000-00"
-                                       id="inputDefault"/>
+                                       id="inputCpf"
+                                       name="cpf"
+                                       onChange={e => this.setState({cpf: e.target.value})}/>
                             </FormGroup>
+
+
+
+                        </div>
+                        <div className="col-md-3" >
 
                             <FormGroup label="Telefone * " htmlFor="inputDefault">
                                 <input type="tel"
                                        className="form-control"
-                                       id="inputDefault"/>
+                                       id="inputTelefoneCliente"
+                                       name="telefoneCliente"
+                                       onChange={e => this.setState({telefoneCliente: e.target.value})}
+                                />
                             </FormGroup>
 
-                        </div>
-                        <div className="col-md-3" >
-                            <FormGroup label="Email * " htmlFor="inputDefault">
+                            <FormGroup label="E-mail * " htmlFor="inputDefault">
                                 <input type="email"
                                        className="form-control"
-                                       id="inputDefault"/>
+                                       id="inputEmailCliente"
+                                       name="emailCLiente"
+                                       onChange={e => this.setState({emailCliente : e.target.value})}/>
                             </FormGroup>
-
 
                             <FormGroup label="Data de nascimento * " htmlFor="inputDefault">
                                 <input type="date"
                                        className="form-control"
-                                       id="inputDefault"/>
+                                       id="inputDataDeNascimentoCliente"
+                                       name="dataDeNascimentoCliente"
+                                       onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
                             </FormGroup>
 
 
-                            <FormGroup label="Genero" htmlFor="exampleSelect2" >
-                                <select multiple="" className="form-select" id="exampleSelect2" >
-                                    <option>Prefiro não informar</option>
-                                    <option>Masculino</option>
-                                    <option>Feminino</option>
-                                </select>
-                            </FormGroup>
 
                         </div>
 
                     </div>
                     <br/>
                     <br/>
-                    <button type="button" className="btn btn-primary">Cadastrar</button>
+                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative",left:"935px"}}>Cadastrar</button>
                 </Card>
-
-            </div>
-
-
-
-
         );
     }
 }
