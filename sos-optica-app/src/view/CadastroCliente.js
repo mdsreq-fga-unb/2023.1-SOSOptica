@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import FormGroup from "../components/form-group";
+import InputMask from 'react-input-mask';
 
 class CadastroCliente extends React.Component{
 
@@ -20,16 +21,22 @@ class CadastroCliente extends React.Component{
 
 
                             <FormGroup label="CPF * " htmlFor="inputDefault">
-                                <input type="text"
-                                       className="form-control"
-                                       placeholder="000.000.000-00"
-                                       id="inputDefault"/>
+                                <InputMask 
+                                    mask="999.999.999-99" 
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="000.000.000-00"
+                                    id="inputDefault"
+                                />
                             </FormGroup>
 
                             <FormGroup label="Telefone * " htmlFor="inputDefault">
-                                <input type="tel"
-                                       className="form-control"
-                                       id="inputDefault"/>
+                                <InputMask
+                                    mask="(99) 99999-9999"
+                                    type="tel"
+                                    className="form-control"
+                                    placeholder="(00) 00000-0000"
+                                    id="inputDefault"/>
                             </FormGroup>
 
                         </div>
