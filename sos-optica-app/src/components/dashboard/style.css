@@ -13,7 +13,7 @@
   --grey-color-light: #616161;
 }
 body {
-  background-color: #fafafa;
+  background-color: white;
   transition: all 0.5s cubic-bezier(.17,.67,.83,.67);
 }
 body.dark {
@@ -26,13 +26,21 @@ body.dark {
   --grey-color-light: #616161;
 }
 
+
+.card{
+  position: center;
+  width: 100%;
+  margin: 200px;
+}
+
+
 /* navbar */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   left: 0;
-  background-color: var(--white-color);
+  background-color: var(--bs-black);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,11 +82,12 @@ body.dark {
   display: flex;
   align-items: center;
   column-gap: 25px;
+
 }
 .navbar_content i {
   cursor: pointer;
   font-size: 20px;
-  color: var(--grey-color);
+  color: var(--white-color);
 }
 
 /* sidebar */

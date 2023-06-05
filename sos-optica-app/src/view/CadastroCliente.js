@@ -37,9 +37,11 @@ class CadastroCliente extends React.Component{
     }
     render() {
         return (
-                <Card title="Cadastrar Cliente">
+            <>
 
-                    <div className="row" style={{position:"relative",left:"500px"}}>
+                <Card title="Cadastro Cliente" >
+
+                    <div className="row" style={{position:"relative",left:"200px"}}>
                         <div className="col-md-3" >
                             <FormGroup label="Nome * " htmlFor="inputDefault" >
                                 <input type="text"
@@ -99,8 +101,9 @@ class CadastroCliente extends React.Component{
                     </div>
                     <br/>
                     <br/>
-                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative",left:"935px"}}>Cadastrar</button>
+                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative",left: "865px"}}>Cadastrar</button>
                 </Card>
+            </>
         );
     }
 }
