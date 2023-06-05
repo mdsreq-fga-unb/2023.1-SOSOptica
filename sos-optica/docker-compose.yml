@@ -1,0 +1,20 @@
+version: '3.7'
+
+volumes:
+    data: 
+
+services:
+  postgres:
+    container_name: demo_postgres
+    image: "postgres:15.3-alpine3.18"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "otica"
+      PGDATA: "/data/postgres"
+    volumes:
+       - data:/data/postgres
+       - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
