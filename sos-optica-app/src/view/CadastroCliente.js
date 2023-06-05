@@ -12,6 +12,7 @@ class CadastroCliente extends React.Component{
         dataDeNascimentoCliente : "",
         cpf : "",
     }
+	
     constructor() {
         super();
         this.clienteService = new ClienteService();
@@ -101,7 +102,7 @@ class CadastroCliente extends React.Component{
                     </div>
                     <br/>
                     <br/>
-                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative",left: "865px"}}>Cadastrar</button>
+                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative", left:"52%", width:"10rem"}}>Cadastrar</button>
                 </Card>
             </>
         );

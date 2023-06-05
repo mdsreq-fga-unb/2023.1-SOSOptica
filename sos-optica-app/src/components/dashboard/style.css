@@ -40,27 +40,26 @@ body.dark {
   top: 0;
   width: 100%;
   left: 0;
-  background-color: var(--bs-black);
+  background-color: var(--grey-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
   z-index: 1000;
-  box-shadow: 0 0 2px var(--grey-color-light);
+  box-shadow: 0 0 2px var(--white-color);
   transition: all 0.5s cubic-bezier(.17,.67,.83,.67);
 }
+.navbar
 .logo_item {
   display: flex;
   align-items: center;
   column-gap: 10px;
   font-size: 22px;
   font-weight: 500;
-  color: var(--blue-color);
 }
 .navbar img {
   width: 165px;
   height: 59px;
-  background-color: #1e1e1e
 }
 .search_bar {
   height: 47px;
