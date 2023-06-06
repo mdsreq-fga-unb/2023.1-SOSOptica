@@ -98,11 +98,6 @@ class CadastroCliente extends React.Component{
                             <br/>
                             <button onClick={this.cadastrar} type="button" className="btn btn-primary" >Cadastrar</button>
                         </div>
-
-                    </div>
-                    <br/>
-                    <br/>
-                    <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative", left:"52%", width:"10rem"}}>Cadastrar</button>
                 </Card>
 
             </>
