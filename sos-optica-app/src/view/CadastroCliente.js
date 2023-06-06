@@ -89,10 +89,8 @@ class CadastroCliente extends React.Component{
                                        onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
 
                             </FormGroup>
-
                             <br/>
-                            <br/>
-                            <button onClick={this.cadastrar} type="button" className="btn btn-primary" >Cadastrar</button>
+                            <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{borderRadius:"16px"}} >Cadastrar</button>
                         </div>
                 </Card>
 
