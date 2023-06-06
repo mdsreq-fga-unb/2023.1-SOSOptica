@@ -8,10 +8,10 @@ function App() {
         <>
             <NavBar></NavBar>
             <Dashboard></Dashboard>
-            <div className="container" style={{overflow:"hidden",position: "relative"}}>
+
 
                 <Rotas></Rotas>
-            </div>
+
 
         </>
     );
