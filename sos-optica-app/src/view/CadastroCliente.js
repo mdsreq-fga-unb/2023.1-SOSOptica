@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../components/Card";
 import FormGroup from "../components/form-group";
 import ClienteService from "../service/ClienteService";
-
 class CadastroCliente extends React.Component{
 
     state = {
@@ -39,11 +38,10 @@ class CadastroCliente extends React.Component{
     render() {
         return (
             <>
-
                 <Card title="Cadastro Cliente" >
 
-                    <div className="row" style={{position:"relative",left:"200px"}}>
-                        <div className="col-md-3" >
+
+                        <div className="form-control"  >
                             <FormGroup label="Nome * " htmlFor="inputDefault" >
                                 <input type="text"
                                        name="nomeCliente"
@@ -66,9 +64,9 @@ class CadastroCliente extends React.Component{
                             </FormGroup>
 
 
-
                         </div>
-                        <div className="col-md-3" >
+
+                            <div className="form-control"  >
 
                             <FormGroup label="Telefone * " htmlFor="inputDefault">
                                 <input type="tel"
@@ -92,11 +90,13 @@ class CadastroCliente extends React.Component{
                                        className="form-control"
                                        id="inputDataDeNascimentoCliente"
                                        name="dataDeNascimentoCliente"
+
                                        onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
                             </FormGroup>
 
-
-
+                            <br/>
+                            <br/>
+                            <button onClick={this.cadastrar} type="button" className="btn btn-primary" >Cadastrar</button>
                         </div>
 
                     </div>
@@ -104,6 +104,7 @@ class CadastroCliente extends React.Component{
                     <br/>
                     <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{position:"relative", left:"52%", width:"10rem"}}>Cadastrar</button>
                 </Card>
+
             </>
         );
     }
