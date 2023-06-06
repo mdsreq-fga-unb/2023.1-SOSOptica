@@ -41,7 +41,7 @@ class CadastroCliente extends React.Component{
                 <Card title="Cadastro Cliente" >
 
 
-                        <div className="form-control"  >
+                    <div className="form-control-sm"  >
                             <FormGroup label="Nome * " htmlFor="inputDefault" >
                                 <input type="text"
                                        name="nomeCliente"
@@ -63,10 +63,6 @@ class CadastroCliente extends React.Component{
                                        onChange={e => this.setState({cpf: e.target.value})}/>
                             </FormGroup>
 
-
-                        </div>
-
-                            <div className="form-control"  >
 
                             <FormGroup label="Telefone * " htmlFor="inputDefault">
                                 <input type="tel"
@@ -92,6 +88,7 @@ class CadastroCliente extends React.Component{
                                        name="dataDeNascimentoCliente"
 
                                        onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
+
                             </FormGroup>
 
                             <br/>
