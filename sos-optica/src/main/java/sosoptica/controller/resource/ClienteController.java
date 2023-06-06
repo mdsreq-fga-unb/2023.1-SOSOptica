@@ -10,7 +10,6 @@ import sosoptica.controller.dto.ClienteDto;
 import sosoptica.exception.RegraDeNegocioException;
 import sosoptica.model.entity.Cliente;
 import sosoptica.service.ClienteService;
-import sosoptica.service.UsuarioService;
 
 @RestController
 @RequestMapping("/api/clientes")
@@ -22,11 +21,11 @@ public class ClienteController {
         this.clienteService = clienteService;
     }
 
-    @PostMapping("/cadastrarCliente")
+    @PostMapping
     public ResponseEntity cadastrarCliente(@RequestBody ClienteDto clienteDto){
         Cliente cliente = Cliente.builder()
                 .nomeCliente(clienteDto.getNomeCliente())
-                .emailCLiente(clienteDto.getEmailCLiente())
+                .emailCliente(clienteDto.getEmailCliente())
                 .telefoneCliente(clienteDto.getTelefoneCliente())
                 .dataDeNascimentoCliente(clienteDto.getDataDeNascimentoCliente())
                 .cpf(clienteDto.getCpf())
