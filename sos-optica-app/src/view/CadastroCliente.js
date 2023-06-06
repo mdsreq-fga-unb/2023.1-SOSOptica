@@ -38,8 +38,7 @@ class CadastroCliente extends React.Component{
     render() {
         return (
             <>
-                <Card title="Cadastro Cliente" >
-
+                <Card title="Cadastro Cliente"  icon="bx bxs-user">
 
                     <div className="form-control-sm"  >
                             <FormGroup label="Nome * " htmlFor="inputDefault" >

@@ -5,8 +5,10 @@ class Card extends React.Component{
         return(
 
             <div className="card border-light mb-3"  >
-                {/*<h5 className="card-header">{this.props.title}</h5>*/}
+
                 <div className="cartao" >
+
+                    <h5 className="card-header"><i className={this.props.icon}></i> {this.props.title}</h5>
                     {this.props.children}
                 </div>
             </div>
