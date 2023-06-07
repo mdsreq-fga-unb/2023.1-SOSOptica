@@ -11,12 +11,10 @@ import 'toastr/build/toastr.min.js'
 function App() {
     return (
         <>
+
             <NavBar></NavBar>
             <Dashboard></Dashboard>
-
-
-                <Rotas></Rotas>
-
+            <Rotas></Rotas>
 
         </>
     );
