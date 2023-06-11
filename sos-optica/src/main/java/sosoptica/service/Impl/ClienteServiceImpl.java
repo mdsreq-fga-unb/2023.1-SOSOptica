@@ -23,6 +23,44 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
+    public Cliente atualizarCliente(Long id, Cliente cliente) {
+        Cliente clienteAtualizado = clienteRepository.findById(id)
+                .orElseThrow(() -> new RegraDeNegocioException("Cliente não encontrado"));
+
+        if(!cliente.getCpf().equals(clienteAtualizado.getCpf())){
+            validarCpfCliente(cliente.getCpf());
+        }
+
+        if(cliente.getNomeCliente() != null){
+            clienteAtualizado.setNomeCliente(cliente.getNomeCliente());
+        }
+
+        if(cliente.getEmailCliente() != null){
+            clienteAtualizado.setEmailCliente(cliente.getEmailCliente());
+        }
+
+        if(cliente.getTelefoneCliente() != null){
+            clienteAtualizado.setTelefoneCliente(cliente.getTelefoneCliente());
+        }
+
+        if(cliente.getDataDeNascimentoCliente() != null){
+            clienteAtualizado.setDataDeNascimentoCliente(cliente.getDataDeNascimentoCliente());
+        }
+
+        if(cliente.getCpf() != null){
+            clienteAtualizado.setCpf(cliente.getCpf());
+        }
+
+        return clienteRepository.save(clienteAtualizado);
+    }
+
+    @Override
+    public Cliente listaClientePeloId(Long id) {
+        return clienteRepository.findById(id)
+                .orElseThrow(() -> new RegraDeNegocioException("Cliente não encontrado"));
+    }
+
+    @Override
     public void validarCpfCliente(String cpf) {
     boolean existeCpf = clienteRepository.existsByCpf(cpf);
 
