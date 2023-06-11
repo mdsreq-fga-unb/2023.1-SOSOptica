@@ -63,7 +63,7 @@ class CadastroCliente extends React.Component{
             dataDeNascimentoCliente : this.state.dataDeNascimentoCliente,
             cpf : this.state.cpf
         }
-        this.clienteService.satualizar(dadosCliente).then(response => {
+        this.clienteService.salvar(dadosCliente).then(response => {
             mensagemSucesso("Cadastro realizado com sucesso")
             this.cancelar()
         }).catch(error => {
