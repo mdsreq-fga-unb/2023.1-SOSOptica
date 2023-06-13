@@ -19,7 +19,7 @@ class Dashboard extends React.Component{
                         <div className="menu_title menu_cliente"></div>
                         <Item href="/#/cadastrar-cliente" label ="Novo Cliente" icon = "bx bxs-user"></Item>
                         <Item href="#" label = "Nova Receita" icon ="bx bx-glasses"></Item>
-                        <Item href="#" label ="Clientes" icon ="bx bxs-book-reader"></Item>
+                        <Item href="#/listar-clientes" label ="Clientes" icon ="bx bxs-book-reader"></Item>
                     </ul>
 
                     <ul className="menu_items">

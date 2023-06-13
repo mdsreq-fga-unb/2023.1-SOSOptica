@@ -63,7 +63,7 @@ class CadastroCliente extends React.Component{
             dataDeNascimentoCliente : this.state.dataDeNascimentoCliente,
             cpf : this.state.cpf
         }
-        this.clienteService.satualizar(dadosCliente).then(response => {
+        this.clienteService.salvar(dadosCliente).then(response => {
             mensagemSucesso("Cadastro realizado com sucesso")
             this.cancelar()
         }).catch(error => {
@@ -73,11 +73,12 @@ class CadastroCliente extends React.Component{
     }
 
     cancelar = () =>{
-        this.props.history.push('/listar-cliente')
+        this.props.history.push('/listar-clientes')
     }
     render() {
         return (
             <>
+
                 <Card title="Cadastro Cliente"  icon="bx bxs-user">
 
                     <div className="form-control-sm"  >
