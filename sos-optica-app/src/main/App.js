@@ -13,8 +13,8 @@ function App() {
         <>
 
             <NavBar></NavBar>
-            <Dashboard></Dashboard>
             <Rotas></Rotas>
+
 
         </>
     );

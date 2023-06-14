@@ -1,8 +1,22 @@
 import React from "react";
 
 export default props => {
+
+    const rows = props.clientes.map(cliente => {
+        return (
+            <tr key={cliente.id}>
+                <td>{cliente.nomeCliente}</td>
+                <td>{cliente.cpf}</td>
+                <td>{cliente.telefoneCliente}</td>
+                <td>{cliente.emailCliente}</td>
+                <td>{cliente.dataDeNascimentoCliente}</td>
+            </tr>
+        )
+    }
+    )
     return (
         <div className="table table-hover">
+
             <table className="table table-striped table-hover table-bordered">
                 <thead>
                     <tr>
@@ -16,7 +30,7 @@ export default props => {
                     </tr>
                 </thead>
                 <tbody>
-                {/*{props.children}*/}
+                {rows}
                 </tbody>
             </table>
         </div>
