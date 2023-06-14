@@ -14,6 +14,8 @@ import sosoptica.exception.RegraDeNegocioException;
 import sosoptica.model.entity.Cliente;
 import sosoptica.service.ClienteService;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/clientes")
 public class ClienteController {
@@ -62,6 +64,11 @@ public class ClienteController {
         }
     }
 
+    @GetMapping("/listar")
+    public ResponseEntity listarTodos(){
+        List<Cliente> todosCLientes = clienteService.listarTodosClientes();
+        return ResponseEntity.ok(todosCLientes);
+    }
     @GetMapping("{id}")
     public ResponseEntity listarClienteId(@PathVariable Long id){
         try{
