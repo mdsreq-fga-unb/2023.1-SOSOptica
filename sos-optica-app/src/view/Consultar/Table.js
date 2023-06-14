@@ -25,8 +25,6 @@ export default props => {
                         <th scope="col" >Telefone</th>
                         <th scope="col" >E-mail</th>
                         <th scope="col">Data de Nascimento</th>
-                        <th>Editar</th>
-                        <th>Excluir</th>
                     </tr>
                 </thead>
                 <tbody>
