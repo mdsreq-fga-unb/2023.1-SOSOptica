@@ -2,10 +2,13 @@ package sosoptica.service.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import sosoptica.exception.RegraDeNegocioException;
 import sosoptica.model.entity.Cliente;
 import sosoptica.model.repository.ClienteRepository;
 import sosoptica.service.ClienteService;
+
+import java.util.List;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
@@ -69,6 +72,9 @@ public class ClienteServiceImpl implements ClienteService {
     }
     }
 
-
-
+    @Override
+    @Transactional(readOnly = true)
+    public List<Cliente> listarTodosClientes() {
+        return clienteRepository.findAll();
+    }
 }
