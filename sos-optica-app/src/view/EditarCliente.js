@@ -5,6 +5,7 @@ import ClienteService from "../service/ClienteService";
 import {withRouter} from "react-router-dom";
 import {mensagemErro,mensagemSucesso} from "../components/toastr";
 import InputMask from 'react-input-mask'
+import Dashboard from "../components/dashboard/Dashboard";
 class CadastroCliente extends React.Component{
 
     state = {
@@ -97,6 +98,7 @@ class CadastroCliente extends React.Component{
         
         return (
             <>
+                <Dashboard></Dashboard>
                 <Card title="Editar Cliente"  icon="bx bxs-user">
                     <div className="form-control-sm row g-2">
                         <div class="col-md-6">

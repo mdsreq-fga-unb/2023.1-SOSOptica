@@ -13,6 +13,11 @@ class ClienteService extends Apiservice{
         return await this.get(`/${id}`);
     }
 
+    async listarClientes(){
+        return await this.get('/listar');
+
+    }
+
     async atualizar(id, dadosCliente){
         return (await this.put(`/${id}`,dadosCliente));
     }
