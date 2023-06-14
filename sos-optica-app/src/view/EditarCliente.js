@@ -100,66 +100,69 @@ class CadastroCliente extends React.Component{
             <>
                 <Dashboard></Dashboard>
                 <Card title="Editar Cliente"  icon="bx bxs-user">
-
-                    <div className="form-control-sm"  >
-
-                    <FormGroup label="Nome * " htmlFor="inputDefault">
-                            <input
-                                   type="text"
-                                   value={this.state.nomeCliente}
-                                   className="form-control"
-                                   name="nomeCliente"
-                                   onChange={e => this.setState({nomeCliente: e.target.value})}
-                            />
-                        </FormGroup>
-
-
-                    <FormGroup label="CPF * " htmlFor="inputDefault">
-                            <InputMask
-                                   type="text"
-                                   value={this.state.cpf}
-                                   className="form-control"
-                                   id="inputCpf"
-                                   name="cpf"
-                                   onChange={e => this.setState({cpf: e.target.value})}
-                            />
-                        </FormGroup>
-
-                        <FormGroup label="Telefone * " htmlFor="inputDefault">
-                            <InputMask mask="(99)99999-9999"
-                                    type="tel"
-                                   className="form-control"
-                                   id="inputTelefoneCliente"
-                                   name="telefoneCliente"
-                                   value={this.state.telefoneCliente}
-                                   onChange={e => this.setState({telefoneCliente: e.target.value})}
-                            />
-                        </FormGroup>
-
-                        <FormGroup label="E-mail * " htmlFor="inputDefault">
-                            <input type="email"
-                                   value={this.state.emailCliente}
-                                   className="form-control"
-                                   id="inputEmailCliente"
-                                   name="emailCLiente"
-                                   onChange={e => this.setState({emailCliente : e.target.value})}/>
-                        </FormGroup>
-
-                        <FormGroup label="Data de nascimento * " htmlFor="inputDefault">
-                            <input type="date"
-                                   value={this.state.dataDeNascimentoCliente}
-                                   className="form-control"
-                                   id="inputDataDeNascimentoCliente"
-                                   name="dataDeNascimentoCliente"
-                                   onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
-
-                        </FormGroup>
+                    <div className="form-control-sm row g-2">
+                        <div class="col-md-6">
+                            <FormGroup label="Nome * " htmlFor="inputDefault">
+                                <input
+                                    type="text"
+                                    value={this.state.nomeCliente}
+                                    className="form-control"
+                                    name="nomeCliente"
+                                    onChange={e => this.setState({nomeCliente: e.target.value})}
+                                />
+                            </FormGroup>
+                        </div>
+                        <div class="col-md-6">
+                            <FormGroup label="CPF * " htmlFor="inputDefault">
+                                <InputMask
+                                    type="text"
+                                    value={this.state.cpf}
+                                    className="form-control"
+                                    id="inputCpf"
+                                    name="cpf"
+                                    onChange={e => this.setState({cpf: e.target.value})}
+                                />
+                            </FormGroup>    
+                        </div>
+                        <div class="col-md-6">
+                            <FormGroup label="Telefone * " htmlFor="inputDefault">
+                                <InputMask mask="(99)99999-9999"
+                                        type="tel"
+                                    className="form-control"
+                                    id="inputTelefoneCliente"
+                                    name="telefoneCliente"
+                                    value={this.state.telefoneCliente}
+                                    onChange={e => this.setState({telefoneCliente: e.target.value})}
+                                />
+                            </FormGroup>
+                        </div>
+                        <div class="col-md-6">
+                            <FormGroup label="E-mail * " htmlFor="inputDefault">
+                                <input type="email"
+                                    value={this.state.emailCliente}
+                                    className="form-control"
+                                    id="inputEmailCliente"
+                                    name="emailCLiente"
+                                    onChange={e => this.setState({emailCliente : e.target.value})}/>
+                            </FormGroup>
+                        </div>
+                        <div class="col-md-6">
+                            <FormGroup label="Data de nascimento * " htmlFor="inputDefault">
+                                <input type="date"
+                                    value={this.state.dataDeNascimentoCliente}
+                                    className="form-control"
+                                    id="inputDataDeNascimentoCliente"
+                                    name="dataDeNascimentoCliente"
+                                    onChange={e => this.setState({dataDeNascimentoCliente: e.target.value})}/>
+                            </FormGroup>
+                        </div>
                         <br/>
-                        <button onClick={this.editar} type="button" className="btn btn-primary" style={{borderRadius:"16px"}} >Editar</button>
-                        <button onClick={this.cancelar} type="button" className="btn btn-primary" style={{borderRadius:"16px", margin:"5px"}} >Cancelar</button>
+                        <div class="col-md-6">
+                            <button onClick={this.editar} type="button" className="btn btn-primary" style={{borderRadius:"16px"}} >Editar</button>
+                            <button onClick={this.cancelar} type="button" className="btn btn-primary" style={{borderRadius:"16px", margin:"5px"}} >Cancelar</button>        
+                        </div>
                     </div>
                 </Card>
-
             </>
         );
     }
