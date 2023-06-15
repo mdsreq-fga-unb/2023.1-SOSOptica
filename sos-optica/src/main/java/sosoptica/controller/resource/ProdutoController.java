@@ -39,7 +39,7 @@ public class ProdutoController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-
+    //Consulta
     @GetMapping("/listar-produtos")
     public ResponseEntity listarTodosProdutos(){
         List<Produto> produtos = produtoService.listarTodosProdutos();
