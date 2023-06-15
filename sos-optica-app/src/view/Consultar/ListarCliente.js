@@ -1,8 +1,8 @@
 import React from "react";
 import {withRouter} from "react-router-dom";
-import Table from "./Table";
 import ClienteService from "../../service/ClienteService";
 import Card from "../../components/Card";
+import TableCliente from "./TableCliente";
 
 class ListarCliente extends React.Component{
 
@@ -36,7 +36,7 @@ class ListarCliente extends React.Component{
                     <Card>
                     <div className="row" style={{margin:"20px"}}>
                         <div className="col-md-12">
-                            <Table clientes={this.state.clientes}></Table>
+                            <TableCliente clientes={this.state.clientes}></TableCliente>
                             <button type="button" className="btn btn-primary"  onClick={this.voltar}>Cadastrar Cliente</button>
                         </div>
                     </div>
