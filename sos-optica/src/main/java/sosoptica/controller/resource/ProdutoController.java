@@ -8,6 +8,8 @@ import sosoptica.exception.RegraDeNegocioException;
 import sosoptica.model.entity.Produto;
 import sosoptica.service.ProdutoService;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/produtos")
 public class ProdutoController {
@@ -36,5 +38,11 @@ public class ProdutoController {
         }catch (RegraDeNegocioException e){
             return ResponseEntity.badRequest().body(e.getMessage());
         }
+    }
+
+    @GetMapping("/listar-produtos")
+    public ResponseEntity listarTodosProdutos(){
+        List<Produto> produtos = produtoService.listarTodosProdutos();
+        return ResponseEntity.ok(produtos);
     }
 }
