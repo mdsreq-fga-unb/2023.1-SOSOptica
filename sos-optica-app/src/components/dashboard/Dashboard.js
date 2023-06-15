@@ -4,7 +4,6 @@ import './style.css'
 import './images/logo.png'
 import Item from "./Item";
 
-
 class Dashboard extends React.Component{
     render() {
         return(
@@ -24,7 +23,7 @@ class Dashboard extends React.Component{
 
                     <ul className="menu_items">
                         <div className="menu_title menu_vendas"></div>
-                        <Item href="#" label = "Cadastrar Venda" icon="bx bxs-cart"></Item>
+                        <Item href="#/cadastrar-venda" label = "Cadastrar Venda" icon="bx bxs-cart"></Item>
                         <Item href="#" label="Historico Venda" icon="bx bxs-bookmark-alt"></Item>
                     </ul>
 
