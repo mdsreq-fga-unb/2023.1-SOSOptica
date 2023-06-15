@@ -1,11 +1,10 @@
 import React from "react";
-import Card from "../components/Card";
-import FormGroup from "../components/form-group";
-import ClienteService from "../service/ClienteService";
+import Card from "../../components/Card";
+import FormGroup from "../../components/form-group";
+import ClienteService from "../../service/ClienteService";
 import {withRouter} from "react-router-dom";
-import {mensagemErro,mensagemSucesso} from "../components/toastr";
+import {mensagemErro,mensagemSucesso} from "../../components/toastr";
 import InputMask from 'react-input-mask'
-import Dashboard from "../components/dashboard/Dashboard";
 class CadastroCliente extends React.Component{
 
     state = {
@@ -79,7 +78,7 @@ class CadastroCliente extends React.Component{
     render() {
         return (
             <>
-                <Dashboard></Dashboard>
+
                 <Card title="Cadastro Cliente"  icon="bx bxs-user">
 
                     <div className="form-control-sm row g-2"  >
