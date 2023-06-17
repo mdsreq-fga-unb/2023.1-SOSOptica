@@ -9,6 +9,7 @@ import 'toastr/build/toastr.min.js'
 import Dashboard from "../components/dashboard/Dashboard";
 
 function App() {
+
     return (
         <>
             <Dashboard></Dashboard>

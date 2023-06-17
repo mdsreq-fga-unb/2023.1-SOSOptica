@@ -24,7 +24,7 @@ class Dashboard extends React.Component{
                     <ul className="menu_items">
                         <div className="menu_title menu_vendas"></div>
                         <Item href="#/cadastrar-venda" label = "Cadastrar Venda" icon="bx bxs-cart"></Item>
-                        <Item href="#" label="Historico Venda" icon="bx bxs-bookmark-alt"></Item>
+                        <Item href="#/listar-vendas" label="Historico Venda" icon="bx bxs-bookmark-alt"></Item>
                     </ul>
 
                     <ul className="menu_items">
@@ -34,7 +34,7 @@ class Dashboard extends React.Component{
 
                 </div>
             </nav>
-                </>
+            </>
     )}
 
 }

@@ -5,6 +5,7 @@ import EditarCliente from "../view/EditarCliente";
 import ListarCliente from "../view/Consultar/ListarCliente";
 import ListarProduto from "../view/Consultar/ListarProduto";
 import CadastroVenda from "../view/cadastro/CadastroVenda";
+import ListarVenda from "../view/Consultar/ListarVenda";
 
 function Rotas(){
     return(
@@ -15,6 +16,7 @@ function Rotas(){
                 <Route path="/listar-clientes" component={ListarCliente}></Route>
                 <Route path="/listar-produtos" component={ListarProduto}></Route>
                 <Route path="/cadastrar-venda" component={CadastroVenda}></Route>
+                <Route path="/listar-vendas/:page" component={ListarVenda}></Route>
             </Switch>
         </HashRouter>
     )

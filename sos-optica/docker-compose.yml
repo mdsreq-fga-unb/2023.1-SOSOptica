@@ -1,22 +1,20 @@
 version: '3.7'
+
+volumes:
+    data: 
+
 services:
-    postgres:
-        container_name: sos_data
-        image: "postgres:15.3-alpine3.18"
-        restart: always
-        environment:
-          POSTGRES_USER: "postgres"
-          POSTGRES_PASSWORD: "password"
-          POSTGRES_DB: "otica"
-        ports:
-            - "5432:5432"
-        volumes:
-            - ./data:/var/lib/postgresql/data
-    postgres_setup:
-        image: postgres:15.1
-        user: root
-        volumes:
-            - ./data:/var/lib/postgresql/data
-        entrypoint: [ "bash", "-c", "chmod 750 -R /var/lib/postgresql/data && chmod 750 -R /etc/postgresql"] 
-        depends_on:
-            - postgres
+  postgres:
+    container_name: SOS_postgres
+    image: "postgres:15.3-alpine3.18"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "otica"
+      PGDATA: "/data/postgres"
+    volumes:
+       - data:/data/postgres
+       - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped

@@ -76,8 +76,6 @@ class CadastroCliente extends React.Component{
             dataDeNascimentoCliente : this.state.dataDeNascimentoCliente,
             cpf : this.state.cpf
         }
-
-        console.log(dadosCliente)
         
         let id = this.props.match.params.id;
         this.clienteService.atualizar(id, dadosCliente).then(response => {
@@ -95,7 +93,7 @@ class CadastroCliente extends React.Component{
         this.props.history.push('/listar-cliente')
     }
     render() {
-        
+
         return (
             <>
                 <Dashboard></Dashboard>

@@ -28,10 +28,11 @@ class ListarCliente extends React.Component{
     }
 
     render(){
-        console.log("ds")
+
         this.listarTodosClientes()
         return(
 
+                <>
                     <Card>
                     <div className="row" style={{margin:"20px"}}>
                         <div className="col-md-12">
@@ -40,6 +41,9 @@ class ListarCliente extends React.Component{
                         </div>
                     </div>
                     </Card>
+                </>
+
+
         )
     }
 }

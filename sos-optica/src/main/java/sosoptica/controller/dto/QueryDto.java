@@ -8,10 +8,8 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class VendaDto {
+public class QueryDto {
 
-    String nomeProduto;
-    String nomeCliente;
-    int quantidadeProduto;
-    double valor;
+    int Pagina;
+    int Tamanho;
 }
