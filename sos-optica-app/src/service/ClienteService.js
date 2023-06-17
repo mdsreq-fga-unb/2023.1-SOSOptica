@@ -15,7 +15,6 @@ class ClienteService extends Apiservice{
 
     async listarClientes(){
         return await this.get('/listar');
-
     }
 
     async atualizar(id, dadosCliente){

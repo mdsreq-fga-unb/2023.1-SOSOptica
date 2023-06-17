@@ -1,8 +1,12 @@
 package sosoptica.model.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
 import sosoptica.model.entity.Venda;
 
-public interface VendaRepository extends JpaRepository<Venda,Long> {
+public interface VendaRepository extends PagingAndSortingRepository<Venda, Long> {
+
+  Optional<Venda> findById(Long id);
 
 }
