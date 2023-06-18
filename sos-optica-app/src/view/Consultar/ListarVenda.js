@@ -8,7 +8,7 @@ import 'react-responsive-pagination/themes/classic.css';
 
 
 class ListarVenda extends React.Component{
-    state = {  vendas : [], paginaAtual: 1, totalPages: 1 }
+    state = {  vendas : [], paginaAtual: 1, totalPages: 1, pesquisar: "" }
  
     handlePageChange = (page) => {
         this.props.history.push(`/listar-vendas/${page}`);
@@ -31,10 +31,28 @@ class ListarVenda extends React.Component{
     voltar = () =>{
         this.props.history.push('/cadastrar-venda')
     }
+
+    pesquisar = () =>{
+        console.log(this.state.pesquisar)
+    }
     
     render(){
         return(    
                     <Card>
+                    <div className="row" >
+                        <div className="col-md-6 ms-auto" style={{padding: "0 45px 0 0", marginTop: "20px"}}> 
+                        <input  type="text"
+                                           name="nomeCliente"
+                                           className="form-control col-md-1"
+                                           placeholder="Nome ou produto"
+                                           id="inputNome"
+                                           style={{float: "left", width: "75%"}}
+                                           onChange={e => this.setState({pesquisar: e.target.value})}
+                                    />
+                                    
+                         <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right"  onClick={this.pesquisar}>Pesquisar</button>
+                        </div>
+                    </div>
                     <div className="row" style={{margin:"20px"}}>
                         <div className="col-md-12">
                             <TableVenda vendas={this.state.vendas}></TableVenda>

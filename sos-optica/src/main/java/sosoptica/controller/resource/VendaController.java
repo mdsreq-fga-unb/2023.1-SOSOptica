@@ -1,9 +1,5 @@
 package sosoptica.controller.resource;
 
-import javax.management.Query;
-
-import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,12 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import sosoptica.controller.dto.QueryDto;
 import sosoptica.controller.dto.VendaDto;
 import sosoptica.exception.RegraDeNegocioException;
 import sosoptica.model.entity.Venda;
-import sosoptica.model.repository.ClienteRepository;
 import sosoptica.service.VendaService;
 
 @RestController
@@ -52,9 +45,11 @@ public class VendaController {
 
     @GetMapping("")
     public ResponseEntity listarVendas(@RequestParam(value = "pagina", defaultValue = "0") int pagina,
-                                        @RequestParam(value = "tamanho", defaultValue = "10") int tamanho){
+                                        @RequestParam(value = "tamanho", defaultValue = "10") int tamanho,
+                                        @RequestParam(value = "sort", defaultValue = "") String sort){
         try{
-            return ResponseEntity.ok(vendaService.listarVendas(pagina, tamanho));
+            String[] data = sort.split(",");
+            return ResponseEntity.ok(vendaService.listarVendas(pagina, tamanho, data[1], data[0]));
         }catch (RegraDeNegocioException e){
             //e.getMessage()
             return ResponseEntity.badRequest().body("s");
