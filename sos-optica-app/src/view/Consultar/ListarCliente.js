@@ -13,6 +13,11 @@ class ListarCliente extends React.Component{
         this.clienteService = new ClienteService();
     }
 
+    async componentDidMount() {
+        let data = await (await this.clienteService.listarClientes()).data;
+        this.setState({clientes: data});
+    }
+
     listarTodosClientes = () => {
         this.clienteService.listarClientes().then(response => {
             this.setState({clientes:response.data})
@@ -28,8 +33,6 @@ class ListarCliente extends React.Component{
     }
 
     render(){
-        console.log("ds")
-        this.listarTodosClientes()
         return(
 
                     <Card>
