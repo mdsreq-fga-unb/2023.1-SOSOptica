@@ -7,5 +7,5 @@ public interface VendaService {
 
     Venda salvarVenda(Venda venda);
 
-    Page<Venda> listarVendas(int pagina, int tamanho);
+    Page<Venda> listarVendas(int pagina, int tamanho, String sortDirecao, String sortPropriedade);
 }
