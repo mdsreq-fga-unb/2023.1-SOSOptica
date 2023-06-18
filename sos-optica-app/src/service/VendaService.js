@@ -11,7 +11,7 @@ class VendaService extends Apiservice{
         return await this.post('/cadastrar',dadosVenda);
     }
 
-    async listarClientes(page = 0, size = 10){
+    async listarVendas(page = 0, size = 1){
         return await this.get('/?pagina='+page+'&tamanho='+size);
     }
 
