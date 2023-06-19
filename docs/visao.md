@@ -54,9 +54,18 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 Foi elaborado com base nas necessidades e expectativas dos stakeholders e é fundamental para estabelecer um entendimento comum entre a equipe de desenvolvimento e o cliente. Ele define os objetivos e o propósito do produto, identifica as principais funcionalidades e os requisitos-chave, além de delimitar o que está dentro e o que está fora do escopo do projeto.
 #### 1.5.1 Requisitos Funcionais
 
-| Requisito | Épico | Descrição |
-|-----------|-------|-----------|
-
+| Requisito | Descrição |
+|-----------|-----------|
+| RF01      | O sistema deve cadastrar usuário |
+| RF02 | O sistema deve permitir o login do usuário |
+| RF03 | O sistema deve permitir o edição de dados do usuário |
+| RF04 | O sistema deve permitir o edição de dados do usuário |
+| RF05 | O sistema deve cadastrar produto |
+| RF06 | O sistema deve cadastrar cliente |
+| RF07 | O sistema deve listar clientes |
+| RF08 | O sistema deve listar produtos |
+| RF09 | O sistema deve cadastrar vendas |
+| RF10 | O sistema deve listar vendas |
 
 #### 1.5.2 Requisitos Não - Funcionais
 | Requisito | Descrição |
