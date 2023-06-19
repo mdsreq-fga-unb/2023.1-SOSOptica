@@ -17,6 +17,10 @@ class ClienteService extends Apiservice{
         return await this.get('/listar');
     }
 
+    async pesquisarClientePorCpf(cpf){
+        return await this.get(`/pesquisar?cpf=${cpf}`);
+    }
+
     async atualizar(id, dadosCliente){
         return (await this.put(`/${id}`,dadosCliente));
     }
