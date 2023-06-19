@@ -15,7 +15,10 @@ class VendaService extends Apiservice{
         return await this.get('/?pagina='+page+'&tamanho='+size);
     }
 
-    
+    async pesquisarProdutoOuNome(nome){
+        return await this.get('/pesquisar?nome='+nome);
+    }
+  
 }
 
 export default VendaService;

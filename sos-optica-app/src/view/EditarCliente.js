@@ -112,6 +112,7 @@ class CadastroCliente extends React.Component{
                         <div class="col-md-6">
                             <FormGroup label="CPF * " htmlFor="inputDefault">
                                 <InputMask
+                                    mask="000.000.000-00"
                                     type="text"
                                     value={this.state.cpf}
                                     className="form-control"
