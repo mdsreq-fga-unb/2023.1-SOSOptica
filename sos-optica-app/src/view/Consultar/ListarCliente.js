@@ -61,7 +61,7 @@ class ListarCliente extends React.Component{
                                     onChange={e => this.setState({cpf: e.target.value})}
                             />
 
-                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right"  onClick={this.pesquisarCpf}>Pesquisar</button>
+                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right "  onClick={this.pesquisarCpf}>Pesquisar</button>
                         </div>
 
                         <div className="col-md-12">

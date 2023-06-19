@@ -10,7 +10,7 @@ export default props => {
                 <td>{venda.nomeCliente}</td>
                 <td>{venda.quantidadeProduto}</td>
                 <td>{venda.valor}</td>
-                <td>{venda.dataCadastro}</td>
+                <td>{venda.data_cadastro}</td>
             </tr>
         )
     }
