@@ -28,11 +28,10 @@
 ### 1.2 Declaração do Problema:
 | O problema | Dificuldade de gerenciamento de dados da Óptica Opção |
 | Afeta      | A Óptica Opção                                        |
-| Cujo impacto é | Falta de gerenciamento de produtos, clientes e de estoque |
+| Cujo impacto é | Falta de gerenciamento de produtos, clientes e de venda |
 | Uma solução de sucesso seria | Um sistema web de gerenciamento dos dados da Óptica Opção |
 
-### 1.2 Objetivos do Produto
-
+### 1.3 Objetivos do Produto
 - Facilitar o gerenciamento dos dados dos seus clientes
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda.
 - Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
