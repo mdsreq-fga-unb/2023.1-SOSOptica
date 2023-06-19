@@ -49,9 +49,10 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 Foi elaborado com base nas necessidades e expectativas dos stakeholders e é fundamental para estabelecer um entendimento comum entre a equipe de desenvolvimento e o cliente. Ele define os objetivos e o propósito do produto, identifica as principais funcionalidades e os requisitos-chave, além de delimitar o que está dentro e o que está fora do escopo do projeto.
 #### 1.5.1 Requisitos Funcionais
 | Requisito | Épico | Descrição |
-|
+
 #### 1.5.2 Requisitos Não - Funcionais
 | Requisito | Descrição |
+|-----------|-----------|
 | RNF01 | A parte do Back-End do sistema deve ser desenvolvido em Java/Spring Boot |
 | RNF02 | A parte do Front-End do sistema deve ser desenvolvido em React |
 | RNF03 | O sistema deve ser desenvolvido em orientação a objetos |
