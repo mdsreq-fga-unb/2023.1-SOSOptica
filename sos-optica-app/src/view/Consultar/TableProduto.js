@@ -17,14 +17,15 @@ export default props => {
 
                     <td>
                         <div className="d-flex">
+                            <a href="/#" type="button" className="btn-hover" style={{padding:"10px"}}>
+                                <FontAwesomeIcon icon={faEdit} className="me-2" />
+                            </a>
 
-                            <a type="button" className="btn-hover" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
-
-                            <a type="button"  className="btn-hover-blue" style={{padding:"10px"}}>
+                            <a href="/#" type="button"  className="btn-hover-blue" style={{padding:"10px"}}>
                                 <FontAwesomeIcon icon={faEye} className="me-2" />
                             </a>
 
-                            <a type="button" className="btn-hover-red" style={{padding:"10px"}} >
+                            <a href="/#" type="button" className="btn-hover-red" style={{padding:"10px"}} >
                                 <FontAwesomeIcon icon={faTrash} />
                             </a>
                         </div>

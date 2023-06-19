@@ -16,7 +16,6 @@ class CadastroCliente extends React.Component{
         cpf : "",
     }
     
-
     constructor() {
         super();
         this.clienteService = new ClienteService();
