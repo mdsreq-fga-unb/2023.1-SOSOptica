@@ -16,13 +16,13 @@ export default props => {
                 <td>
                     <div className="d-flex">
 
-                        <a type="button" style={{margin:"2px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
+                        <a type="button" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
 
-                        <a type="button" >
+                        <a type="button"  style={{padding:"10px"}}>
                             <FontAwesomeIcon icon={faEye} className="me-2" />
                         </a>
 
-                        <a type="button" >
+                        <a type="button" style={{padding:"10px"}} >
                             <FontAwesomeIcon icon={faTrash} />
                         </a>
                     </div>
