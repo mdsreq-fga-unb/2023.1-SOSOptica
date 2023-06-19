@@ -11,7 +11,8 @@
 | 27/04/2023 | 1.0        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)                                                                                                                           |
 | 24/05/2023 | 1.1        | Refatorando Visão            | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)                                                                                                                            |
 | 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |      
-| 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos | [Weslley Barros](https://github.com/weslley17w) |      
+| 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos | [Weslley Barros](https://github.com/weslley17w) | 
+| 19/06/2023 | 1.4        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |  
 
 ## 1 VISÃO GERAL DO PRODUTO
 
