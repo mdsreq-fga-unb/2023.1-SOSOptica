@@ -106,7 +106,7 @@ O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui ape
 ## 2 VISÃO GERAL DO PROJETO
 
 ### 2.1 Organização do Projeto
-A organização do projeto irá levar em conta a abordagem de desenvolvimento de software selecionada, o Scrum misturado com o XP. Nela utilizaremos ***
+A organização do projeto irá levar em conta a abordagem de desenvolvimento de software selecionada, o Scrum misturado com o XP. Na utilização dessa equipe de desenvolvimento de software, adotaremos uma estrutura tradicional como base, mas faremos algumas adaptações no modelo para melhor adequação ao projeto.
 
 | Perfil                   | Atribuições                                                                                                                                                                                    | Responsável                                                                      | Participantes                       |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------- |
