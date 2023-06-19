@@ -41,9 +41,13 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 - Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas
 - reduzindo retrabalho e melhorando a tomada de decisões.
 
-### 1.3 Tecnologias a Serem Utilizadas
+### 1.4 Tecnologias a Serem Utilizadas
 
 Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
+
+### 1.5 Escopo do produto
+#### 1.5.1 Requisitos Funcionais
+#### 1.5.2 Requisitos Não - Funcionais
 
 ## 2 VISÃO GERAL DO PROJETO
 
