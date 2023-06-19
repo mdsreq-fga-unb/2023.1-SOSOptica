@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faEdit, faEye, faTrash} from '@fortawesome/free-solid-svg-icons';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
@@ -11,6 +13,21 @@ export default props => {
                 <td>{venda.quantidadeProduto}</td>
                 <td>{venda.valor}</td>
                 <td>{venda.data_cadastro}</td>
+                <td>
+                    <div className="d-flex">
+                        <a type="button" style={{padding:"10px"}} >
+                            <FontAwesomeIcon icon={faEdit} className="me-2" />
+                        </a>
+
+                        <a type="button"  style={{padding:"10px"}}>
+                            <FontAwesomeIcon icon={faEye} className="me-2" />
+                        </a>
+
+                        <a type="button" style={{padding:"10px"}} >
+                            <FontAwesomeIcon icon={faTrash} />
+                        </a>
+                    </div>
+                </td>           
             </tr>
         )
     }
@@ -26,6 +43,7 @@ export default props => {
                         <th scope="col" >Quantidade</th>
                         <th scope="col" >Valor</th>
                         <th scope="col">Data da Venda</th>
+                        <th scope="col">AÇÕES</th>
                     </tr>
                 </thead>
                 <tbody>

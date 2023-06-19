@@ -32,8 +32,11 @@ class ListarVenda extends React.Component{
         this.props.history.push('/cadastrar-venda')
     }
 
-    pesquisar = () =>{
-        console.log(this.state.pesquisar)
+    pesquisar = async () =>{
+        let data = (await this.vendaService.pesquisarProdutoOuNome(this.state.pesquisar)).data;
+        this.setState({vendas: data || []});
+        this.setState({paginaAtual: 1});
+        this.setState({totalPages: 1});
     }
     
     render(){

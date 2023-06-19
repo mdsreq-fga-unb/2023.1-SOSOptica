@@ -6,6 +6,7 @@ import {faEdit, faEye, faTrash} from '@fortawesome/free-solid-svg-icons';
 export default props => {
 
     const rows = props.clientes.map(cliente => {
+        let url = '/#/editar-cliente/' + cliente.id;
         return (
             <tr key={cliente.id}>
                 <td>{cliente.nomeCliente}</td>
@@ -16,7 +17,7 @@ export default props => {
                 <td>
                     <div className="d-flex">
 
-                        <a type="button" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
+                        <a href={url} type="button" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
 
                         <a type="button"  style={{padding:"10px"}}>
                             <FontAwesomeIcon icon={faEye} className="me-2" />
