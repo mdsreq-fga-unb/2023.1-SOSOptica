@@ -25,6 +25,12 @@
 | Ao contrário  | [ssOtica](https://ssotica.com.br/) que é voltada para gerenciamento de clientes, estoques.                             |
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção                                                    |
 
+### 1.2 Declaração do Problema:
+| O problema | Dificuldade de gerenciamento de dados da Óptica Opção |
+| Afeta      | A Óptica Opção                                        |
+| Cujo impacto é | Falta de gerenciamento de produtos, clientes e de estoque |
+| Uma solução de sucesso seria | Um sistema web de gerenciamento dos dados da Óptica Opção |
+
 ### 1.2 Objetivos do Produto
 
 - Facilitar o gerenciamento dos dados dos seus clientes
