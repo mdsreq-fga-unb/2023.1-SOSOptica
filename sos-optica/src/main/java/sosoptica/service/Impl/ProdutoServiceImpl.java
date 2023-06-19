@@ -6,6 +6,8 @@ import sosoptica.model.entity.Produto;
 import sosoptica.model.repository.ProdutoRepository;
 import sosoptica.service.ProdutoService;
 
+import java.util.List;
+
 @Service
 public class ProdutoServiceImpl implements ProdutoService{
 
@@ -19,5 +21,10 @@ public class ProdutoServiceImpl implements ProdutoService{
     @Override
     public Produto salvarProduto(Produto produto) {
         return produtoRepository.save(produto);
+    }
+
+    @Override
+    public List<Produto> listarTodosProdutos() {
+        return produtoRepository.findAll();
     }
 }
