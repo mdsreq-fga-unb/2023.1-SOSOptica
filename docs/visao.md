@@ -10,6 +10,7 @@
 | 26/04/2023 | 0.4        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w)                                                                                                                                                                  |
 | 27/04/2023 | 1.0        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)                                                                                                                           |
 | 24/05/2023 | 1.1        | Refatorando Visão            | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)                                                                                                                            |
+| 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |         
 
 ## 1 VISÃO GERAL DO PRODUTO
 
@@ -238,6 +239,12 @@ Na unidade 1, aprendemos sobre a importância de entender as necessidades do usu
 
 <p style="text-indent: 20px;">
 Durante a Unidade 2, ampliamos nossos conhecimentos acerca dos requisitos funcionais e não funcionais, assim como suas classificações propostas por Sommerville. Exploramos também o conceito de backlog do produto, compreendendo como dividir o projeto em épicos, features e user stories. Por último, adquirimos o conhecimento necessário para definir e apresentar uma proposta de MVP por meio do modelo denominado Canvas MVP. Esse modelo engloba elementos como cronograma, jornadas, definição de personas, resultados esperados, funcionalidades e métricas para validação.
+</p>
+
+## 4.2 Unidade 3 
+<p style="text-indent: 20px;">
+Na Unidade 3, aprendemos uma valiosa lição com o PBB: a criação e mapeamento do Product Backlog. Através dele, pudemos identificar os problemas, expectativas e personas, bem como suas respectivas funcionalidades do produto. Essas informações foram consolidadas no Canvas, tornando sua contextualização prática e eficiente.  
+Durante nosso percurso, também nos familiarizamos com o Behavior Driven Development (BDD), o qual desempenhou um papel fundamental na validação dos critérios de aceitação dos Steps Maps.
 </p>
 
 ## 5 REFERÊNCIAS BIBLIOGRÁFICAS
