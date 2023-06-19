@@ -15,7 +15,8 @@
 ## 1 VISÃO GERAL DO PRODUTO
 
 ### 1.1 Declaração de Posição do Produto
-
+O SOSóptica é um software para aplicação de gerenciamento de dados do cliente, produtos e venda que visa agregar as informações a respeito da Óptica Opção. A idéia é facilitar a acessibilidade dos dados da óptica, apesar dos dados já estarem disponíveis em uma planilha excel, acaba por ser uma tarefa de baixa praticidade, consultar inúmeras planilhas. 
+Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma solução mais eficiente e estimulante para o dono da óptica.
 |               |                                                                                                                        |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Para          | Optica Opção                                                                                                           |
