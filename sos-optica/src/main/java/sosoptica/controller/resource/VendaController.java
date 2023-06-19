@@ -46,7 +46,7 @@ public class VendaController {
     @GetMapping("")
     public ResponseEntity listarVendas(@RequestParam(value = "pagina", defaultValue = "0") int pagina,
                                         @RequestParam(value = "tamanho", defaultValue = "10") int tamanho,
-                                        @RequestParam(value = "sort", defaultValue = "") String sort){
+                                        @RequestParam(value = "sort", defaultValue = "nomeProduto,ASC") String sort){
         try{
             String[] data = sort.split(",");
             return ResponseEntity.ok(vendaService.listarVendas(pagina, tamanho, data[1], data[0]));
