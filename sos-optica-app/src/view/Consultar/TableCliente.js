@@ -23,7 +23,7 @@ export default props => {
                             <FontAwesomeIcon icon={faEye} className="me-2" />
                         </a>
 
-                        <a type="button" style={{padding:"10px"}} >
+                        <a type="button" className="btn-hover-red" style={{padding:"10px"}} >
                             <FontAwesomeIcon icon={faTrash} />
                         </a>
                     </div>
