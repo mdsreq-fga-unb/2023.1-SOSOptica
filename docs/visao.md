@@ -10,13 +10,15 @@
 | 26/04/2023 | 0.4        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w)                                                                                                                                                                  |
 | 27/04/2023 | 1.0        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)                                                                                                                           |
 | 24/05/2023 | 1.1        | Refatorando Visão            | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)                                                                                                                            |
-| 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |         
+| 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |      
+| 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos | [Weslley Barros](https://github.com/weslley17w) |      
 
 ## 1 VISÃO GERAL DO PRODUTO
 
 ### 1.1 Declaração de Posição do Produto
 O SOSóptica é um software para aplicação de gerenciamento de dados do cliente, produtos e venda que visa agregar as informações a respeito da Óptica Opção. A idéia é facilitar a acessibilidade dos dados da óptica, apesar dos dados já estarem disponíveis em uma planilha excel, acaba por ser uma tarefa de baixa praticidade, consultar inúmeras planilhas. 
 Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma solução mais eficiente e estimulante para o dono da óptica.
+
 |               |                                                                                                                        |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Para          | Optica Opção                                                                                                           |
@@ -27,9 +29,11 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção                                                    |
 
 ### 1.2 Declaração do Problema:
-| O problema | Dificuldade de gerenciamento de dados da Óptica Opção |
-| Afeta      | A Óptica Opção                                        |
-| Cujo impacto é | Falta de gerenciamento de produtos, clientes e de venda |
+
+| O problema                   | Dificuldade de gerenciamento de dados da Óptica Opção     |
+|------------------------------|-----------------------------------------------------------|
+| Afeta                        | A Óptica Opção                                            |
+| Cujo impacto é               | Falta de gerenciamento de produtos, clientes e de venda   |
 | Uma solução de sucesso seria | Um sistema web de gerenciamento dos dados da Óptica Opção |
 
 ### 1.3 Objetivos do Produto
@@ -48,7 +52,10 @@ Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 ### 1.5 Escopo do produto
 Foi elaborado com base nas necessidades e expectativas dos stakeholders e é fundamental para estabelecer um entendimento comum entre a equipe de desenvolvimento e o cliente. Ele define os objetivos e o propósito do produto, identifica as principais funcionalidades e os requisitos-chave, além de delimitar o que está dentro e o que está fora do escopo do projeto.
 #### 1.5.1 Requisitos Funcionais
+
 | Requisito | Épico | Descrição |
+|-----------|-------|-----------|
+
 
 #### 1.5.2 Requisitos Não - Funcionais
 | Requisito | Descrição |
@@ -63,7 +70,9 @@ Foi elaborado com base nas necessidades e expectativas dos stakeholders e é fun
 
 ### 1.6 Mínimo Produto Viável (MVP)
 O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui apenas as funcionalidades essenciais para garantir o funcionamento de acordo com o planejado. Nesse sentido, os requisitos selecionados para o MVP estão listados abaixo, lembrando que todas as User Stories associadas às suas funcionalidades devem ser implementadas.
+
 #### 1.6.1 MVP 1
+
 | User Stories | Objetivo |
 |--------------|----------|
 | US-09 | Eu, como adminstrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica | 
@@ -76,7 +85,9 @@ O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui ape
 | US-16 | Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes. |
 | US-20 | Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis. |
 | US-22 | Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque. | 
-#### 1.6.2 MVP 2 
+
+#### 1.6.1 MVP 2 
+
 | User Stories | Objetivo |
 |--------------|----------|
 | US-01 | Eu como administrador desejo poder cadastrar um Usuario para acessar o sistema. |
@@ -133,9 +144,13 @@ O WhatsApp e o Discord serão as principais plataformas de comunicação utiliza
 
 ### 2.4 Gerenciamento de Riscos
 
-- Antes de cada sprint, a equipe de desenvolvimento se reunirá em uma reunião de planejamento (planning), com o objetivo de identificar as tarefas a serem executadas durante a sprint em questão.
-- Depois de definir as tarefas, a equipe apresentará as mesmas ao cliente para que este possa avaliar se as entregas propostas fazem sentido, lembrando que essa será a segunda verificação, sendo que a primeira foi feita durante a elicitação de requisitos.
-- Ao final da sprint, será realizada uma reunião de revisão (review) com o cliente, onde serão apresentadas as entregas de valor. Nesta reunião, o cliente terá a oportunidade de dar um retorno sobre suas expectativas e verificar se o desenvolvimento do projeto está de acordo com o esperado. Se um risco for identificado durante a sprint, a equipe tomará as medidas necessárias para minimizar ou resolver o problema.
+A gestão de riscos do projeto abrange a identificação, o planejamento e o monitoramento dos possíveis riscos. Embora seja possível que nada dê errado no projeto, avaliar e gerenciar as ocorrências pode ajudar a se preparar e corrigir rapidamente. Os riscos do projeto devem ser monitorados e atualizados regularmente, em cada ciclo, a fim de prevenir sua ocorrência ou identificar novos riscos.
+
+- **Product Owner:** É possível que durante a execução do projeto, o Product Owner possa se desligar da equipe, o que resultaria em um desfalque significativo. Como forma de mitigar esse risco, é essencial que o Product Owner seja constantemente monitorado em relação ao seu envolvimento e satisfação em relação ao projeto, à equipe e ao contexto geral no qual está inserido.
+
+- **Saída de Membros do Projeto:** É possível que alguns membros se retirem da equipe durante a execução do projeto, desfalcando o time. Essa situação pode representar um risco significativo para o progresso e sucesso do projeto como um todo. A fim de mitigar esse risco, é fundamental adotar medidas que garantam a continuidade e a eficiência do trabalho, mesmo diante da saída de um ou mais membros.
+
+- **Planejamento errado dos prazos:**É possível surgir durante a execução do projeto é o planejamento errado dos prazos. Quando os prazos são estabelecidos de maneira inadequada, isso pode resultar em dificuldades na conclusão das tarefas dentro do tempo previsto. Para mitigar esse risco, é essencial adotar uma abordagem cuidadosa e realista ao planejar os prazos do projeto.
 
 ### 2.5 Critérios de Replanejamento
 
