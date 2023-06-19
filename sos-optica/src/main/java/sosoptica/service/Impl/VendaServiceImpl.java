@@ -1,5 +1,6 @@
 package sosoptica.service.Impl;
 
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -31,6 +32,12 @@ public class VendaServiceImpl implements VendaService {
                 Sort.by(sortPropriedade).descending();
         Page<Venda> vendas = vendaRepository.findAll(PageRequest.of(pagina,tamanho, sort));
 
+        return vendas;
+    }
+
+    @Override
+    public List<Venda> pesquisarVenda(String nomeProduto){
+        List<Venda> vendas = vendaRepository.findByProdutoOrCliente(nomeProduto);
         return vendas;
     }
 }

@@ -51,8 +51,18 @@ public class VendaController {
             String[] data = sort.split(",");
             return ResponseEntity.ok(vendaService.listarVendas(pagina, tamanho, data[1], data[0]));
         }catch (RegraDeNegocioException e){
-            //e.getMessage()
-            return ResponseEntity.badRequest().body("s");
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
+    }
+
+    @GetMapping("/pesquisar")
+    public ResponseEntity pesquisarVenda(@RequestParam (name = "nome", required = false) String nome){
+        
+        try{
+            return ResponseEntity.ok(vendaService.pesquisarVenda(nome));
+        }catch (RegraDeNegocioException e){
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+
     }
 }
