@@ -77,4 +77,11 @@ public class ClienteServiceImpl implements ClienteService {
     public List<Cliente> listarTodosClientes() {
         return clienteRepository.findAll();
     }
+
+    @Override
+    public List<Cliente> pesquisarClientePorCpf(String cpf) {
+        return clienteRepository.findByCpfLike("%" + cpf + "%");
+    }
+
+
 }
