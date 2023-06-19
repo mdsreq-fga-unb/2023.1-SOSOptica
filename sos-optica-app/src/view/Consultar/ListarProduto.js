@@ -56,7 +56,7 @@ class ListarProduto extends React.Component{
                     <div className="row" style={{margin:"20px"}}>
                         <div className="col-md-12">
                             <TableProduto produtos={this.state.produtos}></TableProduto>
-                            <button type="button" className="btn btn-primary"  onClick={this.voltar}>Cadastrar Produto</button>
+                            <button type="button" className="btn btn-primary btn-hover"  onClick={this.voltar}>Cadastrar Produto</button>
                         </div>
                     </div>
                 </Card>

@@ -61,15 +61,15 @@ class ListarCliente extends React.Component{
                                     onChange={e => this.setState({cpf: e.target.value})}
                             />
 
-                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right "  onClick={this.pesquisarCpf}>Pesquisar</button>
+                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarCpf}>Pesquisar</button>
                         </div>
 
                         <div className="col-md-12">
                             <br/>
                             <TableCliente clientes={this.state.clientes}></TableCliente>
-                            <button type="button" className="btn btn-primary"  onClick={this.voltar}>Cadastrar Cliente</button>
+                            <button type="button" className="btn btn-primary btn-hover"  onClick={this.voltar}>Cadastrar Cliente</button>
 
-                            <button type="button" className="btn btn-primary" style={{margin:"10px"}} onClick={this.listarTodosClientes}>Vizualizar Todos</button>
+                            <button type="button" className="btn btn-primary btn-hover" style={{margin:"10px"}} onClick={this.listarTodosClientes}>Vizualizar Todos</button>
                         </div>
                     </div>
                     </Card>

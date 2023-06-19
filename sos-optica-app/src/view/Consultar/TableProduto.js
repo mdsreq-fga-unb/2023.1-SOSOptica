@@ -1,4 +1,6 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEdit, faEye, faTrash} from "@fortawesome/free-solid-svg-icons";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
 
@@ -12,6 +14,21 @@ export default props => {
                     <td>{produto.precoCusto}</td>
                     <td>{produto.precoVenda}</td>
                     <td>{produto.qtDePecas}</td>
+
+                    <td>
+                        <div className="d-flex">
+
+                            <a type="button" className="btn-hover" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
+
+                            <a type="button"  className="btn-hover-blue" style={{padding:"10px"}}>
+                                <FontAwesomeIcon icon={faEye} className="me-2" />
+                            </a>
+
+                            <a type="button" className="btn-hover-red" style={{padding:"10px"}} >
+                                <FontAwesomeIcon icon={faTrash} />
+                            </a>
+                        </div>
+                    </td>
                 </tr>
             )
         }
@@ -29,8 +46,8 @@ export default props => {
                             <th scope="col" >Quantidade</th>
                             <th scope="col">Preço de Custo</th>
                             <th scope="col">Preço de Venda</th>
-                            <th>Editar</th>
-                            <th>Excluir</th>
+                            <th>Ações</th>
+
                         </tr>
                     </thead>
                     <tbody>

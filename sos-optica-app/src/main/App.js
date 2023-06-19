@@ -1,8 +1,7 @@
 import React from "react";
-
+import "./estilo.css";
 import Rotas from "./Rotas";
 import NavBar from "../components/dashboard/NavBar";
-
 import 'bootswatch/dist/lux/bootstrap.css'
 import 'toastr/build/toastr.css'
 import 'toastr/build/toastr.min.js'

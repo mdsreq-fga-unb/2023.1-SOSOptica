@@ -1,0 +1,14 @@
+.btn-hover:hover {
+    background-color: #555; /* cor de fundo ao passar o mouse */
+    color: white; /* cor do texto ao passar o mouse */
+}
+
+.btn-hover-red:hover {
+    background-color: #ff4646; /* cor de fundo ao passar o mouse */
+    color: white; /* cor do texto ao passar o mouse */
+}
+
+.btn-hover-blue:hover {
+    background-color: #3571f6; /* cor de fundo ao passar o mouse */
+    color: white; /* cor do texto ao passar o mouse */
+}

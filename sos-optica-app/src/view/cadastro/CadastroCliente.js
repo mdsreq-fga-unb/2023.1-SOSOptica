@@ -145,8 +145,8 @@ class CadastroCliente extends React.Component{
                         
                         <br/>
                         <div class="col-md-6 mt-5">
-                            <button onClick={this.cadastrar} type="button" className="btn btn-primary" style={{borderRadius:"12px"}} >Cadastrar</button>
-                            <button onClick={this.cancelar} type="button" className="btn btn-primary" style={{borderRadius:"12px", margin:"5px"}} >Cancelar</button>
+                            <button onClick={this.cadastrar} type="button" className="btn btn-primary btn-hover" style={{borderRadius:"12px"}} >Cadastrar</button>
+                            <button onClick={this.cancelar} type="button" className="btn btn-primary btn-hover" style={{borderRadius:"12px", margin:"5px"}} >Cancelar</button>
                         </div>
                     </div>
                 </Card>
