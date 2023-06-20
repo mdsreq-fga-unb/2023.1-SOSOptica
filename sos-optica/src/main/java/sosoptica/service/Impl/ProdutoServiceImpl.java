@@ -27,4 +27,9 @@ public class ProdutoServiceImpl implements ProdutoService{
     public List<Produto> listarTodosProdutos() {
         return produtoRepository.findAll();
     }
+
+    @Override
+    public List<Produto> listarProdutosComMenosQuantida() {
+        return produtoRepository.findByOrderByQtDePecas();
+    }
 }

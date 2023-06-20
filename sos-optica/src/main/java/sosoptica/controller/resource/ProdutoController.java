@@ -44,4 +44,10 @@ public class ProdutoController {
         List<Produto> produtos = produtoService.listarTodosProdutos();
         return ResponseEntity.ok(produtos);
     }
+
+    @GetMapping("listar-estoque")
+    public ResponseEntity listarProdutosComMenosQuantidade(){
+        List<Produto> produtosComMenosEstoque = produtoService.listarProdutosComMenosQuantida();
+        return ResponseEntity.ok(produtosComMenosEstoque);
+    }
 }

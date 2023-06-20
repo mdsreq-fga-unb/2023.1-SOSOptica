@@ -9,4 +9,6 @@ public interface ProdutoService {
     Produto salvarProduto(Produto produto);
 
     List<Produto> listarTodosProdutos();
+
+    List<Produto> listarProdutosComMenosQuantida();
 }
