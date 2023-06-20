@@ -25,19 +25,18 @@ class CadastroCliente extends React.Component{
         if(!this.state.nomeCliente){
             msgs.push('O campo nome é obrigatorio')
         }
-
-        if (!this.state.emailCliente){
-            msgs.push('O campo email é obrigatorio')
-        }else if (!this.state.emailCliente.match(/^[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-z0-9]+\.[a-z]/)){
-            msgs.push('Infome um e-mail valido')
+        if(!this.state.emailCliente == ""){
+            if (!this.state.emailCliente.match(/^[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-z0-9]+\.[a-z]/)){
+                msgs.push('Infome um e-mail valido')
+            }
         }
 
-        if (!this.state.cpf){
-            msgs.push('O campo CPF é obrigatorio')
-        }
 
         if (!this.state.telefoneCliente){
             msgs.push('O campo Telefone é obrigatorio')
+        }
+        if (!this.state.dataDeNascimentoCliente){
+            msgs.push('O campo Data de nascimento é obrigatorio')
         }
 
 

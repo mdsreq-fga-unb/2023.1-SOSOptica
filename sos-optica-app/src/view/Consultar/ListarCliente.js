@@ -7,7 +7,7 @@ import TableCliente from "./TableCliente";
 class ListarCliente extends React.Component{
 
     state = {  clientes : [] ,
-            cpf : "",
+            nome : "",
     }
 
     constructor() {
@@ -30,8 +30,8 @@ class ListarCliente extends React.Component{
 
         }
 
-    pesquisarCpf = () => {
-        this.clienteService.pesquisarClientePorCpf(this.state.cpf).then(response => {
+    pesquisarPorNome = () => {
+        this.clienteService.pesquisarClientePorNome(this.state.nome).then(response => {
                 this.setState({clientes:response.data})
             }
         ).catch(error => {
@@ -53,15 +53,15 @@ class ListarCliente extends React.Component{
 
                         <div className="col-md-6 ms-auto" style={{padding: "0 45px 0 0", marginTop: "20px"}}>
                             <input  type="text"
-                                    name="CPF"
+                                    name="Nome"
                                     className="form-control col-md-1"
-                                    placeholder="CPF"
+                                    placeholder="Nome"
                                     id="inputCpf"
                                     style={{float: "left", width: "75%"}}
-                                    onChange={e => this.setState({cpf: e.target.value})}
+                                    onChange={e => this.setState({nome: e.target.value})}
                             />
 
-                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarCpf}>Pesquisar</button>
+                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarPorNome}>Pesquisar</button>
                         </div>
 
                         <div className="col-md-12">

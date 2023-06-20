@@ -17,8 +17,8 @@ class ClienteService extends Apiservice{
         return await this.get('/listar');
     }
 
-    async pesquisarClientePorCpf(cpf){
-        return await this.get(`/pesquisar?cpf=${cpf}`);
+    async pesquisarClientePorNome(nome){
+        return await this.get(`/pesquisar?nome=${nome}`);
     }
 
     async atualizar(id, dadosCliente){
