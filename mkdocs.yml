@@ -30,7 +30,8 @@ nav:
   - Backlog do Produto: BacklogDoProduto.md
   - arquivos:
       - Canvas MVP: CanvasMVP.md
-      - PBB&BDD: PBB&BDD.md
+      - PBB: PBB.md
       - Validação: video3.md 
       - BacklogSAFe: BacklogSAFe.md
-  - Pontuação do MVP: pontuação-dos-mvps.md
+      - Pontuação do MVP: PontuaçãoMVP.md
+      - BDD: BDD.md
