@@ -34,6 +34,6 @@ public class Venda {
         double valor;
 
         @Column(name = "data_cadastro")
-        Date dataCadastro;
+        String dataCadastro;
 
 }

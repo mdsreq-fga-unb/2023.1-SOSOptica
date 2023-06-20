@@ -16,5 +16,5 @@ public class VendaDto {
     String nomeCliente;
     int quantidadeProduto;
     double valor;
-    Date dataCadastro;
+    String dataCadastro;
 }
