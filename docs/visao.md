@@ -50,38 +50,11 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 
 Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 
-### 1.5 Escopo do produto
-Foi elaborado com base nas necessidades e expectativas dos stakeholders e é fundamental para estabelecer um entendimento comum entre a equipe de desenvolvimento e o cliente. Ele define os objetivos e o propósito do produto, identifica as principais funcionalidades e os requisitos-chave, além de delimitar o que está dentro e o que está fora do escopo do projeto.
-#### 1.5.1 Requisitos Funcionais
 
-| Requisito | Descrição |
-|-----------|-----------|
-| RF01      | O sistema deve cadastrar usuário |
-| RF02 | O sistema deve permitir o login do usuário |
-| RF03 | O sistema deve permitir o edição de dados do usuário |
-| RF04 | O sistema deve permitir o edição de dados do usuário |
-| RF05 | O sistema deve cadastrar produto |
-| RF06 | O sistema deve cadastrar cliente |
-| RF07 | O sistema deve listar clientes |
-| RF08 | O sistema deve listar produtos |
-| RF09 | O sistema deve cadastrar vendas |
-| RF10 | O sistema deve listar vendas |
-
-#### 1.5.2 Requisitos Não - Funcionais
-| Requisito | Descrição |
-|-----------|-----------|
-| RNF01 | A parte do Back-End do sistema deve ser desenvolvido em Java/Spring Boot |
-| RNF02 | A parte do Front-End do sistema deve ser desenvolvido em React |
-| RNF03 | O sistema deve ser desenvolvido em orientação a objetos |
-| RNF04 | A aplicação deve ser WEB |
-| RFN05 | A aplicação deve ser responsiva |
-| RFN06 | A interface da aplicação deve ser de fácil manipulação |
-| RFN07 | O sistema deve ser testável em Java e React |
-
-### 1.6 Mínimo Produto Viável (MVP)
+### 1.5 Mínimo Produto Viável (MVP)
 O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui apenas as funcionalidades essenciais para garantir o funcionamento de acordo com o planejado. Nesse sentido, os requisitos selecionados para o MVP estão listados abaixo, lembrando que todas as User Stories associadas às suas funcionalidades devem ser implementadas.
 
-#### 1.6.1 MVP 1
+#### 1.5.1 MVP 1
 
 | User Stories | Objetivo |
 |--------------|----------|
@@ -96,7 +69,7 @@ O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui ape
 | US-20 | Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis. |
 | US-22 | Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque. | 
 
-#### 1.6.1 MVP 2 
+#### 1.5.2 MVP 2 
 
 | User Stories | Objetivo |
 |--------------|----------|
@@ -174,7 +147,6 @@ A necessidade da equipe mudar:
 - Saída de membro da equipe
 
 ## 3 PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
-
 ### 3.1 Engenharia de Requisitos
 
 ![Facetas](imgs/FacetasER.png)
@@ -292,7 +264,7 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 | Codificação   | Pair Programming                               | VsCode,Live Share(extensão) e Discord | Incremento do produto                                                                                      |
 | Testes        | Testes Unitários, de Integração e de Aceitação | VsCode                                | Testes elaborados com o objetivo de reduzir o número de falhas e garantir o bom funcionamento da aplicação |
 
-#### 3.5.3 Review da Sprint
+#### 3.5.3 Review da Sprint ++++++++++++++++++++++++++
 
 | **Atividade**             | **Método**            | **Ferramenta** | **Entrega**                                                                             |
 | ------------------------- | --------------------- | -------------- | --------------------------------------------------------------------------------------- |
@@ -300,7 +272,7 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 | Verificação Validação     | Reunião com o cliente | Teams          | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente |
 | Organização e Atualização | Pontos por História   | Discord        | Refinamento do Backlog                                                                  |
 
-#### 3.5.4 Retrospectiva da Sprint
+#### 3.5.4 Retrospectiva da Sprint ++++++++++++++++++++++++
 
 | **Atividade**     | **Método**    | **Ferramenta** | **Entrega**                                         |
 | ----------------- | ------------- | -------------- | --------------------------------------------------- |
