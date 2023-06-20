@@ -77,7 +77,10 @@ A Monitora (Bruna).
 ## Pendências:
 
 **US08 -** Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.
+
 **US09 -** Eu, como administrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica
+
 **US16** - Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.
+
 **US22** - Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
-Terminar o [Backlog SAFe](BacklogSAFe.md)
+
