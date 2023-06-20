@@ -38,6 +38,8 @@ A Monitora (Bruna).
 - Criação do documento do PBB.
 - Implementação do front da lista de clientes.
 - Atualizações no Documento de Visão.
+- Mural BDD
+- Mural SAFe
 
 #### Renato:
 
