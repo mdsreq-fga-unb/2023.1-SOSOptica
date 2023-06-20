@@ -265,7 +265,7 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 | Codificação   | Pair Programming                               | VsCode,Live Share(extensão) e Discord | Incremento do produto                                                                                      |
 | Testes        | Testes Unitários, de Integração e de Aceitação | VsCode                                | Testes elaborados com o objetivo de reduzir o número de falhas e garantir o bom funcionamento da aplicação |
 
-#### 3.5.3 Review da Sprint ++++++++++++++++++++++++++
+#### 3.5.3 Review da Sprint 
 
 | **Atividade**             | **Método**            | **Ferramenta** | **Entrega**                                                                             |
 | ------------------------- | --------------------- | -------------- | --------------------------------------------------------------------------------------- |
@@ -273,7 +273,7 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 | Verificação Validação     | Reunião com o cliente | Teams          | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente |
 | Organização e Atualização | Pontos por História   | Discord        | Refinamento do Backlog                                                                  |
 
-#### 3.5.4 Retrospectiva da Sprint ++++++++++++++++++++++++
+#### 3.5.4 Retrospectiva da Sprint 
 
 | **Atividade**     | **Método**    | **Ferramenta** | **Entrega**                                         |
 | ----------------- | ------------- | -------------- | --------------------------------------------------- |
