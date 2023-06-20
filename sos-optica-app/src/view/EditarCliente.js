@@ -89,7 +89,7 @@ class CadastroCliente extends React.Component{
     }
 
     cancelar = () =>{
-        this.props.history.push('/listar-cliente')
+        this.props.history.push('/listar-clientes')
     }
     render() {
 
