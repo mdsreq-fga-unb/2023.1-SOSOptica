@@ -101,7 +101,7 @@ A organização do projeto irá levar em conta a abordagem de desenvolvimento de
 | DevOps                   | Atuar na unificação e a automação de processos                                                                                                                                                 | [Weslley Barros](https://github.com/weslley17w)                                  | Time                                |
 | Monitora                 | Acompanhar equipe no desenvolvimento do projeto                                                                                                                                                | Bruna Lima                                                                       | Bruna Lima                          |
 
-### 2.2 Planejamento das Fases e/ou Iterações do Projeto ??????????????????????
+### 2.2 Planejamento das Fases e/ou Iterações do Projeto 
 
 | **Sprint** | **Data de início** | **Data de término** | **Produto(Entrega)**                     |
 | ---------- | ------------------ | ------------------- | ---------------------------------------- |
