@@ -1,4 +1,11 @@
 # Canvas MVP
+## Histórico de Revisão
+
+|    Data    | Versão |      Descrição       |               Autor(es)               |
+| :--------: | :----: | :------------------: | :-----------------------------------: |
+| 22/05/2023 |  0.1   | Criação do documento | [Ana Luíza](https://github.com/analufernanndess) |
+| 19/06/2023 |  0.2   | Refatoração do documento | [Ana Luíza](https://github.com/analufernanndess) | 
+
 
 ## Personas:
 Luis Felipe, 21 anos, dono da loja Óptica Opção, não consegue se organizar de maneira efetiva pois em seu estabelecimento há várias planilhas com os dados dos clientes, há também várias planilhas sobre os produtos da loja, ele deseja visualizar as informações dos clientes e da loja efetivamente.
