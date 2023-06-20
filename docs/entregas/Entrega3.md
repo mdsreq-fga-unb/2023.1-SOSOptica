@@ -16,3 +16,5 @@
 ### Entrega da Unidade 3
 [Link de Acesso](https://youtu.be/ufE5xWbJzMw)
 
+### Jira 
+[Link de Acesso ao Jira](https://talesrodriguesgoncalves98.atlassian.net/jira/software/projects/SOS/boards/1)
