@@ -16,10 +16,12 @@
  | 2   |Necessario|Viavel|Medio|
 | 1   |Desnecessario|inviavel|Muito Dificil|
 
+
 ## 1.2. US
 
-| User Story                                                                                                                                                                                                                          | Valor de Negócio | Viabilidade | Complexidade | Total | MVP |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|--------------|-------|-----|
+
+| User Story | Valor de Negócio | Viabilidade | Complexidade | Total | MVP |
+|------------|------------------|-------------|--------------|-------|-----|
 | US-09 - Eu, como adminstrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica                                                                                                                         | 3                | 3           | 3            | 9     | 1   |
 | US-04 - Eu, como administrador, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.                                                                                                    | 3                | 3           | 3            | 9     | 1   |
 | US-08 - Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.                                                                                           | 3                | 3           | 3            | 9     | 1   |
