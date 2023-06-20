@@ -15,7 +15,9 @@
  | 3   | Muito necessario e urgente |Muito vialvel e disponivel|Muito facil de fazer|
  | 2   |Necessario|Viavel|Medio|
 | 1   |Desnecessario|inviavel|Muito Dificil|
+
 ## 1.2. US
+
 | User Story                                                                                                                                                                                                                          | Valor de Negócio | Viabilidade | Complexidade | Total | MVP |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|--------------|-------|-----|
 | US-09 - Eu, como adminstrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica                                                                                                                         | 3                | 3           | 3            | 9     | 1   |
