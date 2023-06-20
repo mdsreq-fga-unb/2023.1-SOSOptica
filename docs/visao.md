@@ -13,6 +13,7 @@
 | 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |      
 | 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos | [Weslley Barros](https://github.com/weslley17w) | 
 | 19/06/2023 | 1.4        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |  
+| 20/06/2023 | 1.5        | Alteração Planejamento das Fases e/ou Iterações do Projeto | [Ana Luiza](https://github.com/analufernanndess) |  
 
 ## 1 VISÃO GERAL DO PRODUTO
 
@@ -107,7 +108,7 @@ A organização do projeto irá levar em conta a abordagem de desenvolvimento de
 | Sprint 1   | 21/04/2023         | 05/05/2023          | Visão geral do produto e projeto         |
 | Sprint 2   | 05/05/2023         | 22/05/2023          | Definição do Backlog e User Story        |
 | Sprint 3   | 22/05/2023         | 02/06/2023          | iniciar o Desenvolvimento das US do MVP1 |
-| Sprint 4   | 02/06/2023         | 22/06/2023          | Entrega da primeira major                |
+| Sprint 4   | 02/06/2023         | 22/06/2023          | Entrega do MVP1, PBB, BDD e SAFe         |
 | Sprint 5   | 22/06/2023         | 02/07/2023          | iniciar Desenvolvimento das US do MVP2   |
 | Sprint 6   | 02/07/2023         | 11/07/2023          | Criação de modelo de caso de uso         |
 | Sprint 7   | 11/07/2023         | 20/07/2023          | Entrega do MVP2                          |
