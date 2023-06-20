@@ -11,31 +11,17 @@
 
 ## Tasks:
 
+- Criar o backlog do produto.
+- Definir os MVP's.
+
 ## Sprint Review 02/06/23
 
 - Todos os membros da equipe.
 - A Monitora (Bruna).
 
-#### **Ana:**
-
-**O que fez:**
-
-#### **Renato:**
-
-**O que fez:**
-
-- Template do Dashboard da aplicação
-
-#### **Tales:**
-
-**O que fez:**
-
-#### **Wesley:**
-
-**O que fez:**
-
 ### **Entregas:**
 
-## Sprint Retro
+- [Backlog do Produto](../BacklogDoProduto.md)
+- [MVP's](../PontuacaoMVP.md)
 
 ## Pendências:
