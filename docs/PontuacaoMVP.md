@@ -8,13 +8,19 @@
 
 # 1.Pontuações dos Requisitos
 É uma técnica usada para priorizar os recursos e funcionalidades a serem incluídos em um MVP. Ela ajuda a identificar e classificar os elementos mais valiosos e essenciais do produto.
+
 ## 1.1. Legenda
 
 | Nota | Valor de Negócio |Viabilidade|Complexidade|
 |-----|-----------------|-----------------|-----------------|
- | 3   | Muito necessario e urgente |Muito vialvel e disponivel|Muito facil de fazer|
- | 2   |Necessario|Viavel|Medio|
+| 3   | Muito necessario e urgente |Muito vialvel e disponivel|Muito facil de fazer|
+| 2   |Necessario|Viavel|Medio|
 | 1   |Desnecessario|inviavel|Muito Dificil|
+
+
+
+
+
 
 
 ## 1.2. US
