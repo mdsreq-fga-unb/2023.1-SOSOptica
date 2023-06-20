@@ -1,34 +1,12 @@
-# Product Backlog
-
 ## Histórico de Revisão
 
 |    Data    | Versão |      Descrição       |               Autor(es)               |
 | :--------: | :----: | :------------------: | :-----------------------------------: |
 | 15/06/2023 |  0.1   | Criação do documento | [Renato](https://github.com/Osidious) |
+| 20/06/2023 |  0.2   | Refatoração do documento | [Ana Luíza](https://github.com/analufernanndess)
 
-## 1. Épicos
+## Product Backlog SAFe
 
-| Épico | Descrição                   |
-| ----- | --------------------------- |
-| E1    | Gerenciar loja              |
-| E2    | Realizar Vendas             |
-| E3    | Comunicação com os clientes |
+[Link acesso Mural](https://miro.com/app/board/uXjVM9bjx6o=/?share_link_id=365887793476)
 
-## 2. Features
-
-| Épico | Feature | Descrição                        |
-| ----- | ------- | -------------------------------- |
-| E1    | FT01    | Gerenciar Usuários               |
-| E1    | FT02    | Gerenciar Clientes               |
-| E2    | FT03    | Gerenciar Vendas                 |
-| E2    | FT04    | Gerenciar histórico de Vendas    |
-| E3    | FT05    | Gerenciar mensagens              |
-| E3    | FT06    | Gerenciar historico de conversas |
-
-## 3. User Stories
-
-| Épico | Feature | US   | Descrição | Critérios de Aceitação | Prioridade |
-| ----- | ------- | ---- | --------- | ---------------------- | ---------- |
-| E1    | FT01    | US01 |           |                        |
-
-# SAFe - Canvas
+![SAFe](https://github.com/mdsreq-fga-unb/2023.1-SOSOptica/assets/90392277/663f5f36-4861-4d92-90c2-ff3a64ab4dff)
