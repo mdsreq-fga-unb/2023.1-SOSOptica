@@ -32,6 +32,8 @@ public class VendaController {
                 .nomeCliente(vendaDto.getNomeCliente())
                 .quantidadeProduto(vendaDto.getQuantidadeProduto())
                 .valor(vendaDto.getValor())
+                .dataCadastro(vendaDto.getDataCadastro()
+                )
         .build();
 
         try {

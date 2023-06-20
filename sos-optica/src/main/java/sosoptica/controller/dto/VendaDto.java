@@ -2,6 +2,8 @@ package sosoptica.controller.dto;
 
 import lombok.*;
 
+import java.util.Date;
+
 
 @Getter
 @Setter
@@ -14,4 +16,5 @@ public class VendaDto {
     String nomeCliente;
     int quantidadeProduto;
     double valor;
+    Date dataCadastro;
 }
