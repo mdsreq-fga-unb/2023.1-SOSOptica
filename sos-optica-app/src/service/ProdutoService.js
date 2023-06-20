@@ -11,5 +11,9 @@ class ProdutoService extends Apiservice{
         return await this.get('/listar-produtos');
     }
 
+    async listarFaltaNoEstoque(){
+        return await this.get('/listar-estoque');
+    }
+
 }
 export default ProdutoService;

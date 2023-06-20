@@ -15,6 +15,11 @@ class ListarProduto extends React.Component{
         this.produtoService = new ProdutoService();
     }
 
+    async componentDidMount() {
+        let data = await (await this.produtoService.listarProdutos()).data;
+        this.setState({produtos: data});
+    }
+
     listarTodosProdutos = () => {
         this.produtoService.listarProdutos().then(response => {
                 this.setState({produtos:response.data})
@@ -24,11 +29,22 @@ class ListarProduto extends React.Component{
         })
 
     }
+
+    listarProdutosComfaltaNoestoque = () => {
+        this.produtoService.listarFaltaNoEstoque().then(response => {
+                this.setState({produtos:response.data})
+            }
+        ).catch(error => {
+            console.log(error.response)
+        })
+
+    }
+
     voltar = () =>{
         this.props.history.push('/cadastrar-produto')
     }
     render(){
-        this.listarTodosProdutos()
+
         return(
 
                 <Card>
@@ -36,13 +52,7 @@ class ListarProduto extends React.Component{
                         <FormGroup >
                             <div className="row" style={{margin:"20px"}}>
                                 <div className="col-md-3">
-                                        <input type="text"
-                                               name="nomeProduto"
-                                               className="form-control"
-                                               placeholder="Digite o nome do produto"
-                                               id="inputNome"
-
-                                        />
+                                    <button type="button" className="btn btn-primary btn-hover"  onClick={this.listarProdutosComfaltaNoestoque}>Em Falta</button>
 
                                 </div>
                             </div>
