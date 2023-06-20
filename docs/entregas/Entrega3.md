@@ -1,8 +1,8 @@
 ## Unidade 3
 
-- [PBB e BDD.](/2023.1-SOSOptica/PBB%26BDD/)
+- [BDD](/2023.1-SOSOptica/BDD/)
+- [PBB](/2023.1-SOSOptica/PBB/)
 - [Backlog SAFe.](/2023.1-SOSOptica/BacklogSAFe/)
-- [Projeto](/2023.1-SOSOptica/video3/)
 
 ### Sites
 
