@@ -45,12 +45,6 @@ O projeto SOSóptica é um sistema voltado para facilitar o gerenciamento de cli
                 <h5 class="text-center">Weslley Barros</h5>
             </a>
         </td>      
-        <td align="center">
-            <a href="https://github.com/luishenrrique">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/40144816?v=4" width="150px;"/>
-                <h5 class="text-center">luishenrrique</h5>
-            </a>
-        </td>        
          <td align="center">
             <a href="https://github.com/TalesRG">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70861660?v=4" width="150px;"/>
