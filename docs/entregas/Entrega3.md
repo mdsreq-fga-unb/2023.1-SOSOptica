@@ -8,3 +8,8 @@
 
 - Front-end: <https://sosoptica.netlify.app/>
 - Back-end: <https://sos-back.onrender.com/>
+
+### Review cliente
+
+[Link de Acesso](https://www.youtube.com/watch?v=eFFUWe-W2lU)
+
