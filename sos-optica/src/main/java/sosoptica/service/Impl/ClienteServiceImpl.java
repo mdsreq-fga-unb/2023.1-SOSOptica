@@ -83,5 +83,10 @@ public class ClienteServiceImpl implements ClienteService {
         return clienteRepository.findByCpfLike("%" + cpf + "%");
     }
 
+    @Override
+    public List<Cliente> pesquisarClientePorNome(String nome){
+        return clienteRepository.findByNomeClienteLike("%"+nome+"%");
+    }
+
 
 }

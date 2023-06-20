@@ -74,9 +74,15 @@ public class ClienteController {
 
     }
 
-    @GetMapping("/pesquisar")
+    @GetMapping("/pesquisar-cpf")
     public ResponseEntity pesquisarCpf(@RequestParam (name = "cpf", required = false) String cpf){
        List<Cliente> cpfs = clienteService.pesquisarClientePorCpf(cpf);
        return ResponseEntity.ok(cpfs);
+    }
+
+    @GetMapping("/pesquisar")
+    public ResponseEntity pesquisarClientePorNome(@RequestParam(name = "nome",required = false) String nome){
+        List<Cliente> nomes = clienteService.pesquisarClientePorNome(nome);
+        return ResponseEntity.ok(nomes);
     }
 }
