@@ -2,23 +2,25 @@
 
 ## Histórico de Revisão
 
-| **Data**   | **Versão** | **Descrição**                | **Autor**                                                                                                                                                                                                        |
-| ---------- | ---------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 15/04/2023 | 0.1        | Criação do documento         | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w)                                           |
-| 16/04/2023 | 0.2        | Adiciona as seções 1.3 e 2.1 | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
-| 26/04/2023 | 0.3        | Adiciona as seções 3.1 e 3.2 | [Renato](https://github.com/Osidious)                                                                                                                                                                            |
-| 26/04/2023 | 0.4        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w)                                                                                                                                                                  |
-| 27/04/2023 | 1.0        | Adiciona a seções 2.2        | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)                                                                                                                           |
-| 24/05/2023 | 1.1        | Refatorando Visão            | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)                                                                                                                            |
-| 19/06/2023 | 1.2        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |      
-| 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos | [Weslley Barros](https://github.com/weslley17w) | 
-| 19/06/2023 | 1.4        | Refatorando visão            | [Ana Luiza](https://github.com/analufernanndess) |  
-| 20/06/2023 | 1.5        | Alteração Planejamento das Fases e/ou Iterações do Projeto | [Ana Luiza](https://github.com/analufernanndess) |  
+| **Data**   | **Versão** | **Descrição**                                              | **Autor**                                                                                                                                                                                                        |
+| ---------- | ---------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 15/04/2023 | 0.1        | Criação do documento                                       | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w)                                           |
+| 16/04/2023 | 0.2        | Adiciona as seções 1.3 e 2.1                               | [Ana](https://github.com/anafernanndess), [Renato](https://github.com/Osidious), [Luis](https://github.com/luishenrrique), [Tales](https://github.com/TalesRG) e [Weslley Barros](https://github.com/weslley17w) |
+| 26/04/2023 | 0.3        | Adiciona as seções 3.1 e 3.2                               | [Renato](https://github.com/Osidious)                                                                                                                                                                            |
+| 26/04/2023 | 0.4        | Adiciona a seções 2.2                                      | [Weslley Barros](https://github.com/weslley17w)                                                                                                                                                                  |
+| 27/04/2023 | 1.0        | Adiciona a seções 2.2                                      | [Weslley Barros](https://github.com/weslley17w), [Renato](https://github.com/Osidious)                                                                                                                           |
+| 24/05/2023 | 1.1        | Refatorando Visão                                          | [Ana Luiza](https://github.com/analufernanndess), [Tales](https://github.com/TalesRG)                                                                                                                            |
+| 19/06/2023 | 1.2        | Refatorando visão                                          | [Ana Luiza](https://github.com/analufernanndess)                                                                                                                                                                 |
+| 19/06/2023 | 1.3        | Refatorando gerenciamento de riscos                        | [Weslley Barros](https://github.com/weslley17w)                                                                                                                                                                  |
+| 19/06/2023 | 1.4        | Refatorando visão                                          | [Ana Luiza](https://github.com/analufernanndess)                                                                                                                                                                 |
+| 20/06/2023 | 1.5        | Alteração Planejamento das Fases e/ou Iterações do Projeto | [Ana Luiza](https://github.com/analufernanndess)                                                                                                                                                                 |
+| 20/06/2023 | 1.6        | Alteração Nas Atividades das sprints                       | [Renato](https://github.com/Osidious)                                                                                                                                                                            |
 
 ## 1 VISÃO GERAL DO PRODUTO
 
 ### 1.1 Declaração de Posição do Produto
-O SOSóptica é um software para aplicação de gerenciamento de dados do cliente, produtos e venda que visa agregar as informações a respeito da Óptica Opção. A idéia é facilitar a acessibilidade dos dados da óptica, apesar dos dados já estarem disponíveis em uma planilha excel, acaba por ser uma tarefa de baixa praticidade, consultar inúmeras planilhas. 
+
+O SOSóptica é um software para aplicação de gerenciamento de dados do cliente, produtos e venda que visa agregar as informações a respeito da Óptica Opção. A idéia é facilitar a acessibilidade dos dados da óptica, apesar dos dados já estarem disponíveis em uma planilha excel, acaba por ser uma tarefa de baixa praticidade, consultar inúmeras planilhas.
 Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma solução mais eficiente e estimulante para o dono da óptica.
 
 |               |                                                                                                                        |
@@ -33,12 +35,13 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 ### 1.2 Declaração do Problema:
 
 | O problema                   | Dificuldade de gerenciamento de dados da Óptica Opção     |
-|------------------------------|-----------------------------------------------------------|
+| ---------------------------- | --------------------------------------------------------- |
 | Afeta                        | A Óptica Opção                                            |
 | Cujo impacto é               | Falta de gerenciamento de produtos, clientes e de venda   |
 | Uma solução de sucesso seria | Um sistema web de gerenciamento dos dados da Óptica Opção |
 
 ### 1.3 Objetivos do Produto
+
 - Facilitar o gerenciamento dos dados dos seus clientes
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda.
 - Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
@@ -51,45 +54,46 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 
 Spring Boot, JUnit, Jira, PostgreSQL, React, Jest, Docker, Docker Compose
 
-
 ### 1.5 Mínimo Produto Viável (MVP)
+
 O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui apenas as funcionalidades essenciais para garantir o funcionamento de acordo com o planejado. Nesse sentido, os requisitos selecionados para o MVP estão listados abaixo, lembrando que todas as User Stories associadas às suas funcionalidades devem ser implementadas.
 
 #### 1.5.1 MVP 1
 
-| User Stories | Objetivo |
-|--------------|----------|
-| US-09 | Eu, como adminstrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica | 
-| US-06 | Eu, como administrador, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações. |
-| US-05 | Eu, como administrador, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.
-| US-08 | Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente. |
-| US-07 | Eu, como administrador, gostaria de consultar o histórico de compras de um cliente específico. |
-| US-04 | Eu, como administrador, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema. |
-| US-14 | Eu, como administrador, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas. |
-| US-16 | Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes. |
-| US-20 | Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis. |
-| US-22 | Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque. | 
+| User Stories | Objetivo                                                                                                                                                    |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-09        | Eu, como adminstrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica                                                         |
+| US-06        | Eu, como administrador, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.                   |
+| US-05        | Eu, como administrador, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário. |
+| US-08        | Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.                           |
+| US-07        | Eu, como administrador, gostaria de consultar o histórico de compras de um cliente específico.                                                              |
+| US-04        | Eu, como administrador, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.                                    |
+| US-14        | Eu, como administrador, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.                            |
+| US-16        | Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.    |
+| US-20        | Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.                                                |
+| US-22        | Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.                                |
 
-#### 1.5.2 MVP 2 
+#### 1.5.2 MVP 2
 
-| User Stories | Objetivo |
-|--------------|----------|
-| US-01 | Eu como administrador desejo poder cadastrar um Usuario para acessar o sistema. |
-| US-15 | Eu, como administrador, gostaria de poder editar as informações de uma venda existente, Para corrigir erros, atualizar detalhes ou adicionar informações. |
-| US-17 | Eu, como administrador, gostaria de Verificar quanto foi vendido no dia. |
-| US-03 | Eu, como administrador, desejo poder fazer login na minha conta de Usuário para acessar o sistema. |
-| US-02 | Eu, como administrador, gostaria de poder editar as informações de um usuário existente, Para atualizar seus dados conforme necessário e garantir a precisão das informações do usuário no sistema. |
-| US-18 | Eu, como administrador, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.|
-| US-19 | Eu, como administrador, desejo poder editar as informações de um produto existente no estoque para manter seus dados atualizados.|
-| US-21 | Eu, como administrador, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema. |
-| US-10 | Eu, como administrador, gostaria de poder de criar templates de mensagens para agilizar o processo de envio de comunicações frequentes, Para reutilizar o conteúdo e personalizá-lo conforme necessário. |
-| US-12 | Eu, como administrador, gostaria poder visualizar uma lista de todos os templates de mensagens disponíveis, Para identificar rapidamente os templates disponíveis. |
-| US-11 | Eu, como administrador, gostaria de poder editar templates de mensagens para personalizá-los conforme necessário. Para adaptar o conteúdo às minhas necessidades e agilizar o processo de envio de comunicações. |
-| US-13 | Eu, como administrador, gostaria de poder ter a capacidade de excluir templates de mensagens que não são mais necessários. Para manter a lista de templates organizada e evitar a seleção acidental de templates obsoletos.|
+| User Stories | Objetivo                                                                                                                                                                                                                    |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-01        | Eu como administrador desejo poder cadastrar um Usuario para acessar o sistema.                                                                                                                                             |
+| US-15        | Eu, como administrador, gostaria de poder editar as informações de uma venda existente, Para corrigir erros, atualizar detalhes ou adicionar informações.                                                                   |
+| US-17        | Eu, como administrador, gostaria de Verificar quanto foi vendido no dia.                                                                                                                                                    |
+| US-03        | Eu, como administrador, desejo poder fazer login na minha conta de Usuário para acessar o sistema.                                                                                                                          |
+| US-02        | Eu, como administrador, gostaria de poder editar as informações de um usuário existente, Para atualizar seus dados conforme necessário e garantir a precisão das informações do usuário no sistema.                         |
+| US-18        | Eu, como administrador, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.                                                                                                |
+| US-19        | Eu, como administrador, desejo poder editar as informações de um produto existente no estoque para manter seus dados atualizados.                                                                                           |
+| US-21        | Eu, como administrador, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.                                                                                       |
+| US-10        | Eu, como administrador, gostaria de poder de criar templates de mensagens para agilizar o processo de envio de comunicações frequentes, Para reutilizar o conteúdo e personalizá-lo conforme necessário.                    |
+| US-12        | Eu, como administrador, gostaria poder visualizar uma lista de todos os templates de mensagens disponíveis, Para identificar rapidamente os templates disponíveis.                                                          |
+| US-11        | Eu, como administrador, gostaria de poder editar templates de mensagens para personalizá-los conforme necessário. Para adaptar o conteúdo às minhas necessidades e agilizar o processo de envio de comunicações.            |
+| US-13        | Eu, como administrador, gostaria de poder ter a capacidade de excluir templates de mensagens que não são mais necessários. Para manter a lista de templates organizada e evitar a seleção acidental de templates obsoletos. |
 
 ## 2 VISÃO GERAL DO PROJETO
 
 ### 2.1 Organização do Projeto
+
 A organização do projeto irá levar em conta a abordagem de desenvolvimento de software selecionada, o Scrum misturado com o XP. Na utilização dessa equipe de desenvolvimento de software, adotaremos uma estrutura tradicional como base, mas faremos algumas adaptações no modelo para melhor adequação ao projeto.
 
 | Perfil                   | Atribuições                                                                                                                                                                                    | Responsável                                                                      | Participantes                       |
@@ -97,11 +101,11 @@ A organização do projeto irá levar em conta a abordagem de desenvolvimento de
 | Scrum Master             | Garantir que o time scrum se oriente pelos valores e práticas do Scrum                                                                                                                         | [Tales](https://github.com/TalesRG)                                              | [Tales](https://github.com/TalesRG) |
 | Product Owner            | Define as funcionalidades do produto e prioriza os itens de Product Backlog.                                                                                                                   | Luis Felipe                                                                      | Luis Felipe                         |
 | Desenvolvedores Frontend | Desenvolvedor frontend é responsável por criar a interface do usuário garantindo que seja atraente, intuitiva e funcional.                                                                     | [Ana](https://github.com/anafernanndess) e [Renato](https://github.com/Osidious) | Time                                |
-| Desenvolvedores Backend  | Desenvolvedor backend é responsável por desenvolver e manter a lógica e a infraestrutura do servidor de um aplicativo, que é responsável por processar, armazenar e recuperar dados do usuário | [Tales](https://github.com/TalesRG)   | Time                                |
+| Desenvolvedores Backend  | Desenvolvedor backend é responsável por desenvolver e manter a lógica e a infraestrutura do servidor de um aplicativo, que é responsável por processar, armazenar e recuperar dados do usuário | [Tales](https://github.com/TalesRG)                                              | Time                                |
 | DevOps                   | Atuar na unificação e a automação de processos                                                                                                                                                 | [Weslley Barros](https://github.com/weslley17w)                                  | Time                                |
 | Monitora                 | Acompanhar equipe no desenvolvimento do projeto                                                                                                                                                | Bruna Lima                                                                       | Bruna Lima                          |
 
-### 2.2 Planejamento das Fases e/ou Iterações do Projeto 
+### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
 | **Sprint** | **Data de início** | **Data de término** | **Produto(Entrega)**                     |
 | ---------- | ------------------ | ------------------- | ---------------------------------------- |
@@ -148,6 +152,7 @@ A necessidade da equipe mudar:
 - Saída de membro da equipe
 
 ## 3 PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
+
 ### 3.1 Engenharia de Requisitos
 
 ![Facetas](imgs/FacetasER.png)
@@ -252,20 +257,21 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 
 #### 3.5.1 Planejamento da Sprint
 
-| **Atividade**            | **Método**                                   | **Ferramenta** | **Entrega**                               |
-| ------------------------ | -------------------------------------------- | -------------- | ----------------------------------------- |
-| Elicitação de Requisitos | - Brainstorming<br>- Análise de Concorrentes | Discord        | Requisitos levantados e suas prioridade   |
-| Analise e Concenso       | - Brainstorming                              | Teams          | Aval do PO sobre os requisitos levantados |
+| **Atividade**            | **Método**                                   | **Ferramenta** | **Entrega**                                 |
+| ------------------------ | -------------------------------------------- | -------------- | ------------------------------------------- |
+| Elicitação de Requisitos | - Brainstorming<br>- Análise de Concorrentes | Discord        | Requisitos levantados e suas prioridade     |
+| Analise e Concenso       | - Brainstorming                              | Teams          | Aval do PO sobre os requisitos levantados   |
+| Declaração               | - User Stories                               | GitHub, Jira   | Declaração formal dos requisitos levantados |
 
 #### 3.5.2 Desenvolvimento
 
 | **Atividade** | **Método**                                     | **Ferramenta**                        | **Entrega**                                                                                                |
 | ------------- | ---------------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Prototipagem  | Mock-up                                        | Figma, Miro                           | Protótipo do Requisito levantado durante o backlog da sprint                                               |
+| Representação | - Prototipação                                 | VsCode, Figma                         | Criação de prototípos de alta ou baixa fidelidade a depender da storie sendo representada                  |
 | Codificação   | Pair Programming                               | VsCode,Live Share(extensão) e Discord | Incremento do produto                                                                                      |
 | Testes        | Testes Unitários, de Integração e de Aceitação | VsCode                                | Testes elaborados com o objetivo de reduzir o número de falhas e garantir o bom funcionamento da aplicação |
 
-#### 3.5.3 Review da Sprint 
+#### 3.5.3 Review da Sprint
 
 | **Atividade**             | **Método**            | **Ferramenta** | **Entrega**                                                                             |
 | ------------------------- | --------------------- | -------------- | --------------------------------------------------------------------------------------- |
@@ -273,11 +279,11 @@ uma abordagem iterativa fazendo uso de uma abordagem Ágil. Dessa maneira optamo
 | Verificação Validação     | Reunião com o cliente | Teams          | Reformulação dos requisitos que falharem a verificação e validação por parte do cliente |
 | Organização e Atualização | Pontos por História   | Discord        | Refinamento do Backlog                                                                  |
 
-#### 3.5.4 Retrospectiva da Sprint 
+#### 3.5.4 Retrospectiva da Sprint
 
 | **Atividade**     | **Método**    | **Ferramenta** | **Entrega**                                         |
 | ----------------- | ------------- | -------------- | --------------------------------------------------- |
-| Análise da Equipe | Brainstorming | Discord        | Levantamento das dificuldades no decorrer da sprint |
+| Análise da Sprint | Brainstorming | Discord        | Levantamento das dificuldades no decorrer da sprint |
 
 ## 4 LIÇÕES APRENDIDAS
 
@@ -293,7 +299,8 @@ Na unidade 1, aprendemos sobre a importância de entender as necessidades do usu
 Durante a Unidade 2, ampliamos nossos conhecimentos acerca dos requisitos funcionais e não funcionais, assim como suas classificações propostas por Sommerville. Exploramos também o conceito de backlog do produto, compreendendo como dividir o projeto em épicos, features e user stories. Por último, adquirimos o conhecimento necessário para definir e apresentar uma proposta de MVP por meio do modelo denominado Canvas MVP. Esse modelo engloba elementos como cronograma, jornadas, definição de personas, resultados esperados, funcionalidades e métricas para validação.
 </p>
 
-## 4.2 Unidade 3 
+## 4.2 Unidade 3
+
 <p style="text-indent: 20px;">
 Na Unidade 3, aprendemos uma valiosa lição com o PBB: a criação e mapeamento do Product Backlog. Através dele, pudemos identificar os problemas, expectativas e personas, bem como suas respectivas funcionalidades do produto. Essas informações foram consolidadas no Canvas, tornando sua contextualização prática e eficiente.  
 Durante nosso percurso, também nos familiarizamos com o Behavior Driven Development (BDD), o qual desempenhou um papel fundamental na validação dos critérios de aceitação dos Steps Maps.
