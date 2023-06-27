@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/Card";
 import FormGroup from "../../components/form-group";
-import ReceitaService from "../../service/ReceitaService";
+//import ReceitaService from "../../service/ReceitaService";
 import {withRouter} from "react-router-dom";
 import {mensagemErro,mensagemSucesso} from "../../components/toastr";
 
