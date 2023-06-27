@@ -33,7 +33,4 @@ public class Venda {
         @Column(name = "valor")
         double valor;
 
-        @Column(name = "data_cadastro")
-        String dataCadastro;
-
 }

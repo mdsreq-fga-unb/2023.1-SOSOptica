@@ -25,11 +25,6 @@ class CadastroCliente extends React.Component{
         if(!this.state.nomeCliente){
             msgs.push('O campo nome é obrigatorio')
         }
-        if(!this.state.emailCliente == ""){
-            if (!this.state.emailCliente.match(/^[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-z0-9]+\.[a-z]/)){
-                msgs.push('Infome um e-mail valido')
-            }
-        }
 
 
         if (!this.state.telefoneCliente){

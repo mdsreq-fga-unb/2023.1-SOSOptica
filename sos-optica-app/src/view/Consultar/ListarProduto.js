@@ -6,7 +6,7 @@ import ProdutoService from "../../service/ProdutoService";
 import {FormGroup} from "react-bootstrap";
 
 class ListarProduto extends React.Component{
-
+// eslint-disable-next-line import/no-anonymous-default-export
     state = {
         produtos : []
     }

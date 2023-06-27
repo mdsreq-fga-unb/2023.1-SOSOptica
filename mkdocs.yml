@@ -28,13 +28,11 @@ nav:
       - Unidade 2: entregas/Entrega2.md
       - Unidade 3: entregas/Entrega3.md
   - Backlog do Produto: BacklogDoProduto.md
-  - arquivos:
-      - Canvas MVP: CanvasMVP.md
-      - PBB: PBB.md
-      - Validação: video3.md 
-      - BacklogSAFe: BacklogSAFe.md
-      - Pontuação do MVP: PontuacaoMVP.md
-      - BDD: BDD.md
+  - Canvas MVP: CanvasMVP.md
+  - PBB: PBB.md
+  - BacklogSAFe: BacklogSAFe.md
+  - Pontuação do MVP: PontuacaoMVP.md
+  - BDD: BDD.md
 
 
 
