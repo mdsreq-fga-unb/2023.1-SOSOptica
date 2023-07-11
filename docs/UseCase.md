@@ -4,7 +4,7 @@
 |07/07/2023| 0.1 | Criação do UC | [Ana Luíza](https://github.com/analufernanndess)
 |11/07/2023| 0.2 | Adicionando UC | [Ana Luíza](https://github.com/analufernanndess) e [Tales](https://github.com/TalesRG)
 
-## 1.Use Case:
+## Use Case:
    
 O diagrama de caso de uso é uma ferramenta importante no processo de análise e design de sistemas, permitindo uma compreensão clara das interações entre os usuários e o sistema, e auxiliando no planejamento e na comunicação dos requisitos funcionais do sistema.
 
@@ -134,6 +134,111 @@ Não se aplica.
 | Cil | -10 à 0 | Sim
 | DNP | 40 à 70 | Sim
 |AD|0.25 à 5|Sim|
+
+**4. Pré-condições**
+
+**4.1 Login:**
+
+Para utilizar este caso de uso é necesssário que o usuário esteje "logado" no sistema.
+
+**4.2 Validação do sistema**
+
+Para utilizar este caso de uso é necessário que o sistema tenha validado o usuário.
+
+**4.3 Cadastro de clientes**
+Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
+
+**5. Pós-Condições**
+
+**5.1 Registro de Cadastros:**
+
+Ao final desse caso de uso, as operações realizadas devem ser registradas com o objetivo de tornar possível a recuperação desses dados.
+
+**6. Pontos de Extensão**
+
+Não se aplica.
+
+## Especificação de Caso de Uso: Cadastrar Receita:
+
+**1. Cadastrar receita**
+
+**1.1 Breve Descrição:**
+   
+   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de receita de um cliente que deseja realizar uma compra em sua loja, bem como obter informações sobre o resgistros dos mesmos.
+   
+**1.2 Atores**
+
+   - Luis Felipe, dono da Óptica
+
+**2. Fluxo de Eventos**
+   
+**2.1 Fluxo Principal:**
+
+**2.2 Fluxos Alternativos:**
+
+**2.3 Fluxos de Exceção**
+
+**3. Regras de Negócio:**
+
+| Nome | Formato |Obrigatoriedade |
+|------|---------|----------------|
+
+
+**4. Pré-condições**
+
+**4.1 Login:**
+
+Para utilizar este caso de uso é necesssário que o usuário esteje "logado" no sistema.
+
+**4.2 Validação do sistema**
+
+Para utilizar este caso de uso é necessário que o sistema tenha validado o usuário.
+
+**4.3 Cadastro de clientes**
+
+Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
+
+**4.4 Cadastro de receitas**
+
+Para utilizar este caso de uso é necessário que o usuário tenha cadastrado uma receita no sistema.
+
+**5. Pós-Condições**
+
+**5.1 Registro de Cadastros:**
+
+Ao final desse caso de uso, as operações realizadas devem ser registradas com o objetivo de tornar possível a recuperação desses dados.
+
+**6. Pontos de Extensão**
+
+Não se aplica.
+
+
+
+## Especificação de Caso de Uso: Cadastrar Receita:
+
+**1. Cadastrar receita**
+
+**1.1 Breve Descrição:**
+   
+   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de receita de um cliente que deseja realizar uma compra em sua loja, bem como obter informações sobre o resgistros dos mesmos.
+   
+**1.2 Atores**
+
+   - Luis Felipe, dono da Óptica
+
+**2. Fluxo de Eventos**
+   
+**2.1 Fluxo Principal:**
+
+**2.2 Fluxos Alternativos:**
+
+**2.3 Fluxos de Exceção**
+
+**3. Regras de Negócio:**
+
+| Nome | Formato |Obrigatoriedade |
+|------|---------|----------------|
+
 
 **4. Pré-condições**
 
