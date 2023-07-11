@@ -231,7 +231,13 @@ Não se aplica.
 
 **2.2 Fluxos Alternativos:**
 
+**FA01 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento
+
 **2.3 Fluxos de Exceção**
+
+Não se aplica.
 
 **3. Regras de Negócio:**
 
@@ -290,7 +296,7 @@ Não se aplica.
 
 Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de vendas.
 
-**2.1.1** O usuário seleciona a opção "cadastro de vendass".
+**2.1.1** O usuário seleciona a opção "cadastro de vendas".
 
 **2.1.2** O usuário começa a cadastrar a venda utilizando as seguintes informações:
 
@@ -354,7 +360,7 @@ Para utilizar este caso de uso é necessário que o sistema tenha validado o usu
 
 Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
 
-**4.4** Cadastro de Produto
+**4.4 Cadastro de Produto**
 
 Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um produto no sistema.
 
