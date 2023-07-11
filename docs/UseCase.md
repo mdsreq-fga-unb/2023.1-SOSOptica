@@ -129,7 +129,7 @@ Não se aplica.
 
 **2.1.2** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
-**2.1.3** O sistema, a partir da finalização do cadastro e guarda as informações.
+**2.1.3** O sistema, a partir da finalização do cadastro guarda as informações.
 
 **2.1.4** O caso de uso é encerrado.
 
@@ -230,7 +230,7 @@ Não se aplica.
 
 **2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
-**2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
+**2.1.4** O sistema, a partir da finalização do cadastro guarda as informações.
 
 **2.1.5** O caso de uso é encerrado.
 
@@ -319,7 +319,7 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
-**2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
+**2.1.4** O sistema, a partir da finalização do cadastro  guarda as informações.
 
 **2.1.5** O caso de uso é encerrado.
 
