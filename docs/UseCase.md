@@ -40,7 +40,7 @@ O diagrama de caso de uso é uma ferramenta importante no processo de análise e
 
 - Data de Nascimento
 
-**2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+**2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
 **2.1.4** O sistema, a partir da finalização do cadastro, guarda as informações, que ficarão armazenadas em "Listar Cliente".
 
@@ -127,7 +127,7 @@ Não se aplica.
 - DNP
 - AD
 
-**2.1.2** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+**2.1.2** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
 **2.1.3** O sistema, a partir da finalização do cadastro e guarda as informações.
 
@@ -227,7 +227,7 @@ Não se aplica.
 
 - Quantidade De Peças
 
-**2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+**2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
 **2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
 
@@ -316,7 +316,7 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 - Data da venda
 
-**2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+**2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
 
 **2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
 
@@ -331,6 +331,7 @@ O usuário pode encerrar o sistema a qualquer momento
 **2.3 Fluxos de Exceção**
 
 **FE01 - Cliente não cadastrado**
+
 Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
 
 **F02 - Produto não cadastrado**
