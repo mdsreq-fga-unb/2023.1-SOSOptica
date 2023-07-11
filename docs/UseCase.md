@@ -146,7 +146,7 @@ O usuário pode encerrar o sistema a qualquer momento
 **2.3 Fluxos de Exceção**
 
 **FE01 - Cliente não cadastrado**
-Caso o o cliente ainda não esteja cadastrado, o casso de uso encerra.
+Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
 
 **3. Regras de Negócio:**
 
@@ -267,6 +267,8 @@ Não se aplica.
 
 
 
+
+
 ## Especificação de Caso de Uso: Cadastrar vendas
 
 **1. Cadastrar vendas**
@@ -285,7 +287,21 @@ Não se aplica.
 
 Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de vendas.
 
+**2.1.1** O usuário seleciona a opção "cadastro de vendass".
 
+**2.1.2** O usuário começa a cadastrar a venda utilizando as seguintes informações:
+
+- Nome do cliente
+
+- Receita 
+
+- Produto
+
+- Quantidade
+
+- Valor
+
+- Data da venda
 
 **2.2 Fluxos Alternativos:**
 
@@ -307,6 +323,12 @@ Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
 
 | Nome | Formato |Obrigatoriedade |
 |------|---------|----------------|
+|Nome do cliente | Ana Luiza |  Sim
+|Receita| "Aqui irá conter os dados da receita do cliente" | Não
+|Produto| " Produto selecionado pelo cliente " | Sim
+| Quantidade | x | Sim
+| Valor | R$ xx,xx | Sim
+|Data da venda| xx/xx/xxxx | Sim
 
 
 **4. Pré-condições**
