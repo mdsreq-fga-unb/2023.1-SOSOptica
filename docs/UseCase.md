@@ -189,6 +189,7 @@ Não se aplica.
 
 ## Especificação de Caso de Uso: Cadastrar Produto
 
+
 **1. Cadastrar Produto**
 
 **1.1 Breve descrição:**
@@ -271,7 +272,9 @@ Não se aplica.
 
 ## Especificação de Caso de Uso: Cadastrar vendas
 
+
 **1. Cadastrar vendas**
+
 **1.1 Breve Descrição:**
    
    Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de vendas, bem como obter informações sobre o resgistros dos mesmos.
@@ -305,7 +308,7 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.2 Fluxos Alternativos:**
 
-**FA02 - Sair**
+**FA01 - Sair**
 
 O usuário pode encerrar o sistema a qualquer momento
 
