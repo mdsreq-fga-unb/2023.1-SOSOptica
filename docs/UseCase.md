@@ -306,6 +306,12 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 - Data da venda
 
+**2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+
+**2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
+
+**2.1.5** O caso de uso é encerrado.
+
 **2.2 Fluxos Alternativos:**
 
 **FA01 - Sair**
