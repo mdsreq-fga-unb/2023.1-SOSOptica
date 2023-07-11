@@ -48,7 +48,21 @@ O diagrama de caso de uso é uma ferramenta importante no processo de análise e
 
 **2.2 Fluxos Alternativos:**
 
+**FA01 - Cliente já cadastrado**
+
+Se o sistema determinar que o cliente já foi cadastrado, o sistema mostra a mensagem: "Cliente já cadastrado" e o caso de usuo termina
+
+**FA02 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento.
+
 **2.3 Fluxos de Exceção**
+
+
+**FE1 -  CPF inválido**
+
+Se o sistema determinar que o CPF do cliente não é válido, o sistema mostra a mensagem: “CPF inválido” e o caso de uso termina.
+
 
 **3. Regras de Negócio:**
 
@@ -79,6 +93,7 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 **6. Pontos de Extensão**
 
 Não se aplica.
+
 
 ## Especificação de Caso de Uso: Cadastrar Receita
 
@@ -120,7 +135,18 @@ Não se aplica.
 
 **2.2 Fluxos Alternativos:**
 
+**FA01 - Falta de informações**
+
+Cliente não passa informações que são obrigatórias para o usuário e o caso de uso encerra.
+
+**FA02 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento
+
 **2.3 Fluxos de Exceção**
+
+**FE01 - Cliente não cadastrado**
+Caso o o cliente ainda não esteja cadastrado, o casso de uso encerra.
 
 **3. Regras de Negócio:**
 
@@ -157,6 +183,9 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 **6. Pontos de Extensão**
 
 Não se aplica.
+
+
+
 
 ## Especificação de Caso de Uso: Cadastrar Produto
 
@@ -236,13 +265,14 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 Não se aplica.
 
 
-## Especificação de Caso de Uso: Cadastrar mensagens promocionais
 
-**1. Cadastrar mensagens promocionais**
 
+## Especificação de Caso de Uso: Cadastrar vendas
+
+**1. Cadastrar vendas**
 **1.1 Breve Descrição:**
    
-   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de mensagens promocionais, bem como obter informações sobre o resgistros dos mesmos.
+   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de vendas, bem como obter informações sobre o resgistros dos mesmos.
 
    
 **1.2 Atores**
@@ -253,11 +283,25 @@ Não se aplica.
    
 **2.1 Fluxo Principal:**
 
-Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de produtos.
+Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de vendas.
+
+
 
 **2.2 Fluxos Alternativos:**
 
+**FA02 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento
+
 **2.3 Fluxos de Exceção**
+
+**FE01 - Cliente não cadastrado**
+Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
+
+**F02 - Produto não cadastrado**
+
+Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
+
 
 **3. Regras de Negócio:**
 
@@ -276,7 +320,12 @@ Para utilizar este caso de uso é necesssário que o usuário esteje "logado" no
 Para utilizar este caso de uso é necessário que o sistema tenha validado o usuário.
 
 **4.3 Cadastro de clientes**
+
 Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
+
+**4.4** Cadastro de Produto
+
+Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um produto no sistema.
 
 **5. Pós-Condições**
 
