@@ -176,6 +176,7 @@ Para utilizar este caso de uso é necesssário que o usuário esteje "logado" no
 Para utilizar este caso de uso é necessário que o sistema tenha validado o usuário.
 
 **4.3 Cadastro de clientes**
+
 Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
 
 **5. Pós-Condições**
