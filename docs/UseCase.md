@@ -137,7 +137,10 @@ Não se aplica.
 
 **FA01 - Falta de informações**
 
+
+
 Cliente não passa informações que são obrigatórias para o usuário e o caso de uso encerra.
+
 
 **FA02 - Sair**
 
@@ -146,6 +149,7 @@ O usuário pode encerrar o sistema a qualquer momento
 **2.3 Fluxos de Exceção**
 
 **FE01 - Cliente não cadastrado**
+
 Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
 
 **3. Regras de Negócio:**
