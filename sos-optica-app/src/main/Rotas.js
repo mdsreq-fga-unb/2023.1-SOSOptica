@@ -7,6 +7,7 @@ import ListarCliente from "../view/Consultar/ListarCliente";
 import ListarProduto from "../view/Consultar/ListarProduto";
 import CadastroVenda from "../view/cadastro/CadastroVenda";
 import ListarVenda from "../view/Consultar/ListarVenda";
+import CastrarProdutos from "../view/cadastro/CastrarProdutos";
 
 function Rotas(){
     return(
@@ -20,6 +21,7 @@ function Rotas(){
                 <Route path="/listar-vendas/:page"  component={ListarVenda}></Route>
                 <Route path="/listar-vendas"        component={ListarVenda}></Route>
                 <Route path="/cadastrar-receita"    component={CadastroReceita}></Route>
+                <Route path="/cadastrar-produto"    component={CastrarProdutos}></Route>
             </Switch>
         </HashRouter>
     )

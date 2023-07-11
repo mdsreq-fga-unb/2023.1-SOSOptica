@@ -15,5 +15,10 @@ class ProdutoService extends Apiservice{
         return await this.get('/listar-estoque');
     }
 
+    salvar(dadosProduto){
+        return this.post('/cadastrarProduto',dadosProduto)
+    }
+
 }
+
 export default ProdutoService;
