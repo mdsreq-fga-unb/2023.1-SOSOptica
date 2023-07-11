@@ -80,7 +80,7 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 
 Não se aplica.
 
-## Especificação de Caso de Uso: Cadastrar Receita:
+## Especificação de Caso de Uso: Cadastrar Receita
 
 **1. Cadastrar receita**
 
@@ -158,13 +158,12 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 
 Não se aplica.
 
-## Especificação de Caso de Uso: Cadastrar Receita:
+## Especificação de Caso de Uso: Cadastrar Produto
 
-**1. Cadastrar receita**
+**1. Cadastrar Produto**
 
-**1.1 Breve Descrição:**
-   
-   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de receita de um cliente que deseja realizar uma compra em sua loja, bem como obter informações sobre o resgistros dos mesmos.
+**1.1 Breve descrição:**
+   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para realizar cadastro de produtos, bem como obter informações sobre o resgistros dos mesmos.
    
 **1.2 Atores**
 
@@ -173,6 +172,32 @@ Não se aplica.
 **2. Fluxo de Eventos**
    
 **2.1 Fluxo Principal:**
+ 
+ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de produtos.
+ 
+**2.1.1** O usuário seleciona a opção "cadastro de Produtos".
+
+**2.1.2** O usuário começa a cadastrar o produto utilizando as seguintes informações:
+
+- Nome
+
+- Descrição
+
+- Cores Disponíveis
+
+- Marca
+
+- Preço Custo
+
+- Preço Venda
+
+- Quantidade De Peças
+
+**2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
+
+**2.1.4** O sistema, a partir da finalização do cadastro e guarda as informações.
+
+**2.1.5** O caso de uso é encerrado.
 
 **2.2 Fluxos Alternativos:**
 
@@ -182,7 +207,13 @@ Não se aplica.
 
 | Nome | Formato |Obrigatoriedade |
 |------|---------|----------------|
-
+| Nome | Aviator Classic | Sim
+| Descrição | Sol/Grau | Sim
+| Cores disponíveis | Fosco Areia-escuro, Polido Preto, Polido Marrom-escuro transparente | Sim
+| Marca | Ray Ban | Sim
+| Preço custo | R$ xx,xx | Sim
+| Preço Venda | R$ xx,xx | Sim
+| Quantidade de peças | xxx | Sim
 
 **4. Pré-condições**
 
@@ -193,14 +224,6 @@ Para utilizar este caso de uso é necesssário que o usuário esteje "logado" no
 **4.2 Validação do sistema**
 
 Para utilizar este caso de uso é necessário que o sistema tenha validado o usuário.
-
-**4.3 Cadastro de clientes**
-
-Para utilizar este caso de uso é necessário que o usuário tenha cadastrado um cliente no sistema.
-
-**4.4 Cadastro de receitas**
-
-Para utilizar este caso de uso é necessário que o usuário tenha cadastrado uma receita no sistema.
 
 **5. Pós-Condições**
 
@@ -213,14 +236,14 @@ Ao final desse caso de uso, as operações realizadas devem ser registradas com 
 Não se aplica.
 
 
+## Especificação de Caso de Uso: Cadastrar mensagens promocionais
 
-## Especificação de Caso de Uso: Cadastrar Receita:
-
-**1. Cadastrar receita**
+**1. Cadastrar mensagens promocionais**
 
 **1.1 Breve Descrição:**
    
-   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de receita de um cliente que deseja realizar uma compra em sua loja, bem como obter informações sobre o resgistros dos mesmos.
+   Caso de uso utilizado pelo usuário Luis Felipe, dono da Óptica, para efetuar o cadastro de mensagens promocionais, bem como obter informações sobre o resgistros dos mesmos.
+
    
 **1.2 Atores**
 
@@ -229,6 +252,8 @@ Não se aplica.
 **2. Fluxo de Eventos**
    
 **2.1 Fluxo Principal:**
+
+Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de produtos.
 
 **2.2 Fluxos Alternativos:**
 
