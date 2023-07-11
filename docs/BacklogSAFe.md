@@ -4,7 +4,7 @@
 | :--------: | :----: | :----------------------: | :----------------------------------------------: |
 | 15/06/2023 |  0.1   |   Criação do documento   |      [Renato](https://github.com/Osidious)       |
 | 20/06/2023 |  0.2   | Refatoração do documento | [Ana Luíza](https://github.com/analufernanndess) |
-| 11/07/2023 |  0.3   | Refatoração do documento |      [Renato](https://github.com/Osidious)       |
+| 10/07/2023 |  0.3   | Refatoração do documento |      [Renato](https://github.com/Osidious)       |
 
 ## Product Backlog SAFe
 
