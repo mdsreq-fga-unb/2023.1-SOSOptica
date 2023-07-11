@@ -51,6 +51,7 @@ O diagrama de caso de uso é uma ferramenta importante no processo de análise e
 **2.3 Fluxos de Exceção**
 
 **3. Regras de Negócio:**
+
 | Nome | Formato | Máx. quantidade de caracteres|Obrigatoriedade 
 |------|---------|----------------|-------------------------
 | Nome | Ana Luíza Fernandes | 255 | Sim
@@ -122,6 +123,7 @@ Não se aplica.
 **2.3 Fluxos de Exceção**
 
 **3. Regras de Negócio:**
+
 | Nome | Formato |Obrigatoriedade |
 |------|---------|----------------|
 | Nome | Ana Luíza Fernandes | Sim|
