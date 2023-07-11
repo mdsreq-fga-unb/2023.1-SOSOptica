@@ -42,7 +42,7 @@ O diagrama de caso de uso é uma ferramenta importante no processo de análise e
 
 **2.1.3** O usuário finaliza o cadastrado, selecionando o botão "cadastrar".
 
-**2.1.4** O sistema, a partir da finalização do cadastro, guarda as informações, que ficaram armazenadas em "Listar Cliente".
+**2.1.4** O sistema, a partir da finalização do cadastro, guarda as informações, que ficarão armazenadas em "Listar Cliente".
 
 **2.1.5** O caso de uso é encerrado.
 
