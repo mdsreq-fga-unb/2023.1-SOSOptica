@@ -2,6 +2,7 @@
 |Data| Versão | Descrição | Autor(es) |
 |----|--------|-----------|-----------|
 |07/07/2023| 0.1 | Criação do UC | [Ana Luíza](https://github.com/analufernanndess)
+|10/07/2023| 0.2 | Adicionando US | [Ana Luíza](https://github.com/analufernanndess) e [Tales](https://github.com/TalesRG)
 
 ## **1.Use Case:**
    
