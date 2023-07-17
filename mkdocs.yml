@@ -24,9 +24,10 @@ nav:
       - Sprint 3: sprints/Sprint3.md
       - Sprint 4: sprints/Sprint4.md
   - Entregas:
-      - Unidade 1: entregas/Entrega1.md
-      - Unidade 2: entregas/Entrega2.md
-      - Unidade 3: entregas/Entrega3.md
+      - Unidade 1: entregas/Unidade1.md
+      - Unidade 2: entregas/Unidade2.md
+      - Unidade 3: entregas/Unidade3.md
+      - Unidade 4: entregas/Unidade4.md
   - Backlog do Produto: BacklogDoProduto.md
   - Canvas MVP: CanvasMVP.md
   - PBB: PBB.md
@@ -34,7 +35,4 @@ nav:
   - Pontuação do MVP: PontuacaoMVP.md
   - BDD: BDD.md
   - USM: USM.md
-
-
-
-
+  - UseCase: UseCase.md

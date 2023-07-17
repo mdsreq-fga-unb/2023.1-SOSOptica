@@ -26,7 +26,7 @@ A Monitora (Bruna).
 
 - Implementar as US's do MVP 2:
 
-## Sprint Review 16/06/23
+## Sprint Review 04/07/23
 
 #### Ana:
 
@@ -47,5 +47,7 @@ A Monitora (Bruna).
 ### Entregas:
 
 ## Sprint Retro
+
+Não ocorreu.
 
 ## Pendências:
