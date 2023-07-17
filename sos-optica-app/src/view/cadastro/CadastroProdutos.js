@@ -7,11 +7,11 @@ import {mensagemErro,mensagemSucesso} from "../../components/toastr";
 import InputMask from 'react-input-mask'
 import { NumericFormat } from 'react-number-format';
 
-class CadastroCliente extends React.Component{
+class CadastroProdutos extends React.Component{
       
     state = {
         nomeProduto : "",
-        fornecedor : "",
+        coresDisponiveis : "",
         marca : "",
         precoCusto : "",
         precoVenda : "",
@@ -53,7 +53,7 @@ class CadastroCliente extends React.Component{
 
         const dadosProduto = {
             nomeProduto: this.state.nomeProduto,
-            fornecedor : this.state.fornecedor,
+            coresDisponiveis : this.state.coresDisponiveis,
             marca : this.state.marca,
             precoCusto : this.state.precoCusto.split('.').join('').replace(',','.').split('R$ ').join(''),
             precoVenda : this.state.precoVenda.split('.').join('').replace(',','.').split('R$ ').join(''),
@@ -94,14 +94,14 @@ class CadastroCliente extends React.Component{
                         
 
                         <div class="col-md-6">
-                            <FormGroup label="Fornecedor " htmlFor="inputDefault">
+                            <FormGroup label="Cores Disponíveis " htmlFor="inputDefault">
                                 <InputMask
                                     type="text"
-                                    placeholder="Digite o nome do fornecedor"
+                                    placeholder="Digite as cores disponíveis"
                                     className="form-control"
-                                    id="inputFornecedor"
-                                    name="fornecedor"
-                                    onChange={e => this.setState({fornecedor: e.target.value})}
+                                    id="inputCoresDisponiveis"
+                                    name="coresDisponiveis"
+                                    onChange={e => this.setState({coresDisponiveis: e.target.value})}
                                 />
                             </FormGroup>
                         </div>
@@ -173,4 +173,4 @@ class CadastroCliente extends React.Component{
     }
 }
 
-export default withRouter(CadastroCliente)
+export default withRouter(CadastroProdutos)

@@ -9,7 +9,7 @@ export default props => {
                 <tr key={produto.id}>
                     <td>{produto.nomeProduto}</td>
                     <td>{produto.descricao}</td>
-                    <td>{produto.fornecedor}</td>
+                    <td>{produto.coresDisponiveis}</td>
                     <td>{produto.marca}</td>
                     <td>{produto.precoCusto}</td>
                     <td>{produto.precoVenda}</td>
@@ -42,7 +42,7 @@ export default props => {
                         <tr>
                             <th scope="col">Nome</th>
                             <th scope="col">Descrição</th>
-                            <th scope="col" >Fornecedor</th>
+                            <th scope="col">Cores Disponíveis</th>
                             <th scope="col">Marca</th>
                             <th scope="col">Preço de Custo</th>
                             <th scope="col">Preço de Venda</th>

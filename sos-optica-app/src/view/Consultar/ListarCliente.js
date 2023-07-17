@@ -57,11 +57,11 @@ class ListarCliente extends React.Component{
                                     className="form-control col-md-1"
                                     placeholder="Nome"
                                     id="inputCpf"
-                                    style={{float: "left", width: "75%"}}
+                                    style={{float: "left", width: "70%"}}
                                     onChange={e => this.setState({nome: e.target.value})}
                             />
 
-                            <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarPorNome}>Pesquisar</button>
+                            <button type="button" style={{float: "right", width: "30%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarPorNome}>Pesquisar</button>
                         </div>
 
                         <div className="col-md-12">
