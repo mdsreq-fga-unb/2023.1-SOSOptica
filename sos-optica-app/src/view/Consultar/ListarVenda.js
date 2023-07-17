@@ -49,11 +49,11 @@ class ListarVenda extends React.Component{
                                            className="form-control col-md-1"
                                            placeholder="Nome ou produto"
                                            id="inputNome"
-                                           style={{float: "left", width: "75%"}}
+                                           style={{float: "left", width: "70%"}}
                                            onChange={e => this.setState({pesquisar: e.target.value})}
                                     />
                                     
-                         <button type="button" style={{float: "right", width: "25%"}} className="btn btn-primary float-right"  onClick={this.pesquisar}>Pesquisar</button>
+                         <button type="button" style={{float: "right", width: "30%"}} className="btn btn-primary float-right"  onClick={this.pesquisar}>Pesquisar</button>
                         </div>
                     </div>
                     <div className="row" style={{margin:"20px"}}>
