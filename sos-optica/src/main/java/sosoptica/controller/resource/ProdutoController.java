@@ -9,6 +9,7 @@ import sosoptica.model.entity.Produto;
 import sosoptica.service.ProdutoService;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/produtos")
@@ -43,6 +44,14 @@ public class ProdutoController {
     public ResponseEntity listarTodosProdutos(){
         List<Produto> produtos = produtoService.listarTodosProdutos();
         return ResponseEntity.ok(produtos);
+    }
+
+    @DeleteMapping("{id}")
+    public Optional<ResponseEntity> deletarProduto(@PathVariable("id") Long id){
+        return produtoService.ObterPorId(id).map(p -> {
+            produtoService.excluirProduto(p);
+            return new ResponseEntity(HttpStatus.NO_CONTENT);
+        });
     }
 
     @GetMapping("listar-estoque")

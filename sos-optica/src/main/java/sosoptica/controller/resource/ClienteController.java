@@ -80,6 +80,8 @@ public class ClienteController {
        return ResponseEntity.ok(cpfs);
     }
 
+
+
     @GetMapping("/pesquisar")
     public ResponseEntity pesquisarClientePorNome(@RequestParam(name = "nome",required = false) String nome){
         List<Cliente> nomes = clienteService.pesquisarClientePorNome(nome);
