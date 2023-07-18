@@ -4,6 +4,8 @@ import TableProduto from "./TableProduto";
 import {withRouter} from "react-router-dom";
 import ProdutoService from "../../service/ProdutoService";
 import {FormGroup} from "react-bootstrap";
+import Dashboard from "../../components/dashboard/Dashboard";
+import NavBar from "../../components/dashboard/NavBar";
 
 class ListarProduto extends React.Component{
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -46,6 +48,9 @@ class ListarProduto extends React.Component{
     render(){
 
         return(
+            <>
+                <NavBar></NavBar>
+            <Dashboard></Dashboard>
 
                 <Card>
                     <div>
@@ -70,6 +75,8 @@ class ListarProduto extends React.Component{
                         </div>
                     </div>
                 </Card>
+            </>
+
 
         );
     }

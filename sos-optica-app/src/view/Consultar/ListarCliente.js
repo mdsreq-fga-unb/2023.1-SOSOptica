@@ -3,6 +3,8 @@ import {withRouter} from "react-router-dom";
 import ClienteService from "../../service/ClienteService";
 import Card from "../../components/Card";
 import TableCliente from "./TableCliente";
+import Dashboard from "../../components/dashboard/Dashboard";
+import NavBar from "../../components/dashboard/NavBar";
 
 class ListarCliente extends React.Component{
 
@@ -46,6 +48,9 @@ class ListarCliente extends React.Component{
 
     render(){
         return(
+<>
+    <NavBar></NavBar>
+    <Dashboard></Dashboard>
 
                     <Card>
 
@@ -73,6 +78,7 @@ class ListarCliente extends React.Component{
                         </div>
                     </div>
                     </Card>
+</>
         )
     }
 }

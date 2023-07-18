@@ -3,6 +3,8 @@ import Card from "../../components/Card";
 import FormGroup from "../../components/form-group";
 //import ReceitaService from "../../service/ReceitaService";
 import {withRouter} from "react-router-dom";
+import NavBar from "../../components/dashboard/NavBar";
+import Dashboard from "../../components/dashboard/Dashboard";
 
 class CadastroReceita extends React.Component{
 
@@ -94,6 +96,8 @@ class CadastroReceita extends React.Component{
     render(){
         return(
             <>
+                <NavBar></NavBar>
+            <Dashboard></Dashboard>
 
                 <Card title="Cadastro Receita"  icon="bx bxs-user">
 

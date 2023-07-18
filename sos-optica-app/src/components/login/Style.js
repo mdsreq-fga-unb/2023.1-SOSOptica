@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background-color: #fff;
+  background-color: #fff;
 border-radius: 0px;
 box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
-position: relative;
+position: center;
 overflow: hidden;
 width: 678px;
 max-width: 100%;

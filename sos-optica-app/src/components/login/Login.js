@@ -20,7 +20,7 @@ function LoginIn() {
         <Style.Form>
           <Style.Title>Login</Style.Title>
           <Style.Input type='email' placeholder='Email' />
-          <Style.Input type='senha' placeholder='Senha' />
+          <Style.Input type='password' placeholder='Senha' />
           <Style.Anchor href='#'>Esqueceu sua senha?</Style.Anchor>
           <Style.Button>Logar</Style.Button>
         </Style.Form>

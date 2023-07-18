@@ -4,6 +4,8 @@ import FormGroup from "../../components/form-group";
 import {withRouter} from "react-router-dom";
 import VendaService from "../../service/VendaService";
 import {mensagemErro, mensagemSucesso} from "../../components/toastr";
+import NavBar from "../../components/dashboard/NavBar";
+import Dashboard from "../../components/dashboard/Dashboard";
 
 class CadastroVenda extends React.Component{
     state = {
@@ -76,6 +78,9 @@ class CadastroVenda extends React.Component{
         return(
 
                 <>
+                    <NavBar></NavBar>
+                <Dashboard></Dashboard>
+
 
                     <Card title="Cadastro Venda"  icon="bx bxs-user">
 

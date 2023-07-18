@@ -5,6 +5,8 @@ import Card from "../../components/Card";
 import TableVenda from "./TableVenda";
 import ResponsivePagination from 'react-responsive-pagination';
 import 'react-responsive-pagination/themes/classic.css';
+import Dashboard from "../../components/dashboard/Dashboard";
+import NavBar from "../../components/dashboard/NavBar";
 
 
 class ListarVenda extends React.Component{
@@ -40,7 +42,10 @@ class ListarVenda extends React.Component{
     }
     
     render(){
-        return(    
+        return(
+            <>
+                <NavBar></NavBar>
+                <Dashboard></Dashboard>
                     <Card>
                     <div className="row" >
                         <div className="col-md-6 ms-auto" style={{padding: "0 45px 0 0", marginTop: "20px"}}> 
@@ -69,6 +74,8 @@ class ListarVenda extends React.Component{
                         />
                     </div>
                     </Card>
+
+            </>
 
         )
     }

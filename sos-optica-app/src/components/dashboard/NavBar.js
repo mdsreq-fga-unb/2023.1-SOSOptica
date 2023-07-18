@@ -9,9 +9,6 @@ function NavBar(){
                 <i className="bx bx-menu" id="sidebarOpen"></i>
             </div>
 
-            <div className="navbar_content">
-                <i className="bx bx-log-out" ></i>
-            </div>
         </nav>
     )
 }
