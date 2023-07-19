@@ -14,20 +14,7 @@ export default props => {
                 <td>{cliente.telefoneCliente}</td>
                 <td >{cliente.emailCliente}</td>
                 <td>{cliente.dataDeNascimentoCliente}</td>
-                <td>
-                    <div className="d-flex">
 
-                        <a href={url} type="button" style={{padding:"10px"}} ><FontAwesomeIcon icon={faEdit} className="me-2" /></a>
-
-                        <a type="button"  style={{padding:"10px"}}>
-                            <FontAwesomeIcon icon={faEye} className="me-2" />
-                        </a>
-
-                        <a type="button" className="btn-hover-red" style={{padding:"10px"}} >
-                            <FontAwesomeIcon icon={faTrash} />
-                        </a>
-                    </div>
-                </td>
             </tr>
         )
     }
@@ -43,7 +30,6 @@ export default props => {
                         <th scope="col" >Telefone</th>
                         <th scope="col" >E-mail</th>
                         <th scope="col">Data de Nascimento</th>
-                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -15,6 +15,10 @@ class ProdutoService extends Apiservice{
         return await this.get('/listar-estoque');
     }
 
+    deletar(id){
+        return this.delete(`/${id}`)
+    }
+
     salvar(dadosProduto){
         return this.post('/cadastrarProduto',dadosProduto)
     }
