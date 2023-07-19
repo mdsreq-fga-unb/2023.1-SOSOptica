@@ -1,7 +1,7 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEdit, faEye, faTrash} from "@fortawesome/free-solid-svg-icons";
-import ProdutoService from "../../service/ProdutoService";
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
 
