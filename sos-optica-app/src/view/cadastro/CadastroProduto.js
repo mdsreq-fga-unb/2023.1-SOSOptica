@@ -123,7 +123,7 @@ class CadastroProduto extends React.Component{
             <NavBar></NavBar>
             <Dashboard></Dashboard>
 
-                <Card title="Cadastro Produto"  icon="bx bxs-user">
+                <Card title="Cadastro Produto"  icon="bx bxs-package">
 
                     <div className="form-control-sm row g-2"  >
                         <div class="col-md-6">
