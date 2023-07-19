@@ -3,13 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: #fff;
 border-radius: 0px;
-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
 position: center;
 overflow: hidden;
 width: 678px;
 max-width: 100%;
 min-height: 400px;
 `;
+
+//box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25); removido de const container
 
 export const SignUpContainer = styled.div`
  position: absolute;
@@ -51,7 +52,14 @@ height: 100%;
 text-align: center;
 `;
 
-export const Title = styled.h1`
+export const Title1 = styled.h1`
+color: #1e1e1e;
+font-weight: bold;
+margin: 0;
+`;
+
+export const Title2 = styled.h1`
+color: #fff;
 font-weight: bold;
 margin: 0;
 `;
