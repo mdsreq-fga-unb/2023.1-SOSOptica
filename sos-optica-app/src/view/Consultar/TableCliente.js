@@ -12,7 +12,6 @@ export default props => {
                 <td>{cliente.telefoneCliente}</td>
                 <td >{cliente.emailCliente}</td>
                 <td>{cliente.dataDeNascimentoCliente}</td>
-
             </tr>
         )
     }
