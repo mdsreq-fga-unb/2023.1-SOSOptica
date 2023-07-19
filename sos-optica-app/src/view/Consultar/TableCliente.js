@@ -4,7 +4,6 @@ import React from "react";
 export default props => {
 
     const rows = props.clientes.map(cliente => {
-        let url = '/#/editar-cliente/' + cliente.id;
         return (
             <tr key={cliente.id}>
                 <td>{cliente.nomeCliente}</td>
