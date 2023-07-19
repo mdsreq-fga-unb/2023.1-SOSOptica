@@ -46,12 +46,13 @@ public class ProdutoController {
         return ResponseEntity.ok(produtos);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public Optional<ResponseEntity> deletarProduto(@PathVariable("id") Long id){
-        return produtoService.ObterPorId(id).map(p -> {
+        return Optional.of(produtoService.ObterPorId(id).map(p -> {
             produtoService.excluirProduto(p);
             return new ResponseEntity(HttpStatus.NO_CONTENT);
-        });
+        }).orElseGet(() ->
+                new ResponseEntity("Produto Não encontrado na base de dados", HttpStatus.BAD_REQUEST)));
     }
 
     @GetMapping("listar-estoque")
