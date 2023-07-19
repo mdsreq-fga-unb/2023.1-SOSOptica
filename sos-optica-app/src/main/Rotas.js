@@ -24,6 +24,7 @@ function Rotas(){
                 <Route path="/listar-vendas/:page"  component={ListarVenda}></Route>
                 <Route path="/listar-vendas"        component={ListarVenda}></Route>
                 <Route path="/cadastrar-receita"    component={CadastroReceita}></Route>
+                <Route path="#/cadastrar-produto" componet={CadastroProduto}></Route>
                <Route path="/" component={Login}></Route>
             </Switch>
         </HashRouter>
