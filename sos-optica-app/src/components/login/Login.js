@@ -11,7 +11,7 @@ function LoginIn() {
           <Style.Title1>Criar uma conta</Style.Title1>
           <Style.Input type='text' placeholder='Nome' />
           <Style.Input type='email' placeholder='Email' />
-          <Style.Input type='senha' placeholder='Senha' />
+          <Style.Input type='password' placeholder='Senha' />
           <Style.Button>Cadastrar</Style.Button>
         </Style.Form>
       </Style.SignUpContainer>
