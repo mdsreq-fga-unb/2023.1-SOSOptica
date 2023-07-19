@@ -64,7 +64,7 @@ function LoginIn() {
       <Style.Container>
         <Style.SignUpContainer signinIn={signIn}>
           <Style.Form onSubmit={handleSubmit}>
-            <Style.Title>Criar uma conta</Style.Title>
+            <Style.Title2>Criar uma conta</Style.Title2>
             <Style.Input type='text' name='nome' value={formData.nome} placeholder='Nome' onChange={handleInputChange}/>
             <Style.Input type='email' name='email' value={formData.email} placeholder='Email' onChange={handleInputChange}/>
             <Style.Input type='password' name='senha' value={formData.senha} placeholder='Senha' onChange={handleInputChange}/>
@@ -74,7 +74,7 @@ function LoginIn() {
 
         <Style.SignInContainer signinIn={signIn}>
           <Style.Form onSubmit={handleLogin}>
-            <Style.Title>Login</Style.Title>
+            <Style.Title2>Login</Style.Title2>
             <Style.Input type='email' name='email' placeholder='Email' value={loginData.email} onChange={handleLoginInputChange} />
             <Style.Input type='password' name='senha' placeholder='Senha' value={loginData.senha} onChange={handleLoginInputChange} />
             <Style.Anchor href='#'>Esqueceu sua senha?</Style.Anchor>
