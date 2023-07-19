@@ -12,7 +12,7 @@ class Dashboard extends React.Component{
                 <div className="menu_content">
                     <ul className="menu_items">
                         <div className="menu_title menu_dahsboard"></div>
-                   <Item href="/" label="Home" icon="bx bx-home-alt"></Item>
+                   <Item href="#/home" label="Home" icon="bx bx-home-alt"></Item>
                     </ul>
                     <ul className="menu_items">
                         <div className="menu_title menu_cliente"></div>
