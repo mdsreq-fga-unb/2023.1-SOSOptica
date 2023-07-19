@@ -4,7 +4,6 @@ import FormGroup from "../../components/form-group";
 import ProdutoService from "../../service/ProdutoService";
 import {withRouter} from "react-router-dom";
 import {mensagemErro,mensagemSucesso} from "../../components/toastr";
-import InputMask from 'react-input-mask'
 import NavBar from "../../components/dashboard/NavBar";
 import Dashboard from "../../components/dashboard/Dashboard";
 
