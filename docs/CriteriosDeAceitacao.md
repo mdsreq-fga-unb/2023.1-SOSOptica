@@ -1,6 +1,7 @@
 ## Critérios de Aceitação:
 
 - **US-01** Eu, como usuário, desejo poder cadastrar um Usuario para acessar o sistema.
+  
   -A pagina de cadastro de Usuario deve exibir nome, senha, repita senha , email
 
   - Ao cadastrar novo usuario deve ser exibido uma mensagem de “sucesso”.
@@ -9,6 +10,7 @@
     <br><br>
 
 - **US-02** Eu, como usuário, gostaria de poder editar as informações de um usuário existente, Para atualizar seus dados conforme necessário e garantir a precisão das informações do usuário no sistema.
+
   - Deve existir uma opção de edição na página de detalhes do usuário.
   - O sistema deve permitir que o administrador edite campos como nome, e-mail, senha e outras informações relevantes.
   - O sistema deve realizar validações de dados durante a edição para garantir que as informações sejam inseridas corretamente.
@@ -19,6 +21,8 @@
   - Caso ocorra um erro durante o processo de edição, o sistema deve fornecer uma mensagem de erro.
     <br><br>
 - **US-03** Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.
+
+
   - Sistema consegue encontrar o Usuario
   - Identificar Usuario Logado
   - A página de login deve ser exibida corretamente, com os campos de nome de usuário/endereço de e-mail e senha visíveis e destacados.
@@ -128,18 +132,4 @@
   - Visualizar produtos que estão em falta ou baixa quantidade no estoque
   - Vizualizar os produtos de maneira ordenada de maneira que o produto com menos quantidade esteja em primeiro e o com mais quantidade esteja em ultimo.
 
-## Nao Executadas:
 
-- **US-10** Eu, como usuário, gostaria de poder de criar templates de mensagens para agilizar o processo de envio de comunicações frequentes, Para reutilizar o conteúdo e personalizá-lo conforme necessário.
-
-- **US-12** Eu, como usuário, gostaria poder visualizar uma lista de todos os templates de mensagens disponíveis, Para identificar rapidamente os templates disponíveis.
-
-- **US-11** Eu, como usuário, gostaria de poder editar templates de mensagens para personalizá-los conforme necessário. Para adaptar o conteúdo às minhas necessidades e agilizar o processo de envio de comunicações.
-
-- **US-13** Eu, como usuário, gostaria de poder ter a capacidade de excluir templates de mensagens que não são mais necessários. Para manter a lista de templates organizada e evitar a seleção acidental de templates obsoletos.
-
-- **US-17** Eu, como usuário, gostaria de Verificar quanto foi vendido no dia.
-
-- **US16** Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.
-
-- **US08** Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.
