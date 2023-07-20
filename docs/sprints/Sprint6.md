@@ -49,12 +49,6 @@ A Monitora (Bruna).
 - Implementação do back-end do cadastro e login do usuário.
 - Criação do USM.
 
-#### Wesley:
-
-**O que fez:**
-
--
-
 ### Entregas:
 
 Sprint Em andamento
