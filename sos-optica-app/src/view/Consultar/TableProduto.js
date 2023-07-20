@@ -1,11 +1,13 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEdit} from "@fortawesome/free-solid-svg-icons";
 import {faTrash} from "@fortawesome/free-solid-svg-icons";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
 
         const rows = props.produtos.map(produto => {
+            let url = '/#/editar-produto/' + produto.id;
             return (
                 <tr key={produto.id}>
                     <td>{produto.nomeProduto}</td>
@@ -18,7 +20,9 @@ export default props => {
 
                     <td>
                         <div className="d-flex">
-
+                            <a href={url} type="button" style={{padding:"10px"}} >
+                                <FontAwesomeIcon icon={faEdit} className="me-2" />
+                            </a>
                             <a onClick={event => props.deleteAction(produto)} type="button" className="btn-hover-red" style={{padding:"10px"}} >
                                 <FontAwesomeIcon icon={faTrash} />
                             </a>

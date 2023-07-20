@@ -1,9 +1,13 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEdit} from "@fortawesome/free-solid-svg-icons";
+import {faTrash} from "@fortawesome/free-solid-svg-icons";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
 
     const rows = props.clientes.map(cliente => {
+        let url = '/#/editar-cliente/' + cliente.id;
         return (
             <tr key={cliente.id}>
                 <td>{cliente.nomeCliente}</td>
@@ -11,6 +15,17 @@ export default props => {
                 <td>{cliente.telefoneCliente}</td>
                 <td >{cliente.emailCliente}</td>
                 <td>{cliente.dataDeNascimentoCliente}</td>
+
+                <td>
+                    <div className="d-flex">
+                        <a href={url} type="button" style={{padding:"10px"}} >
+                            <FontAwesomeIcon icon={faEdit} className="me-2" />
+                        </a>
+                        <a onClick={event => props.deleteAction(cliente)} type="button" className="btn-hover-red" style={{padding:"10px"}} >
+                            <FontAwesomeIcon icon={faTrash} />
+                        </a>
+                    </div>
+                </td>
             </tr>
         )
     }
