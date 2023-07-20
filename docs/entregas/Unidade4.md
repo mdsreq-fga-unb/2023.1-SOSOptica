@@ -1,8 +1,25 @@
 ## Entregas:
-### User Story Mapping
-É um mapa utilizado no desenvolvimento ágil de software para visualizar e organizar as funcionalidades de um produto ou projeto a partir da perspectiva dos usuários.
 
-- [USM](https://miro.com/app/board/uXjVM5OkKuk=/?share_link_id=714115874456)
+- [USM](/2023.1-SOSOptica/USM)
+
+- [UC especificação](/2023.1-SOSOptica/UseCase) 
+
+- [UC diagrama](/2023.1-SOSOptica/DiagramaUC)
+
+- [Visão do Produto e Projeto](/2023.1-SOSOptica/visao)
+
+- [Débitos técnicos MVP1](/2023.1-SOSOptica/sprints/Sprint4)
+
+## Site:
+[SosÓptica](https://sosoptica.netlify.app/#/)
+
+## Review cliente:
+
+## Entrega unidade 4:
+
+## Jira:
+
+[Jira](https://talesrodriguesgoncalves98.atlassian.net/jira/software/projects/SOS/boards/1)
 
 
 

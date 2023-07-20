@@ -7,11 +7,10 @@
 
 ## 1. Product Backlog Building (PBB)
 O Product Backlog é uma lista priorizada de requisitos, funcionalidades, melhorias e correções que devem ser implementados em um produto.
-### 1.1. Imagem do documentos Product Backlog Building (PBB Canvas):
 
-[Link de Acesso](https://app.mural.co/invitation/mural/sosoptica6826/1685642033815?sender=ufb6e8eb01dfe7140ecd54997&key=c0eb5fb8-534d-48f3-9867-9e3e8322f53e)
+[Link de Acesso](https://app.mural.co/t/sosoptica6826/m/sosoptica6826/1685642033815/e11352cd66baca23298bac3483cac539e8582ca2?sender=u8a679d94f7da0aa243807221)
 
-![PBB](imgs/PBB.png) 
+
 
 
 

@@ -1,8 +1,10 @@
-## Unidade 3
+## Entregas:
 
 - [BDD](/2023.1-SOSOptica/BDD/)
 - [PBB](/2023.1-SOSOptica/PBB/)
 - [Backlog SAFe.](/2023.1-SOSOptica/BacklogSAFe/)
+- [Visão do Produto e Projeto](/2023.1-SOSOptica/visao)
+
 
 ### Sites
 

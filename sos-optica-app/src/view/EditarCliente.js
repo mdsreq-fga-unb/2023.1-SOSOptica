@@ -39,15 +39,6 @@ class CadastroCliente extends React.Component{
             msgs.push('O campo nome é obrigatorio')
         }
 
-        if (!this.state.emailCliente){
-            msgs.push('O campo email é obrigatorio')
-        }else if (!this.state.emailCliente.match(/^[a-z0-9.]+@[a-z0-9]+\.[a-z]/)){
-            msgs.push('Infome um e-mail valido')
-        }
-
-        if (!this.state.cpf){
-            msgs.push('O campo CPF é obrigatorio')
-        }
 
         if (!this.state.telefoneCliente){
             msgs.push('O campo Telefone é obrigatorio')
@@ -112,7 +103,6 @@ class CadastroCliente extends React.Component{
                         <div class="col-md-6">
                             <FormGroup label="CPF * " htmlFor="inputDefault">
                                 <InputMask
-                                    mask="000.000.000-00"
                                     type="text"
                                     value={this.state.cpf}
                                     className="form-control"
@@ -120,7 +110,7 @@ class CadastroCliente extends React.Component{
                                     name="cpf"
                                     onChange={e => this.setState({cpf: e.target.value})}
                                 />
-                            </FormGroup>    
+                            </FormGroup>
                         </div>
                         <div class="col-md-6">
                             <FormGroup label="Telefone * " htmlFor="inputDefault">

@@ -1,11 +1,13 @@
 package sosoptica.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -30,7 +32,8 @@ public class Cliente {
     private String telefoneCliente;
 
     @Column(name = "data_de_nascimento")
-    private String dataDeNascimentoCliente;
+    @JsonFormat(pattern="dd/MM/yyyy")
+    private LocalDate dataDeNascimentoCliente;
 
     @Column(name = "cpf")
     private String cpf;

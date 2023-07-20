@@ -34,6 +34,8 @@ A Monitora (Bruna).
 
 - Criação do USM.
 - Atualização do git pages.
+- Criação da especificação UC
+- Criação do diagrama UC
 
 #### Renato:
 
@@ -47,6 +49,7 @@ A Monitora (Bruna).
 **O que fez:**
 
 - Implementação do back-end do cadastro e login do usuário.
+- Criação da especificação UC
 - Criação do USM.
 
 ### Entregas:
