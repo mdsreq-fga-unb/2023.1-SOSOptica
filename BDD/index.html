@@ -1,0 +1,1664 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../PontuacaoMVP/">
+      
+      
+        <link rel="next" href="../USM/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.19">
+    
+    
+      
+        <title>BDD - SOSóptica</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#behavior-driven-development" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="SOSóptica" class="md-header__button md-logo" aria-label="SOSóptica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SOSóptica
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              BDD
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SOSóptica" class="md-nav__button md-logo" aria-label="SOSóptica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SOSóptica
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Sobre
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visao/" class="md-nav__link">
+        Visão do produto e projeto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint3/" class="md-nav__link">
+        Sprint 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Entregas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entregas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade1/" class="md-nav__link">
+        Unidade 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade2/" class="md-nav__link">
+        Unidade 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade3/" class="md-nav__link">
+        Unidade 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade4/" class="md-nav__link">
+        Unidade 4
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BacklogDoProduto/" class="md-nav__link">
+        Backlog do Produto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CanvasMVP/" class="md-nav__link">
+        Canvas MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        PBB
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BacklogSAFe/" class="md-nav__link">
+        BacklogSAFe
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PontuacaoMVP/" class="md-nav__link">
+        Pontuação do MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          BDD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        BDD
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    Histórico de Revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-bdd" class="md-nav__link">
+    1. BDD
+  </a>
+  
+    <nav class="md-nav" aria-label="1. BDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-us01-eu-como-usuario-desejo-poder-cadastrar-um-cliente-para-salvar-suas-informacoes-no-sistema" class="md-nav__link">
+    1.1. US01 - Eu, como usuário, desejo poder cadastrar um cliente para salvar suas informações no sistema.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1. US01 - Eu, como usuário, desejo poder cadastrar um cliente para salvar suas informações no sistema.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-criterio-de-aceitacao-deve-ser-possivel-cadastrar-clientes-no-sistema" class="md-nav__link">
+    1.1.1. Critério de Aceitação: Deve ser possível cadastrar clientes no sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-criterio-de-aceitacao-a-pagina-de-cadastro-de-cliente-deve-ter-campos-para-inserir-as-seguintes-informacoes-nome-endereco-numero-de-telefone-cpf-e-e-mail-data-de-nascimento" class="md-nav__link">
+    1.1.2. Critério de Aceitação: A página de cadastro de cliente deve ter campos para inserir as seguintes informações: Nome, endereço, número de telefone, CPF e e-mail, data de nascimento .
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-criterio-de-aceitacao-o-sistema-deve-validar-se-o-cpf-inserido-e-valido" class="md-nav__link">
+    1.1.3. Critério de Aceitação: O sistema deve validar se o CPF inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-criterio-de-aceitacao-o-sistema-deve-validar-se-o-e-mail-inserido-e-valido" class="md-nav__link">
+    1.1.4. Critério de Aceitação: O sistema deve validar se o e-mail inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#115-criterio-de-aceitacao-o-sistema-deve-validar-se-o-telefone-inserido-e-valido" class="md-nav__link">
+    1.1.5. Critério de Aceitação: O sistema deve validar se o telefone inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#116-o-sistema-deve-conter-mascara-para-os-campos-de-telefone-e-cpf" class="md-nav__link">
+    1.1.6. O sistema deve conter máscara para os campos de telefone e CPF.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#117-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro" class="md-nav__link">
+    1.1.7. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-us02-eu-como-usuario-desejo-uma-lista-para-visualizar-as-informacoes-do-cliente-no-sistema" class="md-nav__link">
+    1.2. US02 - Eu, como usuário, desejo uma lista para visualizar as informações do cliente no sistema.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. US02 - Eu, como usuário, desejo uma lista para visualizar as informações do cliente no sistema.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-a-lista-de-clientes-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.2.1. A lista de clientes deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-telefone" class="md-nav__link">
+    1.2.2. Deve se possível vizualizar informações básicas na lista: Nome, Telefone.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-nome-cpf" class="md-nav__link">
+    1.2.3. Deve ser possível filtrar a lista com base em informações específicas: Nome, CPF.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-us03-eu-como-usuario-desejo-poder-cadastrar-um-novo-produto-para-manter-um-estoque-atualizado" class="md-nav__link">
+    1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151-deve-ser-possivel-cadastrar-produtos" class="md-nav__link">
+    1.5.1. Deve ser possível cadastrar produtos.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152-a-pagina-de-cadastro-deve-possuir-os-seguintes-camposnome-do-produto-quantidade-valor-data-de-cadastro" class="md-nav__link">
+    1.5.2. A página de cadastro deve possuir os seguintes campos:Nome do Produto, Quantidade, Valor, Data de Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153-o-sistema-deve-validar-se-a-quantidade-informada-e-valida-valor-positivo-e-inteiro" class="md-nav__link">
+    1.5.3. O sistema deve validar se a quantidade informada é válida: valor positivo e inteiro.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154-o-sistema-deve-validar-se-o-valor-informado-e-valido-valor-positivo-e-real" class="md-nav__link">
+    1.5.4. O sistema deve validar se o valor informado é válido: valor positivo e real.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro" class="md-nav__link">
+    1.5.5. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-us04-eu-como-usuario-desejo-uma-lista-de-produtos-para-poder-visualizar-a-quantidade-disponivel" class="md-nav__link">
+    1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-a-lista-de-produtos-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.6.1. A lista de produtos deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor" class="md-nav__link">
+    1.6.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor" class="md-nav__link">
+    1.6.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-us05-eu-como-usuario-desejo-ser-notificado-quando-a-quantidade-de-um-determinado-produto-estiver-baixa-para-que-possa-realizar-novos-pedidos" class="md-nav__link">
+    1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-a-lista-de-produtos-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.7.1. A lista de produtos deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor" class="md-nav__link">
+    1.7.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor" class="md-nav__link">
+    1.7.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-us06-eu-como-usuario-desejo-realizar-o-cadastro-de-uma-venda-a-fim-de-manter-um-historico-de-vendas" class="md-nav__link">
+    1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181-deve-ser-possivel-realizar-uma-venda" class="md-nav__link">
+    1.8.1. Deve ser possível realizar uma venda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182-a-pagina-de-venda-deve-possuir-os-seguintes-campos-cliente-produtos-e-desconto" class="md-nav__link">
+    1.8.2. A página de venda deve possuir os seguintes campos: Cliente, Produtos e Desconto.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#183-o-usuario-deve-selecionar-um-cliente-cadastrado" class="md-nav__link">
+    1.8.3. O usuário deve selecionar um cliente cadastrado.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#184-o-usuario-deve-selecionar-um-ou-mais-produtos-cadastrados-bem-como-a-quantidade-que-o-cliente-comprara-de-cada-produto" class="md-nav__link">
+    1.8.4. O usuário deve selecionar um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#185-apos-a-conclusao-da-venda-o-sistema-deve-exibir-uma-mensagem-de-venda-realizada" class="md-nav__link">
+    1.8.5. Após a conclusão da venda, o sistema deve exibir uma mensagem de venda realizada.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#186-apos-a-conclusao-da-venda-a-compra-deve-ser-incluida-no-historico-de-compras-do-cliente" class="md-nav__link">
+    1.8.6. Após a conclusão da venda, a compra deve ser incluída no histórico de compras do cliente.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#187-apos-a-conclusao-da-venda-os-produtos-comprados-devem-ser-removidos-do-estoque" class="md-nav__link">
+    1.8.7. Após a conclusão da venda, os produtos comprados devem ser removidos do estoque.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        USM
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UseCase/" class="md-nav__link">
+        UseCase
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CriteriosDeAceitacao/" class="md-nav__link">
+        Critérios Aceitação
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    Histórico de Revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-bdd" class="md-nav__link">
+    1. BDD
+  </a>
+  
+    <nav class="md-nav" aria-label="1. BDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-us01-eu-como-usuario-desejo-poder-cadastrar-um-cliente-para-salvar-suas-informacoes-no-sistema" class="md-nav__link">
+    1.1. US01 - Eu, como usuário, desejo poder cadastrar um cliente para salvar suas informações no sistema.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1. US01 - Eu, como usuário, desejo poder cadastrar um cliente para salvar suas informações no sistema.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-criterio-de-aceitacao-deve-ser-possivel-cadastrar-clientes-no-sistema" class="md-nav__link">
+    1.1.1. Critério de Aceitação: Deve ser possível cadastrar clientes no sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-criterio-de-aceitacao-a-pagina-de-cadastro-de-cliente-deve-ter-campos-para-inserir-as-seguintes-informacoes-nome-endereco-numero-de-telefone-cpf-e-e-mail-data-de-nascimento" class="md-nav__link">
+    1.1.2. Critério de Aceitação: A página de cadastro de cliente deve ter campos para inserir as seguintes informações: Nome, endereço, número de telefone, CPF e e-mail, data de nascimento .
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-criterio-de-aceitacao-o-sistema-deve-validar-se-o-cpf-inserido-e-valido" class="md-nav__link">
+    1.1.3. Critério de Aceitação: O sistema deve validar se o CPF inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-criterio-de-aceitacao-o-sistema-deve-validar-se-o-e-mail-inserido-e-valido" class="md-nav__link">
+    1.1.4. Critério de Aceitação: O sistema deve validar se o e-mail inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#115-criterio-de-aceitacao-o-sistema-deve-validar-se-o-telefone-inserido-e-valido" class="md-nav__link">
+    1.1.5. Critério de Aceitação: O sistema deve validar se o telefone inserido é válido.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#116-o-sistema-deve-conter-mascara-para-os-campos-de-telefone-e-cpf" class="md-nav__link">
+    1.1.6. O sistema deve conter máscara para os campos de telefone e CPF.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#117-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro" class="md-nav__link">
+    1.1.7. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-us02-eu-como-usuario-desejo-uma-lista-para-visualizar-as-informacoes-do-cliente-no-sistema" class="md-nav__link">
+    1.2. US02 - Eu, como usuário, desejo uma lista para visualizar as informações do cliente no sistema.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. US02 - Eu, como usuário, desejo uma lista para visualizar as informações do cliente no sistema.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-a-lista-de-clientes-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.2.1. A lista de clientes deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-telefone" class="md-nav__link">
+    1.2.2. Deve se possível vizualizar informações básicas na lista: Nome, Telefone.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-nome-cpf" class="md-nav__link">
+    1.2.3. Deve ser possível filtrar a lista com base em informações específicas: Nome, CPF.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-us03-eu-como-usuario-desejo-poder-cadastrar-um-novo-produto-para-manter-um-estoque-atualizado" class="md-nav__link">
+    1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151-deve-ser-possivel-cadastrar-produtos" class="md-nav__link">
+    1.5.1. Deve ser possível cadastrar produtos.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152-a-pagina-de-cadastro-deve-possuir-os-seguintes-camposnome-do-produto-quantidade-valor-data-de-cadastro" class="md-nav__link">
+    1.5.2. A página de cadastro deve possuir os seguintes campos:Nome do Produto, Quantidade, Valor, Data de Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153-o-sistema-deve-validar-se-a-quantidade-informada-e-valida-valor-positivo-e-inteiro" class="md-nav__link">
+    1.5.3. O sistema deve validar se a quantidade informada é válida: valor positivo e inteiro.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154-o-sistema-deve-validar-se-o-valor-informado-e-valido-valor-positivo-e-real" class="md-nav__link">
+    1.5.4. O sistema deve validar se o valor informado é válido: valor positivo e real.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro" class="md-nav__link">
+    1.5.5. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-us04-eu-como-usuario-desejo-uma-lista-de-produtos-para-poder-visualizar-a-quantidade-disponivel" class="md-nav__link">
+    1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-a-lista-de-produtos-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.6.1. A lista de produtos deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor" class="md-nav__link">
+    1.6.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor" class="md-nav__link">
+    1.6.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-us05-eu-como-usuario-desejo-ser-notificado-quando-a-quantidade-de-um-determinado-produto-estiver-baixa-para-que-possa-realizar-novos-pedidos" class="md-nav__link">
+    1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-a-lista-de-produtos-deve-possuir-uma-pagina-propria" class="md-nav__link">
+    1.7.1. A lista de produtos deve possuir uma página própria.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor" class="md-nav__link">
+    1.7.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor" class="md-nav__link">
+    1.7.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-us06-eu-como-usuario-desejo-realizar-o-cadastro-de-uma-venda-a-fim-de-manter-um-historico-de-vendas" class="md-nav__link">
+    1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181-deve-ser-possivel-realizar-uma-venda" class="md-nav__link">
+    1.8.1. Deve ser possível realizar uma venda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182-a-pagina-de-venda-deve-possuir-os-seguintes-campos-cliente-produtos-e-desconto" class="md-nav__link">
+    1.8.2. A página de venda deve possuir os seguintes campos: Cliente, Produtos e Desconto.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#183-o-usuario-deve-selecionar-um-cliente-cadastrado" class="md-nav__link">
+    1.8.3. O usuário deve selecionar um cliente cadastrado.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#184-o-usuario-deve-selecionar-um-ou-mais-produtos-cadastrados-bem-como-a-quantidade-que-o-cliente-comprara-de-cada-produto" class="md-nav__link">
+    1.8.4. O usuário deve selecionar um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#185-apos-a-conclusao-da-venda-o-sistema-deve-exibir-uma-mensagem-de-venda-realizada" class="md-nav__link">
+    1.8.5. Após a conclusão da venda, o sistema deve exibir uma mensagem de venda realizada.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#186-apos-a-conclusao-da-venda-a-compra-deve-ser-incluida-no-historico-de-compras-do-cliente" class="md-nav__link">
+    1.8.6. Após a conclusão da venda, a compra deve ser incluída no histórico de compras do cliente.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#187-apos-a-conclusao-da-venda-os-produtos-comprados-devem-ser-removidos-do-estoque" class="md-nav__link">
+    1.8.7. Após a conclusão da venda, os produtos comprados devem ser removidos do estoque.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="behavior-driven-development">Behavior Driven Development</h1>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19/06/2023</td>
+<td>0.1</td>
+<td>Primeira versão do BDD</td>
+<td><a href="https://github.com/analufernanndess">Ana Luíza</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-bdd">1. BDD</h2>
+<h3 id="11-us01-eu-como-usuario-desejo-poder-cadastrar-um-cliente-para-salvar-suas-informacoes-no-sistema">1.1. <strong>US01 - Eu, como usuário, desejo poder cadastrar um cliente para salvar suas informações no sistema.</strong></h3>
+<h4 id="111-criterio-de-aceitacao-deve-ser-possivel-cadastrar-clientes-no-sistema">1.1.1. Critério de Aceitação: Deve ser possível cadastrar clientes no sistema.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - Cadastrar cliente com sucesso
+    1. Dado que o usuário está na tela de cadastro de cliente
+    2. Quando o usuário preenche todos os campos obrigatórios corretamente. Por exemplo:
+        - Nome: João
+        - Telefone: 61 9 9999-9999
+        - Data de Nascimento: 19/02/1995
+    3. Então o sistema exibe uma mensagem de sucesso
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - Cadastrar cliente com **falha**
+   1. Dado que o usuário está na tela de cadastro de cliente
+   2. Quando o usuário não preenche todos os campos obrigatórios corretamente. Por exemplo:
+        - Nome: João
+        - Telefone:
+        - Data de Nascimento: 19/02/1995
+   3. Então o sistema exibe uma mensagem de erro
+        - O campo telefone deve ser preenchido!
+   4. E o sistema não cadastra o cliente
+</code></pre></div>
+<h4 id="112-criterio-de-aceitacao-a-pagina-de-cadastro-de-cliente-deve-ter-campos-para-inserir-as-seguintes-informacoes-nome-endereco-numero-de-telefone-cpf-e-e-mail-data-de-nascimento">1.1.2. Critério de Aceitação: A página de cadastro de cliente deve ter campos para inserir as seguintes informações: Nome, endereço, número de telefone, CPF e e-mail, data de nascimento .</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir dados do cliente com sucesso
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o nome: Ana Luíza Fernandes, CPF: 064.998.785-99,telefone: (61)98888-8888, email: ana@email.com e a data de nascimento: 18/05/2003
+    3. Então com os dados válidos o sistema deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir dados do cliente com **falha**
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o nome: Ana Luíza Fernandes, CPF: 06.998.785-99,telefone: (6)98888-888, email: anaemail.com e a data de nascimento: 18/05/1000
+    3. Então com os dados inválidos o sistema não deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<h4 id="113-criterio-de-aceitacao-o-sistema-deve-validar-se-o-cpf-inserido-e-valido">1.1.3. Critério de Aceitação: O sistema deve validar se o CPF inserido é válido.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir CPF válido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o CPF: 064.998.785-99
+    3. Então com o CPF válido o sistema deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir CPF inválido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o CPF: 06.998.785-99
+    3. Então com o CPF inválido o sistema não deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<h4 id="114-criterio-de-aceitacao-o-sistema-deve-validar-se-o-e-mail-inserido-e-valido">1.1.4. Critério de Aceitação: O sistema deve validar se o e-mail inserido é válido.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir e-mail válido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o e-mail:ana@email.com
+    3. Então com o e-mail válido o sistema deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir e-mail inválido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o e-mail:anaemail.com
+    3. Então com o e-mail inválido o sistema não deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<h4 id="115-criterio-de-aceitacao-o-sistema-deve-validar-se-o-telefone-inserido-e-valido">1.1.5. Critério de Aceitação: O sistema deve validar se o telefone inserido é válido.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir telefone válido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o telefone:(61)98888-8888
+    3. Então com o telefone válido o sistema deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - inserir telefone inválido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente, cujo o telefone:(6)98888
+    3. Então com o telefone inválido o sistema não deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<h4 id="116-o-sistema-deve-conter-mascara-para-os-campos-de-telefone-e-cpf">1.1.6. O sistema deve conter máscara para os campos de telefone e CPF.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - contém &quot;máscara&quot; para os campos de telefone e CPF
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente e inserir o CPF e o telefone, o sistema deve conter máscara para os campos de telefone e CPF.
+    3. Então com o telefone e CPF válidos o sistema deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não contém &quot;máscara&quot; para os campos de telefone e CPF
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente
+    2. Quando o usuário começar a cadastrar o cliente e inserir o CPF e o telefone, o sistema não deve conter máscara para os campos de telefone e CPF.
+    3. Então com o telefone e CPF inválidos o sistema não deve armazenar os dados cadastrais do cliente.
+</code></pre></div>
+<h4 id="117-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro">1.1.7. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir mensagem de sucesso do cadastro
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente.
+    2. Quando o usuário começar a cadastrar o cliente e inserir todos os dados válidos, cujo o nome: Ana Luíza Fernandes, CPF: 064.998.785-99,telefone: (61)98888-8888, email: ana@email.com e a data de nascimento: 18/05/2003
+    3. Então o sistema deve exibir uma mensagem de sucesso do cadastro.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir mensagem de sucesso do cadastro
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar o cliente.
+    2. Quando o usuário começar a cadastrar o cliente e inserir todos os dados inválidos, cujo o nome: Ana Luíza Fernandes, CPF: 06.998.785-99,telefone: (6)98888-888, email: anaemail.com e a data de nascimento: 18/05/1000
+    3. Então o sistema não deve exibir uma mensagem de sucesso do cadastro.
+</code></pre></div>
+<h3 id="12-us02-eu-como-usuario-desejo-uma-lista-para-visualizar-as-informacoes-do-cliente-no-sistema">1.2. <strong>US02 - Eu, como usuário, desejo uma lista para visualizar as informações do cliente no sistema.</strong></h3>
+<h4 id="121-a-lista-de-clientes-deve-possuir-uma-pagina-propria">1.2.1. A lista de clientes deve possuir uma página própria.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir lista de clientes
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+    2. Quando o usuário entrar na aba de listar clientes
+    3. Então o sistema deve exibir uma lista de clientes
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>    Cenário - não exibir lista de clientes
+        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+        2. Quando o usuário não tiver cadastrado nenhum cliente
+        3. Então o sistema não deve exibir uma lista de clientes
+</code></pre></div>
+<h4 id="122-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-telefone">1.2.2. Deve se possível vizualizar informações básicas na lista: Nome, Telefone.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+    2. Quando o usuário entrar na aba de listar clientes
+    3. Então o sistema deve exibir uma lista de clientes com as informações básicas, como: Ana Luíza Fernandes, telefone: (61)98888-8888
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+    2. Quando o usuário entrar na aba de listar clientes
+    3. Então o sistema não deve exibir uma lista de clientes com as informações básicas, como: Ana Luíza Fernandes, telefone: (61)98888-8888
+</code></pre></div>
+<h4 id="123-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-nome-cpf">1.2.3. Deve ser possível filtrar a lista com base em informações específicas: Nome, CPF.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+    2. Quando o usuário entrar na aba de listar clientes e filtrar a lista com base em informações específicas
+    3. Então o sistema deve exibir uma lista de clientes com as informações específicas, como: Ana Luíza Fernandes, CPF: 064.998.785-99
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de listar clientes
+    2. Quando o usuário entrar na aba de listar clientes e não filtrar a lista com base em informações específicas
+    3. Então o sistema não deve exibir uma lista de clientes com as informações específicas, como: Ana Luíza Fernandes, CPF: 064.998.785-99
+</code></pre></div>
+<h3 id="15-us03-eu-como-usuario-desejo-poder-cadastrar-um-novo-produto-para-manter-um-estoque-atualizado">1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.</h3>
+<h4 id="151-deve-ser-possivel-cadastrar-produtos">1.5.1. Deve ser possível cadastrar produtos.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - cadastrar produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto
+    3. Então o sistema deve exibir os campos: Nome do produto:Rayban, Quantidade: 10, Valor: R$500,00, data de cadastro: 01/01/2021
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenaŕio - não cadastrar produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e não inserir os dados do produto
+    3. Então o sistema não deve cadastrar produtos
+</code></pre></div>
+<h4 id="152-a-pagina-de-cadastro-deve-possuir-os-seguintes-camposnome-do-produto-quantidade-valor-data-de-cadastro">1.5.2. A página de cadastro deve possuir os seguintes campos:Nome do Produto, Quantidade, Valor, Data de Cadastro</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir campos para cadastrar produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto
+    3. Então o sistema deve exibir os campos: Nome do produto:Rayban, Quantidade: 10, Valor: R$500,00, data de cadastro: 01/01/2021
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir campos para cadastrar produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e não começar a inserir os dados do produto
+    3. Então o sistema não deve exibir os campos
+</code></pre></div>
+<h4 id="153-o-sistema-deve-validar-se-a-quantidade-informada-e-valida-valor-positivo-e-inteiro">1.5.3. O sistema deve validar se a quantidade informada é válida: valor positivo e inteiro.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - validar se a quantidade informada é válida
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto, como quantidade: 10
+    3. Então o sistema deve validar a quantidade informada
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não validar se a quantidade informada é válida
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto, como quantidade: -10
+    3. Então o sistema não deve validar a quantidade informada
+</code></pre></div>
+<h4 id="154-o-sistema-deve-validar-se-o-valor-informado-e-valido-valor-positivo-e-real">1.5.4. O sistema deve validar se o valor informado é válido: valor positivo e real.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - validar se o valor informado é válido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto, como valor: R$500,00
+    3. Então o sistema deve validar que o valor informado é válido
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não validar se o valor informado é válido
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto, como valor: -500,00
+    3. Então o sistema não deve validar que o valor informado é válido
+</code></pre></div>
+<h4 id="155-apos-o-cadastro-o-sistema-deve-exibir-uma-mensagem-de-sucesso-do-cadastro">1.5.5. Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir mensagem de sucesso do cadastro
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e começar a inserir os dados do produto, como Nome do produto:Rayban, Quantidade: 10, Valor: R$500,00, data de cadastro: 01/01/2021 e clicar em cadastrar
+    3. Então o sistema deve exibir uma mensagem de sucesso do cadastro
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir mensagem de sucesso do cadastro
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar produtos
+    2. Quando o usuário entrar na aba de cadastrar produtos e não começar a inserir os dados do produto, como Nome do produto:Rayban, Quantidade: -10, Valor: -500,00, data de cadastro: 01/01/2021 e clicar em cadastrar
+    3. Então o sistema não deve exibir uma mensagem de sucesso do cadastro
+</code></pre></div>
+<h3 id="16-us04-eu-como-usuario-desejo-uma-lista-de-produtos-para-poder-visualizar-a-quantidade-disponivel">1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.</h3>
+<h4 id="161-a-lista-de-produtos-deve-possuir-uma-pagina-propria">1.6.1. A lista de produtos deve possuir uma página própria.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir lista de produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos
+    3. Então o sistema deve exibir uma lista de produtos
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir lista de produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário não tiver nenhum produto cadastrado
+    3. Então o sistema não deve exibir uma lista de produtos
+</code></pre></div>
+<h4 id="162-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor">1.6.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos
+    3. Então o sistema deve exibir uma lista de produtos com as informações básicas: Nome do Produto: Rayban, Quantidade: 10, Valor:R$500,00, data de cadastro: 01/01/2021
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário não tiver nenhum produto cadastrado
+    3. Então o sistema não deve exibir uma lista de produtos com as informações básicas
+</code></pre></div>
+<h4 id="163-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor">1.6.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações específicas, como quantidade: 10
+    3. Então o sistema deve filtrar a lista com base em informações específicas inseridas
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações que não existem, como quantidade: -10
+    3. Então o sistema não deve filtrar a lista com base em informações específicas inseridas
+</code></pre></div>
+<h3 id="17-us05-eu-como-usuario-desejo-ser-notificado-quando-a-quantidade-de-um-determinado-produto-estiver-baixa-para-que-possa-realizar-novos-pedidos">1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.</h3>
+<h4 id="171-a-lista-de-produtos-deve-possuir-uma-pagina-propria">1.7.1. A lista de produtos deve possuir uma página própria.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir lista de produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos e exista produtos cadastrados
+    3. Então o sistema deve exibir uma lista de produtos
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir lista de produtos
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário não tiver nenhum produto cadastrado
+    3. Então o sistema não deve exibir uma lista de produtos
+</code></pre></div>
+<h4 id="172-deve-se-possivel-vizualizar-informacoes-basicas-na-lista-nome-do-produto-quantidade-valor">1.7.2. Deve se possível vizualizar informações básicas na lista: Nome do Produto, Quantidade, Valor.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos
+    3. Então o sistema deve exibir uma lista de produtos com as informações básicas: Nome do Produto: Rayban, Quantidade: 10, Valor:R$500,00, data de cadastro: 01/01/2021
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir informações básicas na lista
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário não tiver nenhum produto cadastrado
+    3. Então o sistema não deve exibir uma lista de produtos com as informações básicas
+</code></pre></div>
+<h4 id="173-deve-ser-possivel-filtrar-a-lista-com-base-em-informacoes-especificas-quantidade-valor">1.7.3. Deve ser possível filtrar a lista com base em informações específicas: Quantidade, Valor.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações específicas, como nome: Rayban
+    3. Então o sistema deve filtrar a lista com base em informações específicas inseridas
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não filtrar a lista com base em informações específicas
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de lista de produtos
+    2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações que não existem, como nome: Salmão
+    3. Então o sistema não deve filtrar a lista com base em informações específicas inseridas
+</code></pre></div>
+<h3 id="18-us06-eu-como-usuario-desejo-realizar-o-cadastro-de-uma-venda-a-fim-de-manter-um-historico-de-vendas">1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.</h3>
+<h4 id="181-deve-ser-possivel-realizar-uma-venda">1.8.1. Deve ser possível realizar uma venda</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - realizar uma venda
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e cadastrar sua venda
+    3. Então o sistema deve exibir uma página de venda
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não realizar uma venda
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não cadastrar sua venda
+    3. Então o sistema não deve exibir uma página de venda
+</code></pre></div>
+<h4 id="182-a-pagina-de-venda-deve-possuir-os-seguintes-campos-cliente-produtos-e-desconto">1.8.2. A página de venda deve possuir os seguintes campos: Cliente, Produtos e Desconto.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir campos na página de venda
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda
+    3. Então o sistema deve exibir uma página de venda com os seguintes campos: Cliente, Produtos e Desconto.
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir campos na página de venda
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não existir nenhum Produto cadastrado e cliente cadastrado
+    3. Então o sistema não deve exibir uma página de venda
+</code></pre></div>
+<h4 id="183-o-usuario-deve-selecionar-um-cliente-cadastrado">1.8.3. O usuário deve selecionar um cliente cadastrado.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - selecionar um cliente cadastrado
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e selecionar um cliente cadastrado, cujo nome é: Ana Luiza Fernandes
+    3. Então o sistema deve exibir uma página de venda com o cliente selecionado
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não selecionar um cliente cadastrado
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não selecionar um cliente cadastrado
+    3. Então o sistema não deve exibir uma página de venda
+</code></pre></div>
+<h4 id="184-o-usuario-deve-selecionar-um-ou-mais-produtos-cadastrados-bem-como-a-quantidade-que-o-cliente-comprara-de-cada-produto">1.8.4. O usuário deve selecionar um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - selecionar um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto, cujo são:Ana Luiza Fernandes, Rayban, 2
+    3. Então o sistema deve exibir uma página de venda com o cliente e os produtos selecionados
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não selecionar um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto
+    3. Então o sistema não deve exibir uma página de venda
+</code></pre></div>
+<h4 id="185-apos-a-conclusao-da-venda-o-sistema-deve-exibir-uma-mensagem-de-venda-realizada">1.8.5. Após a conclusão da venda, o sistema deve exibir uma mensagem de venda realizada.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - exibir mensagem de venda realizada
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto e concluir a venda
+    3. Então o sistema deve exibir uma mensagem de venda realizada
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não exibir mensagem de venda realizada
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto e concluir a venda
+    3. Então o sistema não deve exibir uma mensagem de venda realizada
+</code></pre></div>
+<h4 id="186-apos-a-conclusao-da-venda-a-compra-deve-ser-incluida-no-historico-de-compras-do-cliente">1.8.6. Após a conclusão da venda, a compra deve ser incluída no histórico de compras do cliente.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - incluir a compra no histórico de compras do cliente
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto e concluir a venda
+    3. Então o sistema deve incluir a compra no histórico de compras do cliente
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não incluir a compra no histórico de compras do cliente
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto e concluir a venda
+    3. Então o sistema não deve incluir a compra no histórico de compras do cliente
+</code></pre></div>
+<h4 id="187-apos-a-conclusao-da-venda-os-produtos-comprados-devem-ser-removidos-do-estoque">1.8.7. Após a conclusão da venda, os produtos comprados devem ser removidos do estoque.</h4>
+<p>CASO VÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - remover os produtos comprados do estoque
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e selecionar o cliente e um ou mais produtos cadastrados bem como a quantidade que o cliente comprará de cada produto e concluir a venda
+    3. Então o sistema deve remover os produtos comprados do estoque
+</code></pre></div>
+<p>CASO INVÁLIDO:</p>
+<div class="highlight"><pre><span></span><code>Cenário - não remover os produtos comprados do estoque
+    1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de venda
+    2. Quando o usuário entrar na aba de venda e não concluir a venda pois não há produtos cadastrados no estoque
+    3. Então o sistema não deve remover os produtos comprados do estoque
+</code></pre></div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        
+      
+    
+  </body>
+</html>

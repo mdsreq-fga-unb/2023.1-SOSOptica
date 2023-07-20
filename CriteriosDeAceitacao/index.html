@@ -1,0 +1,952 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../UseCase/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.19">
+    
+    
+      
+        <title>Critérios Aceitação - SOSóptica</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#criterios-de-aceitacao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="SOSóptica" class="md-header__button md-logo" aria-label="SOSóptica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SOSóptica
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Critérios Aceitação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SOSóptica" class="md-nav__button md-logo" aria-label="SOSóptica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SOSóptica
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Sobre
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visao/" class="md-nav__link">
+        Visão do produto e projeto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint3/" class="md-nav__link">
+        Sprint 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/Sprint6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Entregas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entregas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade1/" class="md-nav__link">
+        Unidade 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade2/" class="md-nav__link">
+        Unidade 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade3/" class="md-nav__link">
+        Unidade 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entregas/Unidade4/" class="md-nav__link">
+        Unidade 4
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BacklogDoProduto/" class="md-nav__link">
+        Backlog do Produto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CanvasMVP/" class="md-nav__link">
+        Canvas MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        PBB
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BacklogSAFe/" class="md-nav__link">
+        BacklogSAFe
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PontuacaoMVP/" class="md-nav__link">
+        Pontuação do MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BDD/" class="md-nav__link">
+        BDD
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        USM
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UseCase/" class="md-nav__link">
+        UseCase
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Critérios Aceitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Critérios Aceitação
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceitacao" class="md-nav__link">
+    Critérios de Aceitação:
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de Aceitação:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us-01-eu-como-usuario-desejo-poder-cadastrar-um-usuario-para-acessar-o-sistema" class="md-nav__link">
+    US-01 Eu, como usuário, desejo poder cadastrar um Usuário para acessar o sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-03-eu-como-usuario-desejo-poder-fazer-login-na-minha-conta-de-usuario-para-acessar-o-sistema" class="md-nav__link">
+    US-03 Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-eu-como-usuario-desejo-poder-cadastrar-um-novo-cliente-para-que-eu-possa-armazenar-suas-informacoes-no-sistema" class="md-nav__link">
+    US04 Eu, como Usuário, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-eu-como-usuario-gostaria-de-poder-editar-as-informacoes-de-um-cliente-existente-para-atualizar-e-corrigir-os-dados-do-cliente-conforme-necessario" class="md-nav__link">
+    US05 Eu, como Usuário, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-eu-como-usuario-desejo-poder-visualizar-uma-lista-de-todos-os-clientes-cadastrados-para-que-eu-possa-consultar-suas-informacoes" class="md-nav__link">
+    US06 Eu, como Usuário, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-eu-como-usuario-gostaria-de-consultar-o-historico-de-vendas-da-optica" class="md-nav__link">
+    US07 Eu, como Usuário, gostaria de consultar o histórico de vendas da óptica.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-eu-como-usuario-realizar-importacao-dos-dados-existentes-do-cliente-para-o-sistema-sosoptica" class="md-nav__link">
+    US09 Eu, como Usuário, realizar importação dos dados existentes do cliente para o sistema SOSOptica
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-eu-como-usuario-desejo-criar-uma-venda-de-produtos-para-um-cliente-para-registrar-e-acompanhar-as-transacoes-de-vendas" class="md-nav__link">
+    US14 Eu, como Usuário, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-18-eu-como-usuario-desejo-cadastrar-novos-produtos-no-estoque-para-manter-um-registro-preciso-da-quantidade-disponivel" class="md-nav__link">
+    US-18 Eu, como usuário, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-eu-como-usuario-desejo-visualizar-uma-lista-atualizada-com-todos-os-produtos-do-estoque-disponiveis" class="md-nav__link">
+    US20 Eu, como Usuário, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-21-eu-como-usuario-gostaria-de-poder-deletar-um-produto-existente-para-remover-produtos-obsoletos-ou-nao-utilizados-do-sistema" class="md-nav__link">
+    US-21 Eu, como usuário, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-eu-como-usuario-gostaria-de-saber-quais-produtos-estao-com-estoque-baixo-para-manter-um-melhor-controle-do-estoque" class="md-nav__link">
+    US22 Eu, como Usuário, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceitacao" class="md-nav__link">
+    Critérios de Aceitação:
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de Aceitação:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us-01-eu-como-usuario-desejo-poder-cadastrar-um-usuario-para-acessar-o-sistema" class="md-nav__link">
+    US-01 Eu, como usuário, desejo poder cadastrar um Usuário para acessar o sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-03-eu-como-usuario-desejo-poder-fazer-login-na-minha-conta-de-usuario-para-acessar-o-sistema" class="md-nav__link">
+    US-03 Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-eu-como-usuario-desejo-poder-cadastrar-um-novo-cliente-para-que-eu-possa-armazenar-suas-informacoes-no-sistema" class="md-nav__link">
+    US04 Eu, como Usuário, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-eu-como-usuario-gostaria-de-poder-editar-as-informacoes-de-um-cliente-existente-para-atualizar-e-corrigir-os-dados-do-cliente-conforme-necessario" class="md-nav__link">
+    US05 Eu, como Usuário, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-eu-como-usuario-desejo-poder-visualizar-uma-lista-de-todos-os-clientes-cadastrados-para-que-eu-possa-consultar-suas-informacoes" class="md-nav__link">
+    US06 Eu, como Usuário, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-eu-como-usuario-gostaria-de-consultar-o-historico-de-vendas-da-optica" class="md-nav__link">
+    US07 Eu, como Usuário, gostaria de consultar o histórico de vendas da óptica.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-eu-como-usuario-realizar-importacao-dos-dados-existentes-do-cliente-para-o-sistema-sosoptica" class="md-nav__link">
+    US09 Eu, como Usuário, realizar importação dos dados existentes do cliente para o sistema SOSOptica
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-eu-como-usuario-desejo-criar-uma-venda-de-produtos-para-um-cliente-para-registrar-e-acompanhar-as-transacoes-de-vendas" class="md-nav__link">
+    US14 Eu, como Usuário, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-18-eu-como-usuario-desejo-cadastrar-novos-produtos-no-estoque-para-manter-um-registro-preciso-da-quantidade-disponivel" class="md-nav__link">
+    US-18 Eu, como usuário, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-eu-como-usuario-desejo-visualizar-uma-lista-atualizada-com-todos-os-produtos-do-estoque-disponiveis" class="md-nav__link">
+    US20 Eu, como Usuário, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-21-eu-como-usuario-gostaria-de-poder-deletar-um-produto-existente-para-remover-produtos-obsoletos-ou-nao-utilizados-do-sistema" class="md-nav__link">
+    US-21 Eu, como usuário, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-eu-como-usuario-gostaria-de-saber-quais-produtos-estao-com-estoque-baixo-para-manter-um-melhor-controle-do-estoque" class="md-nav__link">
+    US22 Eu, como Usuário, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Critérios Aceitação</h1>
+
+<h2 id="criterios-de-aceitacao">Critérios de Aceitação:</h2>
+<h3 id="us-01-eu-como-usuario-desejo-poder-cadastrar-um-usuario-para-acessar-o-sistema">US-01 Eu, como usuário, desejo poder cadastrar um Usuário para acessar o sistema.</h3>
+<ul>
+<li>A pagina de cadastro de Usuário deve exibir nome, email, senha.</li>
+<li>Ao cadastrar novo Usuário deve ser exibido uma mensagem de “sucesso”.</li>
+<li>Ao cadastrar Usuário com email já existente deve exibir mensagem de erro : “ Usuário já cadastrado com o email informado “.</li>
+</ul>
+<h3 id="us-03-eu-como-usuario-desejo-poder-fazer-login-na-minha-conta-de-usuario-para-acessar-o-sistema">US-03 Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.</h3>
+<ul>
+<li>Sistema consegue encontrar o Usuário</li>
+<li>Identificar Usuário Logado</li>
+<li>A página de login deve ser exibida corretamente, com os campos de nome de usuário/endereço de e-mail e senha visíveis e destacados.</li>
+<li>Se as informações de login forem válidas, o usuário deve ser redirecionado para a página inicial da conta.</li>
+<li>Se as informações de login forem inválidas, o usuário deve receber uma mensagem de erro clara indicando que as credenciais estão incorretas.</li>
+</ul>
+<h3 id="us04-eu-como-usuario-desejo-poder-cadastrar-um-novo-cliente-para-que-eu-possa-armazenar-suas-informacoes-no-sistema">US04 Eu, como Usuário, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.</h3>
+<ul>
+<li>Deve ser possível cadastrar clientes no sistema.</li>
+<li>A página de cadastro de cliente deve ter campos para inserir as seguintes informações: nome, número de telefone, CPF e e-mail, data de nascimento.</li>
+<li>O sistema deve validar se o email inserido é válido.</li>
+<li>O sistema deve validar se o CPF inserido é válido.</li>
+<li>O sistema deve validar se o telefone inserido é válido.</li>
+<li>O sistema deve conter máscara para os campos de telefone e CPF.</li>
+<li>Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.</li>
+<li>Caso deseje cancelar o cadastro, o Usuário deve ser redirecionado para a página de lista de itens de cliente atualizada.</li>
+</ul>
+<h3 id="us05-eu-como-usuario-gostaria-de-poder-editar-as-informacoes-de-um-cliente-existente-para-atualizar-e-corrigir-os-dados-do-cliente-conforme-necessario">US05 Eu, como Usuário, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.</h3>
+<ul>
+<li>O sistema deve permitir que o usuário edite campos como nome, endereço, número de telefone, e-mail e outras informações relevantes.</li>
+<li>O sistema deve realizar validações de dados durante a edição para garantir que as informações sejam inseridas corretamente.</li>
+<li>O sistema deve exibir uma mensagem de confirmação para informar ao usuário que as alterações foram salvas com sucesso.</li>
+<li>O sistema deve permitir o cancelamento da edição, restaurando as informações originais do cliente.</li>
+<li>Caso ocorra um erro durante o processo de edição, o sistema deve fornecer uma mensagem de erro.</li>
+</ul>
+<h3 id="us06-eu-como-usuario-desejo-poder-visualizar-uma-lista-de-todos-os-clientes-cadastrados-para-que-eu-possa-consultar-suas-informacoes">US06 Eu, como Usuário, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.</h3>
+<ul>
+<li>Deve existir uma página ou tela dedicada para a lista de clientes.</li>
+<li>Cada cliente na lista deve exibir informações básicas, como nome e número de telefone.</li>
+<li>Deve ser possível buscar clientes na lista com base em critérios específicos, como nome e CPF.</li>
+<li>Ao clicar no icone "Editar" o Usuário deve ser redirecionado para página de editar Cliente.</li>
+</ul>
+<h3 id="us07-eu-como-usuario-gostaria-de-consultar-o-historico-de-vendas-da-optica">US07 Eu, como Usuário, gostaria de consultar o histórico de vendas da óptica.</h3>
+<ul>
+<li>Deve existir uma página dedicada para o histórico de vendas.</li>
+<li>O histórico de vendas deve ser apresentada de forma clara e organizada, exibindo informações relevantes, como produto, cliente, quantidade, valor e data da venda.</li>
+<li>Caso o histórico seja extenso, o sistema deve fornecer recursos de paginação para facilitar a navegação entre as páginas de resultados.</li>
+</ul>
+<h3 id="us09-eu-como-usuario-realizar-importacao-dos-dados-existentes-do-cliente-para-o-sistema-sosoptica">US09 Eu, como Usuário, realizar importação dos dados existentes do cliente para o sistema SOSOptica</h3>
+<ul>
+<li>O banco de dados do sistema deve conter Produtos que já existem na base de dados antiga com os devidos campos preenchidos: Nome, Descrição, Marca, Cores disponívei, Quantidade, Preço de custo, Preço de venda e Data de cadastro.</li>
+</ul>
+<h3 id="us14-eu-como-usuario-desejo-criar-uma-venda-de-produtos-para-um-cliente-para-registrar-e-acompanhar-as-transacoes-de-vendas">US14 Eu, como Usuário, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.</h3>
+<ul>
+<li>Deve ser possível selecionar o cliente para o qual a venda está sendo realizada.</li>
+<li>Deve ser possível adicionar produtos à venda, especificando a quantidade e o preço unitário.</li>
+<li>Deve haver um cálculo automático do valor total da venda com base nas quantidades e preços dos produtos.</li>
+<li>A venda criada deve ser armazenada no sistema para consulta e análise posterior.</li>
+</ul>
+<h3 id="us-18-eu-como-usuario-desejo-cadastrar-novos-produtos-no-estoque-para-manter-um-registro-preciso-da-quantidade-disponivel">US-18 Eu, como usuário, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.</h3>
+<ul>
+<li>Produto deve ser cadastrado no banco de dados com sucesso.</li>
+<li>Os campos necessários para cadastrar um item de estoque, como nome, descrição, quantidade, marca, preço de custo , preço de venda e cores disponíveis devem estar presentes na página de cadastro.</li>
+<li>Após preencher todas as informações necessárias, o Usuário deve ter a opção de salvar o registro do item de estoque.</li>
+<li>Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.</li>
+<li>Caso deseje cancelar o cadastro, o Usuário deve ser redirecionado para a página de lista de produtos atualizada.</li>
+</ul>
+<h3 id="us20-eu-como-usuario-desejo-visualizar-uma-lista-atualizada-com-todos-os-produtos-do-estoque-disponiveis">US20 Eu, como Usuário, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.</h3>
+<ul>
+<li>A tabela na página de listagem de estoque deve exibir corretamente os detalhes de cada item de estoque, como nome, quantidade disponível e preço de venda.</li>
+<li>A lista de estoque deve ser ordenada de acordo com o critério especificado (por exemplo, nome do produto ou quantidade disponível).</li>
+<li>A função de pesquisa na lista de estoque deve permitir que o Usuário insira o nome ou parte do nome do produto e exiba apenas os itens que correspondem à pesquisa.</li>
+<li>Quando a lista de estoque for muito extensa, deve haver suporte para paginação, dividindo a lista em várias páginas.</li>
+<li>Cada item na lista de estoque exibido em cada página da paginação deve incluir ícones visíveis para editar e excluir o item.</li>
+<li>Ao clicar no icone "Excluir" deve excluir registro e exibir messagem que produto foi excluido com sucesso.</li>
+</ul>
+<h3 id="us-21-eu-como-usuario-gostaria-de-poder-deletar-um-produto-existente-para-remover-produtos-obsoletos-ou-nao-utilizados-do-sistema">US-21 Eu, como usuário, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.</h3>
+<ul>
+<li>Deve existir uma opção para deletar um produto na página “listar produtos”.</li>
+<li>Ao selecionar a opção de deletar, o sistema deve exibir uma confirmação para garantir a ação do usuário.</li>
+<li>Após a confirmação, o produto selecionado deve ser removido permanentemente do sistema.</li>
+<li>Depois de deletado, o produto não deve mais ser exibido na lista de produtos disponíveis no sistema.</li>
+</ul>
+<h3 id="us22-eu-como-usuario-gostaria-de-saber-quais-produtos-estao-com-estoque-baixo-para-manter-um-melhor-controle-do-estoque">US22 Eu, como Usuário, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.</h3>
+<ul>
+<li>Visualizar produtos que estão em falta ou baixa quantidade no estoque</li>
+<li>Vizualizar os produtos de maneira ordenada de maneira que o produto com menos quantidade esteja em primeiro e o com mais quantidade esteja em ultimo.</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        
+      
+    
+  </body>
+</html>
