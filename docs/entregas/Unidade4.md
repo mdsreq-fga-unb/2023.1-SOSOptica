@@ -1,4 +1,3 @@
-## Entregas:
 
 ## USM: 
 
