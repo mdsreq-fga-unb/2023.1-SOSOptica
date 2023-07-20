@@ -2,7 +2,7 @@
 
 - Time de desenvolvimento conhece as tecnologias?
 - Regras de negócio estão bem descritas e claras?
-- Criterios de aceitação estão claros?
+- Critérios de aceitação estão claros?
 
 ### Definition of Done
 
