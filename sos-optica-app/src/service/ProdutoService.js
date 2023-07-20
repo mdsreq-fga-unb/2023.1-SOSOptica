@@ -25,7 +25,11 @@ class ProdutoService extends Apiservice{
     salvar(dadosProduto){
         return this.post('/cadastrarProduto',dadosProduto)
     }
-
+    /*
+    async atualizar(id, dadosProduto){
+        return (await this.put(`/${id}`,dadosProduto));
+    }
+    */
 }
 
 export default ProdutoService;
