@@ -1,15 +1,15 @@
 ## Critérios de Aceitação:
 
-### US-01 Eu, como usuário, desejo poder cadastrar um Usuario para acessar o sistema.
+### US-01 Eu, como usuário, desejo poder cadastrar um Usuário para acessar o sistema.
 
-- A pagina de cadastro de Usuario deve exibir nome, email, senha.
-- Ao cadastrar novo usuario deve ser exibido uma mensagem de “sucesso”.
-- Ao cadastrar Usuario com email já existente deve exibir mensagem de erro : “ Usuario já cadastrado com o email informado “.
+- A pagina de cadastro de Usuário deve exibir nome, email, senha.
+- Ao cadastrar novo Usuário deve ser exibido uma mensagem de “sucesso”.
+- Ao cadastrar Usuário com email já existente deve exibir mensagem de erro : “ Usuário já cadastrado com o email informado “.
 
 ### US-03 Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.
 
-- Sistema consegue encontrar o Usuario
-- Identificar Usuario Logado
+- Sistema consegue encontrar o Usuário
+- Identificar Usuário Logado
 - A página de login deve ser exibida corretamente, com os campos de nome de usuário/endereço de e-mail e senha visíveis e destacados.
 - Se as informações de login forem válidas, o usuário deve ser redirecionado para a página inicial da conta.
 - Se as informações de login forem inválidas, o usuário deve receber uma mensagem de erro clara indicando que as credenciais estão incorretas.
@@ -38,7 +38,6 @@
 - Deve existir uma página ou tela dedicada para a lista de clientes.
 - Cada cliente na lista deve exibir informações básicas, como nome e número de telefone.
 - Deve ser possível buscar clientes na lista com base em critérios específicos, como nome e CPF.
-- Ao clicar no icone "Excluir" deve excluir registro e exibir uma messagem confirmando que o cliente foi excluido com sucesso.
 - Ao clicar no icone "Editar" o Usuário deve ser redirecionado para página de editar Cliente.
 
 ### US07 Eu, como Usuário, gostaria de consultar o histórico de vendas da óptica.
@@ -49,7 +48,7 @@
 
 ### US09 Eu, como Usuário, realizar importação dos dados existentes do cliente para o sistema SOSOptica
 
-- O banco de dados do sistema deve conter Produto que já existem na base de dados antiga com os devidos campos preenchidos: Nome, Descrição, Marca, Cores disponívei, Quantidade, Preço de custo, Preço de venda e Data de cadastro.
+- O banco de dados do sistema deve conter Produtos que já existem na base de dados antiga com os devidos campos preenchidos: Nome, Descrição, Marca, Cores disponívei, Quantidade, Preço de custo, Preço de venda e Data de cadastro.
 
 ### US14 Eu, como Usuário, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.
 
@@ -92,8 +91,7 @@
 - A função de pesquisa na lista de estoque deve permitir que o Usuário insira o nome ou parte do nome do produto e exiba apenas os itens que correspondem à pesquisa.
 - Quando a lista de estoque for muito extensa, deve haver suporte para paginação, dividindo a lista em várias páginas.
 - Cada item na lista de estoque exibido em cada página da paginação deve incluir ícones visíveis para editar e excluir o item.
-- Ao clicar no icone "Excluir" deve excluir registro e exibir messagem que item foi excluido com sucesso.
-- Ao clicar no icone "Editar" o Usuário deve ser redirecionado para página de editar item.
+- Ao clicar no icone "Excluir" deve excluir registro e exibir messagem que produto foi excluido com sucesso.
 
 ### US-21 Eu, como usuário, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.
 
