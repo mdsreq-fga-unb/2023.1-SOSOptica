@@ -11,4 +11,4 @@
 
 [Link acesso Mural](https://miro.com/app/board/uXjVM9bjx6o=/?share_link_id=365887793476)
 
-![Safe](imgs/SAFe.png)
+![Safe](imgs/SAFe.jpg)
