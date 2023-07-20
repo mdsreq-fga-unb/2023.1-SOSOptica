@@ -208,8 +208,6 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 - Nome do cliente
 
-- Receita
-
 - Produto
 
 - Quantidade
@@ -247,7 +245,6 @@ O usuário pode encerrar o sistema a qualquer momento, o caso de uso é encerrad
 | Nome            | Formato                                          | Obrigatoriedade |
 | --------------- | ------------------------------------------------ | --------------- |
 | Nome do cliente | Ana Luiza                                        | Sim             |
-| Receita         | "Aqui irá conter os dados da receita do cliente" | Não             |
 | Produto         | "Produto selecionado pelo cliente"               | Sim             |
 | Quantidade      | 99                                               | Sim             |
 | Valor           | R$ 99,99                                         | Sim             |
