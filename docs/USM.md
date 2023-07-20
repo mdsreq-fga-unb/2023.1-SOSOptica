@@ -4,4 +4,3 @@
 - [USM](https://miro.com/app/board/uXjVM5OkKuk=/?share_link_id=714115874456)
 
 
-![User Story Map Framework (1)](https://github.com/mdsreq-fga-unb/2023.1-SOSOptica/assets/90392277/ff97cd40-f3eb-4e54-a435-5538dd13f6c8)
