@@ -23,4 +23,4 @@ O Product Backlog é uma lista priorizada de requisitos, funcionalidades, melhor
 
 ## User Stories e Critérios de Aceitação
 
-![User Stories e Critérios de Aceitação](<imgs/PBB - SOSOptica_2023-07-20_11-13-14.png>)
+![User Stories e Critérios de Aceitação](<imgs/PBB - SOSOptica_2023-07-20_11-34-39.png>)
