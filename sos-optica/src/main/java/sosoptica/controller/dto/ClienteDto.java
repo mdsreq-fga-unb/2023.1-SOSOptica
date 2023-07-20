@@ -2,6 +2,8 @@ package sosoptica.controller.dto;
 
 import lombok.*;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @Builder
@@ -15,7 +17,7 @@ public class ClienteDto {
 
     private String telefoneCliente;
 
-    private String dataDeNascimentoCliente;
+    private LocalDate dataDeNascimentoCliente;
 
     private String cpf;
 }
