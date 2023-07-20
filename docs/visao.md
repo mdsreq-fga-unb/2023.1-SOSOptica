@@ -44,7 +44,7 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 
 - Facilitar o gerenciamento dos dados dos seus clientes
 - Permite o acesso rápido das informações relevantes sobre cada cliente e venda.
-- Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda,orçamento,receitas,estoque e ordem de serviço.
+- Deve integrar todas as informações de clientes em um único local e permitir que você pesquise por informações de venda, estoque e ordem de serviço.
 - Ao adotar essa abordagem, é possível reduzir erros e aumentar a produtividade da equipe
 - Tarefas antes feitas por uma planilha são substituídas por um sistema mais produtivo e organizado.
 - Isso economiza tempo e dinheiro, além de proporcionar maior precisão nas informações gerenciadas
