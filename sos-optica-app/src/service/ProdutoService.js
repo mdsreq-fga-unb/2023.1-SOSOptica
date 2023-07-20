@@ -14,6 +14,9 @@ class ProdutoService extends Apiservice{
     async listarFaltaNoEstoque(){
         return await this.get('/listar-estoque');
     }
+    async pesquisarProdutoPorNome(nome){
+        return await this.get(`/pesquisar?nome=${nome}`);
+    }
 
     deletar(id){
         return this.delete(`/${id}`)

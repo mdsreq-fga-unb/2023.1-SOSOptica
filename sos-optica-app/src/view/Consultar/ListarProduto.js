@@ -11,7 +11,8 @@ import {mensagemErro,mensagemSucesso} from "../../components/toastr";
 class ListarProduto extends React.Component{
 // eslint-disable-next-line import/no-anonymous-default-export
     state = {
-        produtos : []
+        produtos : [],
+        nome : "",
     }
     constructor() {
         super();
@@ -33,6 +34,8 @@ class ListarProduto extends React.Component{
 
     }
 
+
+
     listarProdutosComfaltaNoestoque = () => {
         this.produtoService.listarFaltaNoEstoque().then(response => {
                 this.setState({produtos:response.data})
@@ -45,6 +48,16 @@ class ListarProduto extends React.Component{
 
     voltar = () =>{
         this.props.history.push('/cadastrar-produto')
+    }
+
+    pesquisarPorNome = () => {
+        this.produtoService.pesquisarProdutoPorNome(this.state.nome).then(response => {
+                this.setState({produtos:response.data})
+            }
+        ).catch(error => {
+            console.log(error.response)
+        })
+
     }
 
     deletar = (produto) => {
@@ -75,17 +88,27 @@ class ListarProduto extends React.Component{
                     <div>
                         <FormGroup >
                             <div className="row" style={{margin:"20px"}}>
-                                <div className="col-md-3">
-                                    <button type="button" className="btn btn-primary btn-hover"  onClick={this.listarProdutosComfaltaNoestoque}>Em Falta</button>
+                                <div>
+                                <input  type="text"
+                                        name="Nome"
+                                        className="form-control col-md-1"
+                                        placeholder="Nome"
+                                        id="inputCpf"
+                                        style={{float: "left", width: "70%"}}
+                                        onChange={e => this.setState({nome: e.target.value})}
+                                />
 
+                                <button type="button" style={{float: "right", width: "30%"}} className="btn btn-primary float-right btn-hover "  onClick={this.pesquisarPorNome}>Pesquisar</button>
+
+                                    <button type="button" className="btn btn-primary btn-hover" style={{margin:"20px"}}  onClick={this.listarProdutosComfaltaNoestoque}>Em Falta</button>
+
+                                    <button type="button" className="btn btn-primary btn-hover" style={{margin:"10px"}} onClick={this.listarTodosProdutos}>Vizualizar Todos</button>
                                 </div>
-                            </div>
+                                </div>
+
+
                         </FormGroup>
-
-
-
                     </div>
-
 
                     <div className="row" style={{margin:"20px"}}>
                         <div className="col-md-12">
