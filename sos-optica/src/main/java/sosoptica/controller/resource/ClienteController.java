@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/clientes")
 public class ClienteController {
-
+    //tudo ok por aqui
     private ClienteService clienteService;
 
     public ClienteController(ClienteService clienteService) {
