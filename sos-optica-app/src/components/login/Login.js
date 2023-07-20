@@ -42,8 +42,35 @@ function LoginIn() {
     });
   }
 
+  const validar = () => {
+    const msgs = [];
+
+    if(!formData.email){
+      msgs.push('O campo email é obrigatorio');
+    }
+
+    if (!formData.nome){
+      msgs.push('O campo nome é obrigatorio');
+    }
+
+    if (!formData.senha){
+      msgs.push('O campo senha é obrigatorio');
+    }
+
+    return msgs;
+  };
+
   const handleSubmit = (e) => {
+
     e.preventDefault();
+
+    const msgs = validar();
+    if (msgs && msgs.length > 0 ){
+      msgs.forEach((msg,index) =>{
+        mensagemErro(msg)
+      });
+      return false
+    }
     usuarioService.salvar(formData).then(response => {
       setFormData({
         nome: '',
@@ -64,7 +91,7 @@ function LoginIn() {
       <Style.Container>
         <Style.SignUpContainer signinIn={signIn}>
           <Style.Form onSubmit={handleSubmit}>
-            <Style.Title2>Criar uma conta</Style.Title2>
+            <Style.Title1>Criar uma conta</Style.Title1>
             <Style.Input type='text' name='nome' value={formData.nome} placeholder='Nome' onChange={handleInputChange}/>
             <Style.Input type='email' name='email' value={formData.email} placeholder='Email' onChange={handleInputChange}/>
             <Style.Input type='password' name='senha' value={formData.senha} placeholder='Senha' onChange={handleInputChange}/>
@@ -74,7 +101,7 @@ function LoginIn() {
 
         <Style.SignInContainer signinIn={signIn}>
           <Style.Form onSubmit={handleLogin}>
-            <Style.Title2>Login</Style.Title2>
+            <Style.Title1>Login</Style.Title1>
             <Style.Input type='email' name='email' placeholder='Email' value={loginData.email} onChange={handleLoginInputChange} />
             <Style.Input type='password' name='senha' placeholder='Senha' value={loginData.senha} onChange={handleLoginInputChange} />
             <Style.Anchor href='#'>Esqueceu sua senha?</Style.Anchor>
@@ -85,7 +112,7 @@ function LoginIn() {
       <Style.OverlayContainer signinIn={signIn}>
         <Style.Overlay signinIn={signIn}>
           <Style.LeftOverlayPanel signinIn={signIn}>
-            <Style.Title2>Bem vindo de volta!</Style.Title2>
+            <Style.Title1>Bem vindo de volta!</Style.Title1>
             <Style.Paragraph>
               Para conectar-se com o sistema entre com as suas informações
             </Style.Paragraph>
@@ -95,7 +122,7 @@ function LoginIn() {
           </Style.LeftOverlayPanel>
 
           <Style.RightOverlayPanel signinIn={signIn}>
-            <Style.Title2>Olá!</Style.Title2>
+            <Style.Title1>Olá!</Style.Title1>
             <Style.Paragraph>
               Crie uma conta para poder acessar o sistema
             </Style.Paragraph>
