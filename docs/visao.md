@@ -30,7 +30,7 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 | O SOSóptica   | É um software voltado para gerenciar os clientes da Óptica Opção                                                       |
 | Que           | Ajuda a ótica gerenciar seus clientes facilitando encontrar dados do cliente  |
 | Ao contrário  | [ssOtica](https://ssotica.com.br/) que é voltada para gerenciamento de clientes, estoques.                             |
-| Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção                                                    |
+| Nosso produto | é um webservice para gerenciamento de clientes da Óptica Opção                                                    |
 
 ### 1.2 Declaração do Problema:
 
@@ -65,11 +65,9 @@ O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui ape
 | US-09        | Eu, como usuário, realizar importação dos dados existentes do cliente para o sistema SOSOptica                                                         |
 | US-06        | Eu, como usuário, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.                   |
 | US-05        | Eu, como usuário, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário. |
-| US-08        | Eu, como usuário, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.                           |
 | US-07        | Eu, como usuário, gostaria de consultar o histórico de compras de um cliente específico.                                                              |
 | US-04        | Eu, como usuário, desejo poder cadastrar um novo cliente, Para que eu possa armazenar suas informações no sistema.                                    |
 | US-14        | Eu, como usuário, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.                            |
-| US-16        | Eu, como usuário, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.    |
 | US-20        | Eu, como usuário, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.                                                |
 | US-22        | Eu, como usuário, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.                                |
 
@@ -79,16 +77,11 @@ O MVP (Minimum Viable Product), é uma versão mínima do produto que inclui ape
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | US-01        | Eu, como usuário, desejo poder cadastrar um Usuario para acessar o sistema.                                                                                                                                             |
 | US-15        | Eu, como usuário, gostaria de poder editar as informações de uma venda existente, Para corrigir erros, atualizar detalhes ou adicionar informações.                                                                   |
-| US-17        | Eu, como usuário, gostaria de Verificar quanto foi vendido no dia.                                                                                                                                                    |
 | US-03        | Eu, como usuário, desejo poder fazer login na minha conta de Usuário para acessar o sistema.                                                                                                                          |
-| US-02        | Eu, como usuário, gostaria de poder editar as informações de um usuário existente, Para atualizar seus dados conforme necessário e garantir a precisão das informações do usuário no sistema.                         |
 | US-18        | Eu, como usuário, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.                                                                                                |
 | US-19        | Eu, como usuário, desejo poder editar as informações de um produto existente no estoque para manter seus dados atualizados.                                                                                           |
 | US-21        | Eu, como usuário, gostaria de poder deletar um produto existente, Para remover produtos obsoletos ou não utilizados do sistema.                                                                                       |
-| US-10        | Eu, como usuário, gostaria de poder de criar templates de mensagens para agilizar o processo de envio de comunicações frequentes, Para reutilizar o conteúdo e personalizá-lo conforme necessário.                    |
-| US-12        | Eu, como usuário, gostaria poder visualizar uma lista de todos os templates de mensagens disponíveis, Para identificar rapidamente os templates disponíveis.                                                          |
-| US-11        | Eu, como usuário, gostaria de poder editar templates de mensagens para personalizá-los conforme necessário. Para adaptar o conteúdo às minhas necessidades e agilizar o processo de envio de comunicações.            |
-| US-13        | Eu, como usuário, gostaria de poder ter a capacidade de excluir templates de mensagens que não são mais necessários. Para manter a lista de templates organizada e evitar a seleção acidental de templates obsoletos. |
+
 
 ## 2 VISÃO GERAL DO PROJETO
 
@@ -102,7 +95,7 @@ A organização do projeto irá levar em conta a abordagem de desenvolvimento de
 | Product Owner            | Define as funcionalidades do produto e prioriza os itens de Product Backlog.                                                                                                                   | Luis Felipe                                                                      | Luis Felipe                         |
 | Desenvolvedores Frontend | Desenvolvedor frontend é responsável por criar a interface do usuário garantindo que seja atraente, intuitiva e funcional.                                                                     | [Ana](https://github.com/anafernanndess) e [Renato](https://github.com/Osidious) | Time                                |
 | Desenvolvedores Backend  | Desenvolvedor backend é responsável por desenvolver e manter a lógica e a infraestrutura do servidor de um aplicativo, que é responsável por processar, armazenar e recuperar dados do usuário | [Tales](https://github.com/TalesRG)                                              | Time                                |
-| DevOps                   | Atuar na unificação e a automação de processos                                                                                                                                                 | [Weslley Barros](https://github.com/weslley17w)                                  | Time                                |
+| DevOps                   | Atuar na unificação e a automação de processos                                                                                                                                                 |                                 | Time                                |
 | Monitora                 | Acompanhar equipe no desenvolvimento do projeto                                                                                                                                                | Bruna Lima                                                                       | Bruna Lima                          |
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
@@ -304,6 +297,12 @@ Durante a Unidade 2, ampliamos nossos conhecimentos acerca dos requisitos funcio
 <p style="text-indent: 20px;">
 Na Unidade 3, aprendemos uma valiosa lição com o PBB: a criação e mapeamento do Product Backlog. Através dele, pudemos identificar os problemas, expectativas e personas, bem como suas respectivas funcionalidades do produto. Essas informações foram consolidadas no Canvas, tornando sua contextualização prática e eficiente.  
 Durante nosso percurso, também nos familiarizamos com o Behavior Driven Development (BDD), o qual desempenhou um papel fundamental na validação dos critérios de aceitação dos Steps Maps.
+</p>
+
+## 4.3 Unidade 4
+
+<p style="text-indent: 20px;">
+Nesta Unidade, tivemos a chance de compreender a definição de Casos de Uso e a metodologia para elaborar seu diagrama relativo ao projeto em que estamos trabalhando, abordando as relações entre Atores e Casos de Uso. Além disso, tivemos a oportunidade de aplicar a produção do documento de especificação de cada Caso de Uso, destacando o fluxo principal, fluxos alternativos e de exceções, bem como as regras de negócio pertinentes. Também estudamos sobre o USM, que é um mapa visual das histórias de usuário. A última unidade proporcionou um conhecimento mais aprofundado sobre a disciplina como um todo. 
 </p>
 
 ## 5 REFERÊNCIAS BIBLIOGRÁFICAS
