@@ -28,7 +28,7 @@ Logo, ao invés de acessar várias planilhas excel, o SOSóptica, propõe uma so
 | Para          | Optica Opção                                                                                                           |
 | Quem          | Necessita de mais eficiência no gerenciamento de clientes                                                              |
 | O SOSóptica   | É um software voltado para gerenciar os clientes da Óptica Opção                                                       |
-| Que           | Ajuda a ótica gerenciar seus clientes facilitando encontrar dados do cliente e enviar mensagens de formas automáticas. |
+| Que           | Ajuda a ótica gerenciar seus clientes facilitando encontrar dados do cliente  |
 | Ao contrário  | [ssOtica](https://ssotica.com.br/) que é voltada para gerenciamento de clientes, estoques.                             |
 | Nosso produto | produto é webservice para gerenciamento de clientes da Óptica Opção                                                    |
 
