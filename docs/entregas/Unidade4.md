@@ -1,12 +1,20 @@
 ## Entregas:
 
+## USM: 
+
 [USM](/2023.1-SOSOptica/USM)
+
+## UC especificação:
 
 [UC especificação](/2023.1-SOSOptica/UseCase) 
 
+## UC diagrama: 
+
 [UC diagrama](/2023.1-SOSOptica/DiagramaUC)
 
-[Visão do Produto e Projeto](https://github.com/mdsreq-fga-unb/2023.1-SustentaSaude/blob/main/docs/files/SOSoptica-visao-do-produto-e-projeto.pdf)
+## Visão do Produto e Projeto:
+
+[Visão do Produto e Projeto](/2023.1-SOSOptica/visao)
 
 ## Site:
 [SosÓptica](https://sosoptica.netlify.app/#/)
@@ -15,6 +23,7 @@
 
 ## Entrega unidade 4:
 
+## Jira:
 
 [Jira](https://talesrodriguesgoncalves98.atlassian.net/jira/software/projects/SOS/boards/1)
 
