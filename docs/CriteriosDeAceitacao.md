@@ -57,17 +57,6 @@
 - Deve haver um cálculo automático do valor total da venda com base nas quantidades e preços dos produtos.
 - A venda criada deve ser armazenada no sistema para consulta e análise posterior.
 
-### US-15 Eu, como usuário, gostaria de poder editar as informações de uma venda existente, Para corrigir erros, atualizar detalhes ou adicionar informações.
-
-- Deve existir uma opção de edição na página “listar vendas”.
-- O sistema deve permitir que o usuário edite os campos relevantes da venda, como cliente, produtos, quantidades, preços e outras informações adicionais.
-- O sistema deve realizar validações de dados durante a edição para garantir que as informações sejam inseridas corretamente.
-- O sistema deve permitir a adição ou remoção de produtos da venda, ajustando automaticamente os cálculos de quantidades e preços.
-- Após a conclusão da edição, o sistema deve salvar as alterações e atualizar as informações da venda no banco de dados.
-- Após a conclusão da edição, o sistema deve salvar as alterações e atualizar as informações da venda no banco de dados.
-- O sistema deve permitir o cancelamento da edição, restaurando as informações originais da venda.
-- Caso ocorra um erro durante o processo de edição, o sistema deve fornecer uma mensagem de erro.
-
 ### US-18 Eu, como usuário, desejo cadastrar novos produtos no estoque para manter um registro preciso da quantidade disponível.
 
 - Produto deve ser cadastrado no banco de dados com sucesso.
@@ -75,14 +64,6 @@
 - Após preencher todas as informações necessárias, o Usuário deve ter a opção de salvar o registro do item de estoque.
 - Após o cadastro, o sistema deve exibir uma mensagem de sucesso do cadastro.
 - Caso deseje cancelar o cadastro, o Usuário deve ser redirecionado para a página de lista de produtos atualizada.
-
-### US-19 Eu, como usuário, desejo poder editar as informações de um produto existente no estoque para manter seus dados atualizados.
-
-- Todos os campos de informação do item de estoque devem ser editáveis, permitindo ao usuário modificar as informações conforme necessário.
-- Ao salvar as atualizações feitas no item de estoque, o sistema deve realizar as validações necessárias para garantir que os dados inseridos sejam válidos e coerentes.
-- O sistema deve exibir uma mensagem de confirmação indicando que as alterações foram salvas com sucesso.
-- O sistema deve permitir ao usuário cancelar a edição do item de estoque a qualquer momento, sem realizar nenhuma alteração.
-- Após cancelar a edição, o usuário deve ser redirecionado para a lista de itens de estoque atualizada.
 
 ### US20 Eu, como Usuário, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.
 
