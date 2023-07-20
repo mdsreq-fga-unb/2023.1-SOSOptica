@@ -8,7 +8,7 @@
 
 [Visão do Produto e Projeto](https://github.com/mdsreq-fga-unb/2023.1-SustentaSaude/blob/main/docs/files/SOSoptica-visao-do-produto-e-projeto.pdf)
 
-## Sites:
+## Site:
 [SosÓptica](https://sosoptica.netlify.app/#/)
 
 ## Review cliente:
