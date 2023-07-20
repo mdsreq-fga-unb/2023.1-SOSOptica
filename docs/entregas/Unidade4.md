@@ -8,6 +8,8 @@
 
 - [Visão do Produto e Projeto](/2023.1-SOSOptica/visao)
 
+- [Débitos técnicos](/2023.1-SOSOptica/sprints/Sprint4)
+
 ## Site:
 [SosÓptica](https://sosoptica.netlify.app/#/)
 
