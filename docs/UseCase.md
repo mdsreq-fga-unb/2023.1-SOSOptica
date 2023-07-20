@@ -29,13 +29,12 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.1.1** O usuário seleciona a opção "cadastrar clientes".
 
-**2.1.2** O usuário começa a cadastrar o cliente utilizando as seguintes informações:
+**2.1.2** O usuário preenche as seguintes informações do cliente:
 
 - Nome
 - CPF
 - Telefone
 - Email
-
 - Data de Nascimento
 
 **2.1.3** O usuário finaliza o cadastro, selecionando o botão "cadastrar".
@@ -46,29 +45,37 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.2 Fluxos Alternativos:**
 
-**FA01 - Cliente já cadastrado**
+**FA1 - CPF inválido**
 
-Se o sistema determinar que o cliente já foi cadastrado, o sistema mostra a mensagem: "Cliente já cadastrado" e o caso de usuo termina
+Se o sistema determinar que o CPF do cliente não é válido, o sistema mostra a mensagem: “CPF inválido” e o caso de uso termina.
 
-**FA02 - Sair**
+**FA2 - Telefone inválido**
 
-O usuário pode encerrar o sistema a qualquer momento.
+Se o sistema determinar que o telefone do cliente não é válido, o sistema mostra a mensagem: “Telefone inválido” e o caso de uso termina.
+
+**FA3 - Data de nascimento inválida**
+
+Se o sistema determinar que a data de nascimento informada não é válida, o sistema mostra a mensagem: Data de nascimento inválida” e o caso de uso termina.
 
 **2.3 Fluxos de Exceção**
 
-**FE1 - CPF inválido**
+**FE01 - Cliente já cadastrado**
 
-Se o sistema determinar que o CPF do cliente não é válido, o sistema mostra a mensagem: “CPF inválido” e o caso de uso termina.
+Se o sistema determinar que o cliente já foi cadastrado, o sistema mostra a mensagem: "Cliente já cadastrado" e o caso de uso termina.
+
+**FE02 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento.
 
 **3. Regras de Negócio:**
 
 | Nome               | Formato             | Máx. quantidade de caracteres | Obrigatoriedade |
 | ------------------ | ------------------- | ----------------------------- | --------------- |
 | Nome               | Ana Luíza Fernandes | 255                           | Sim             |
-| CPF                | xxx.xxx.xxx-xx      | 14                            | Não             |
-| Telefone           | (61)98888-8888      | 14                            | Sim             |
+| CPF                | 999.999.999-99      | 14                            | Não             |
+| Telefone           | (99)99999-9999      | 14                            | Sim             |
 | Email              | email@email.com     | 255                           | Não             |
-| Data de Nascimento | xx/xx/xxxx          | 10                            | Sim             |
+| Data de Nascimento | 99/99/9999          | 10                            | Sim             |
 
 **4. Pré-condições**
 
@@ -133,13 +140,17 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.2 Fluxos Alternativos:**
 
-**FA01 - Sair**
-
-O usuário pode encerrar o sistema a qualquer momento
+Não se aplica
 
 **2.3 Fluxos de Exceção**
 
-Não se aplica.
+**FE01 - Campo vazio**
+
+Se o sistema determinar que algum dos campos: nome, descrição, cores disponíveis, marca, preço de custo, preço de venda ou quantidade de peças não foi preenchido, o sistema mostra a mensagem: “Todos os campos devem ser preenchidos” e o caso de uso termina.
+
+**FE02 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento, o caso de uso é encerrado.
 
 **3. Regras de Negócio:**
 
@@ -149,9 +160,9 @@ Não se aplica.
 | Descrição           | Sol/Grau                                                            | Sim             |
 | Cores disponíveis   | Fosco Areia-escuro, Polido Preto, Polido Marrom-escuro transparente | Sim             |
 | Marca               | Ray Ban                                                             | Sim             |
-| Preço custo         | R$ xx,xx                                                            | Sim             |
-| Preço Venda         | R$ xx,xx                                                            | Sim             |
-| Quantidade de peças | xxx                                                                 | Sim             |
+| Preço custo         | R$ 99,99                                                            | Sim             |
+| Preço Venda         | R$ 99,99                                                            | Sim             |
+| Quantidade de peças | 999                                                                 | Sim             |
 
 **4. Pré-condições**
 
@@ -215,19 +226,21 @@ Este caso de uso é indicado quando Luis Felipe escolhe a opção de cadastro de
 
 **2.2 Fluxos Alternativos:**
 
-**FA01 - Sair**
-
-O usuário pode encerrar o sistema a qualquer momento
+Não se aplica
 
 **2.3 Fluxos de Exceção**
 
 **FE01 - Cliente não cadastrado**
 
-Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
+Caso o o cliente ainda não esteja cadastrado, o caso de uso é encerrado.
 
-**F02 - Produto não cadastrado**
+**FE02 - Produto não cadastrado**
 
-Caso o o cliente ainda não esteja cadastrado, o caso de uso encerra.
+Caso o o cliente ainda não esteja cadastrado, o caso de uso é encerrado.
+
+**FE03 - Sair**
+
+O usuário pode encerrar o sistema a qualquer momento, o caso de uso é encerrado.
 
 **3. Regras de Negócio:**
 
