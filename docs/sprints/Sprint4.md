@@ -13,10 +13,8 @@ A Monitora (Bruna).
 - **US05 -** Eu, como administrador, gostaria de poder editar as informações de um cliente existente, Para atualizar e corrigir os dados do cliente conforme necessário.
 - **US06 -** Eu, como administrador, desejo poder visualizar uma lista de todos os clientes cadastrados, Para que eu possa consultar suas informações.
 - **US07 -** Eu, como administrador, gostaria de consultar o histórico de compras de um cliente específico.
-- **US08 -** Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.
 - **US09 -** Eu, como administrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica
 - **US14 -** Eu, como administrador, desejo criar uma venda de produtos para um cliente, Para registrar e acompanhar as transações de vendas.
-- **US16 -** Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.
 - **US20 -** Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.
 - **US22 -** Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
 
@@ -79,13 +77,9 @@ A Monitora (Bruna).
 
 **US20 -** Eu, como administrador, desejo visualizar uma lista atualizada com todos os produtos do estoque disponíveis.
 
-## Pendências:
-
-**US08 -** Eu, como administrador, gostaria de poder cadastrar uma receita e atribuir a ela um cliente, para efetuar o pedido de um cliente.
+## Débitos técnicos MVP1:
 
 **US09 -** Eu, como administrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica
-
-**US16** - Eu, como administrador, gostaria de saber quais os produtos que mais vendem, para identificar produtos com bastante demanda por parte dos meus clientes.
 
 **US22** - Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
 
