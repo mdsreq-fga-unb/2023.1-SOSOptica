@@ -31,7 +31,7 @@ A Monitora (Bruna).
 
 #### Ana:
 
-##### O que fez:
+**O que fez:**
 
 - Criação do documento do PBB.
 - Implementação do front da lista de clientes.
@@ -41,7 +41,7 @@ A Monitora (Bruna).
 
 #### Renato:
 
-##### O que fez:
+**O que fez:**
 
 - Criação do template do dashboard da aplicação.
 - Documentação das Sprints.
@@ -49,7 +49,7 @@ A Monitora (Bruna).
 
 #### Tales:
 
-##### O que fez:
+**O que fez:**
 
 - Implementação do backend do Cadastro e lista de clientes.
 - Implementação do backend e frontend da lista de produtos.
@@ -57,7 +57,7 @@ A Monitora (Bruna).
 
 #### Wesley:
 
-##### O que fez:
+**O que fez:**
 
 - Implementação do Banco de dados da aplicação
 - Implementação do front e backend da Edição de Clientes
@@ -82,4 +82,3 @@ A Monitora (Bruna).
 **US09 -** Eu, como administrador, realizar importação dos dados existentes do cliente para o sistema SOSOptica
 
 **US22** - Eu, como administrador, gostaria de saber quais produtos estão com estoque baixo, para manter um melhor controle do estoque.
-

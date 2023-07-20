@@ -7,7 +7,8 @@
 Todos os membros da equipe.
 A Monitora (Bruna).
 
-### Objetivo da Sprint 06: 
+### Objetivo da Sprint 06:
+
 Terminar USs 09 e 22 do MVP1 e iniciar a implementação das USs do Mvp2
 
 - **US-01** - Eu como administrador desejo poder cadastrar um Usuario para acessar o sistema.
@@ -32,6 +33,7 @@ Terminar USs 09 e 22 do MVP1 e iniciar a implementação das USs do Mvp2
 - Atualização do git pages.
 - Criação da especificação UC
 - Criação do diagrama UC
+- Atualização na documentação - Sprints.
 
 #### Renato:
 
@@ -45,6 +47,7 @@ Terminar USs 09 e 22 do MVP1 e iniciar a implementação das USs do Mvp2
 **O que fez:**
 
 - Implementação do back-end do cadastro e login do usuário.
+- Implementação cadastro Produto
 - Criação da especificação UC
 - Criação do USM.
 
