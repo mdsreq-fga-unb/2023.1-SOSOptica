@@ -35,6 +35,7 @@ export default props => {
                         <th scope="col" >Telefone</th>
                         <th scope="col" >E-mail</th>
                         <th scope="col">Data de Nascimento</th>
+                        <th scope="col">Ações</th>
                     </tr>
                 </thead>
                 <tbody>
