@@ -180,91 +180,8 @@ CASO INVÁLIDO:
         2. Quando o usuário entrar na aba de listar clientes e não filtrar a lista com base em informações específicas
         3. Então o sistema não deve exibir uma lista de clientes com as informações específicas, como: Ana Luíza Fernandes, CPF: 064.998.785-99
 
-### 1.3. US03 - Eu, como usuário, desejo cadastrar uma receita para efetuar o pedido de um cliente.
 
-#### 1.3.1. O sistema deve possuir uma página própria para cadastrar receita.
-
-CASO VÁLIDO:
-
-    Cenário - exibir página própria para cadastrar receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário entrar na aba de cadastrar receita e começar a inserir os dados da receita
-        3. Então o sistema deve exibir uma página própria para cadastrar receita
-
-CASO INVÁLIDO:
-
-    Cenário - não exibir página própria para cadastrar receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário não entrar na aba de cadastrar receita e não inserir os dados da receita
-        3. Então o sistema não deve exibir uma página própria para cadastrar receita
-
-#### 1.3.2. A página de cadastro deve possuir os campos: Validade, Médico Responsável, Informações da receita.
-
-CASO VÁLIDO:
-
-    Cenário - exibir campos para cadastrar receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário entrar na aba de cadastrar receita e começar a inserir os dados da receita
-        3. Então o sistema deve exibir os campos: Validade: 01/2024, Médico Responsável: Afonso, Informações da receita: Longe esférico OD 1.0, Longe esférico OE 1.0, Longe Cilindrico OD 0.5, Longe Cilindrico OE 1.0, Perto Esferico OE 1.0, Perto Esferico OD 1.5, Perto Cilindrico OD 0.5, Perto Cilindrico OE 1.0
-
-CASO INVÁLIDO:
-
-    Cenário - não exibir campos para cadastrar receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário não entrar na aba de cadastrar receita e não começar a inserir os dados da receita
-        3. Então o sistema não deve exibir os campos: Validade, Médico Responsável, Informações da receita
-
-#### 1.3.3. Deve ser possível vincular um cliente cadastrado a receita.
-
-CASO VÁLIDO:
-
-    Cenário - vincular um cliente cadastrado a receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário já estiver cadastrado uma receita
-        3. Então o sistema deve vincular um cliente cadastrado a receita
-
-CASO INVÁLIDO:
-
-    Cenário - não vincular um cliente cadastrado a receita
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de cadastrar receita
-        2. Quando o usuário não cadastrar uma receita
-        3. Então o sistema não deve vincular um cliente cadastrado a uma receita
-
-### 1.4. US04 - Eu, como usuário, desejo poder enviar mensagens promocionais para os clientes.
-
-#### 1.4.1. Devo conseguir criar templates de mensagens para enviar para os usuários.
-
-CASO VÁLIDO:
-
-    Cenário - criar templates de mensagens para enviar para os usuários
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de criar templates de mensagens
-        2. Quando o usuário entrar na aba de criar templates de mensagens e começar a inserir os dados do template
-        3. Então o sistema deve exibir os campos: Nome do template: Promoção de aniversário, Promoção de lentes:50% off, Mensagem: Olá, feliz aniversário! Temos uma promoção de lentes com 50% off para você, venha conferir!
-
-CASO INVÁLIDO:
-
-    Cenário - não criar templates de mensagens para enviar para os usuários
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de criar templates de mensagens
-        2. Quando o usuário entra na aba de criar templates e não existir nenhum templete disponível
-        3. Então o sistema não deve exibir nenhum campo
-
-#### 1.4.2. Devo ser capaz de programar mensagens de aniversário para clientes específicos
-
-CASO VÁLIDO:
-
-    Cenário - programar mensagens de aniversário para clientes específicos
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de programar mensagens de aniversário
-        2. Quando o usuário entrar na aba de programar mensagens de aniversário e começar a inserir os dados da mensagem
-        3. Então o sistema deve exibir os campos: Nome do cliente: Ana Luíza Fernandes, Data de aniversário: 01/01/1990, Mensagem: Olá, feliz aniversário! Temos uma promoção de lentes com 50% off para você, venha conferir!
-
-CASO INVÁLIDO:
-
-    Cenário - não programar mensagens de aniversário para clientes específicos
-        1. Dado que o usuário irá abrir o sistema da SoSÓptica e entrará na aba de programar mensagens de aniversário
-        2. Quando o usuário entrar na aba de programar mensagens de aniversário e não existir nenhum cliente cadastrado
-        3. Então o sistema não deve exibir nenhum campo
-
-### 1.5. US05 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.
+### 1.5. US03 - Eu, como usuário, desejo poder cadastrar um novo produto para manter um estoque atualizado.
 
 #### 1.5.1. Deve ser possível cadastrar produtos.
 
@@ -346,7 +263,7 @@ CASO INVÁLIDO:
         2. Quando o usuário entrar na aba de cadastrar produtos e não começar a inserir os dados do produto, como Nome do produto:Rayban, Quantidade: -10, Valor: -500,00, data de cadastro: 01/01/2021 e clicar em cadastrar
         3. Então o sistema não deve exibir uma mensagem de sucesso do cadastro
 
-### 1.6. US06 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.
+### 1.6. US04 - Eu, como usuário, desejo uma lista de produtos para poder visualizar a quantidade disponível.
 
 #### 1.6.1. A lista de produtos deve possuir uma página própria.
 
@@ -396,7 +313,7 @@ CASO INVÁLIDO:
         2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações que não existem, como quantidade: -10
         3. Então o sistema não deve filtrar a lista com base em informações específicas inseridas
 
-### 1.7. US07 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.
+### 1.7. US05 - Eu, como usuário, desejo ser notificado quando a quantidade de um determinado produto estiver baixa para que possa realizar novos pedidos.
 
 #### 1.7.1. A lista de produtos deve possuir uma página própria.
 
@@ -446,7 +363,7 @@ CASO INVÁLIDO:
         2. Quando o usuário entrar na aba de lista de produtos e começar a filtrar a lista com base em informações que não existem, como nome: Salmão
         3. Então o sistema não deve filtrar a lista com base em informações específicas inseridas
 
-### 1.8. US08 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.
+### 1.8. US06 - Eu, como usuário, desejo realizar o cadastro de uma venda a fim de manter um histórico de vendas.
 
 #### 1.8.1. Deve ser possível realizar uma venda
 
