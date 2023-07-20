@@ -112,7 +112,7 @@ function LoginIn() {
       <Style.OverlayContainer signinIn={signIn}>
         <Style.Overlay signinIn={signIn}>
           <Style.LeftOverlayPanel signinIn={signIn}>
-            <Style.Title1>Bem vindo de volta!</Style.Title1>
+            <Style.Title2>Bem vindo de volta!</Style.Title2>
             <Style.Paragraph>
               Para conectar-se com o sistema entre com as suas informações
             </Style.Paragraph>
@@ -122,7 +122,7 @@ function LoginIn() {
           </Style.LeftOverlayPanel>
 
           <Style.RightOverlayPanel signinIn={signIn}>
-            <Style.Title1>Olá!</Style.Title1>
+            <Style.Title2>Olá!</Style.Title2>
             <Style.Paragraph>
               Crie uma conta para poder acessar o sistema
             </Style.Paragraph>
