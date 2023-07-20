@@ -248,10 +248,10 @@ O usuário pode encerrar o sistema a qualquer momento, o caso de uso é encerrad
 | --------------- | ------------------------------------------------ | --------------- |
 | Nome do cliente | Ana Luiza                                        | Sim             |
 | Receita         | "Aqui irá conter os dados da receita do cliente" | Não             |
-| Produto         | " Produto selecionado pelo cliente "             | Sim             |
-| Quantidade      | x                                                | Sim             |
-| Valor           | R$ xx,xx                                         | Sim             |
-| Data da venda   | xx/xx/xxxx                                       | Sim             |
+| Produto         | "Produto selecionado pelo cliente"               | Sim             |
+| Quantidade      | 99                                               | Sim             |
+| Valor           | R$ 99,99                                         | Sim             |
+| Data da venda   | 99/99/9999                                       | Sim             |
 
 **4. Pré-condições**
 
