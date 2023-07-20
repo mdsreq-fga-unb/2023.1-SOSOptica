@@ -1,11 +1,11 @@
-## Unidade 2
+## Entregas:
 
-## Entrega da unidade 2:
+- [Apresentação](https://www.youtube.com/embed/5q-09hYUqy0)
 
-[Apresentação](https://www.youtube.com/embed/5q-09hYUqy0)
 
-[Visão do Produto e Projeto](https://github.com/mdsreq-fga-unb/2023.1-SustentaSaude/blob/main/docs/files/SOSoptica-visao-do-produto-e-projeto.pdf)
+- [Visão do Produto e Projeto](/2023.1-SOSOptica/visao)
 
-[Backlog do Produto](BacklogDoProduto.md)
+- [Backlog do Produto](BacklogDoProduto.md)
 
-[Priorização de Requisitos](pontua%C3%A7%C3%A3o-dos-mvps.md)
+
+- [Priorização de Requisitos](pontua%C3%A7%C3%A3o-dos-mvps.md)
