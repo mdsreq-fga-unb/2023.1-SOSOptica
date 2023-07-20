@@ -8,6 +8,7 @@
 | 19/06/2023 |  0.2   | Refatoração do documento | [Ana Luíza](https://github.com/analufernanndess) | 
 
 
+
 ## Personas:
 Luis Felipe, 21 anos, dono da loja Óptica Opção, não consegue se organizar de maneira efetiva pois em seu estabelecimento há várias planilhas com os dados dos clientes, há também várias planilhas sobre os produtos da loja, ele deseja visualizar as informações dos clientes e da loja efetivamente.
 ## Jornadas:
@@ -27,12 +28,10 @@ Luis Felipe, Atende um cliente em sua loja ➝ Caso o cliente queira comprar na 
 ## Funcionalidades:
 - Cadastrar clientes.
 - Cadastrar Venda.
-- Cadastrar mensagens promocionais.
 - Cadastrar produtos.
 - Buscar por produtos.
 - Buscar por vendas.
 - Buscar por clientes.
-- Enviar mensagens promocionais por whatsapp.
 - Visualizar informações de produtos (em estoque ou não).
 - Visualizar informações de clientes.
   
