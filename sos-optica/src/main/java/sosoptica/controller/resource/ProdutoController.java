@@ -60,4 +60,11 @@ public class ProdutoController {
         List<Produto> produtosComMenosEstoque = produtoService.listarProdutosComMenosQuantida();
         return ResponseEntity.ok(produtosComMenosEstoque);
     }
+
+    @GetMapping("/pesquisar")
+    public ResponseEntity pesquisarProdutoPorNome(@RequestParam(name = "nome",required = false) String nome){
+        List<Produto> nomes = produtoService.pesquisarProdutoPorNome(nome);
+        return ResponseEntity.ok(nomes);
+
+    }
 }

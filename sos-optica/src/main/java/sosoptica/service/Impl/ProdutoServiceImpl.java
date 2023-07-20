@@ -42,6 +42,11 @@ public class ProdutoServiceImpl implements ProdutoService{
     }
 
     @Override
+    public List<Produto> pesquisarProdutoPorNome(String nome) {
+        return produtoRepository.findByNomeProdutoLike(nome+"%");
+    }
+
+    @Override
     @Transactional
     public void excluirProduto(Produto produto) {
         Objects.requireNonNull(produto.getId());
