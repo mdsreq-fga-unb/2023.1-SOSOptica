@@ -1,11 +1,13 @@
 package sosoptica.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 @NoArgsConstructor
@@ -32,5 +34,9 @@ public class Venda {
 
         @Column(name = "valor")
         double valor;
+
+        @Column(name = "data_cadastro")
+        @JsonFormat(pattern="dd/MM/yyyy")
+        private LocalDate dataCadastro;
 
 }
