@@ -104,7 +104,6 @@ function LoginIn() {
             <Style.Title1>Login</Style.Title1>
             <Style.Input type='email' name='email' placeholder='Email' value={loginData.email} onChange={handleLoginInputChange} />
             <Style.Input type='password' name='senha' placeholder='Senha' value={loginData.senha} onChange={handleLoginInputChange} />
-            <Style.Anchor href='#'>Esqueceu sua senha?</Style.Anchor>
             <Style.Button type='submit'>Logar</Style.Button>
           </Style.Form>
         </Style.SignInContainer>
