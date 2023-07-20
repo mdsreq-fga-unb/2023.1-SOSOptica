@@ -16,4 +16,6 @@ public interface ProdutoRepository extends JpaRepository<Produto,Long> {
 
         List<Produto> findByOrderByQtDePecas();
 
+        List<Produto> findByNomeProdutoLike(String nome);
+
 }

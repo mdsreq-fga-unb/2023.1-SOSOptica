@@ -1,6 +1,7 @@
 package sosoptica.service;
 
 import org.springframework.transaction.annotation.Transactional;
+import sosoptica.model.entity.Cliente;
 import sosoptica.model.entity.Produto;
 
 import java.util.List;
@@ -16,6 +17,7 @@ public interface ProdutoService {
 
     Optional<Produto> ObterPorId(Long id);
 
+    List<Produto> pesquisarProdutoPorNome(String nome);
     void excluirProduto(Produto produto);
 }
 
