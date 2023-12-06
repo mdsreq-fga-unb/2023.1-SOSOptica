@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import sosoptica.service.UsuarioService;
 
 import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
@@ -49,6 +51,20 @@ public class UsuarioServiceImpl implements UsuarioService {
         if (existe){
             throw new RegraDeNegocioException("Ja existe este email cadastrado");
         }
+    }
+
+    @Override
+    public boolean validaFormatoEmail(String email) {
+        if (Optional.ofNullable(email).isEmpty()) {
+            return false;
+        }
+        String EMAIL_REGEX = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+
+
+        Pattern pattern = Pattern.compile(EMAIL_REGEX);
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+
     }
 
 }
