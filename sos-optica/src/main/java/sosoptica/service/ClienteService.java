@@ -19,4 +19,5 @@ public interface ClienteService {
     void validarCpfCliente(String cpf);
 
     List<Cliente> pesquisarClientePorNome(String nome);
+    boolean validarFormatoCpfCliente(String cpf);
 }
