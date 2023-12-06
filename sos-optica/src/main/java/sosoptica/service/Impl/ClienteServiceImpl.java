@@ -9,6 +9,9 @@ import sosoptica.model.repository.ClienteRepository;
 import sosoptica.service.ClienteService;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
@@ -86,6 +89,27 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public List<Cliente> pesquisarClientePorNome(String nome){
         return clienteRepository.findByNomeClienteLike("%"+nome+"%");
+    }
+    @Override
+    public boolean validarFormatoCpfCliente(String cpf) {
+        String CPF_REGEX_SEM_PONTUACAO = "^\\d{11}$";
+        String CPF_REGEX = "^\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}$";
+
+        if (Optional.ofNullable(cpf).isEmpty()) {
+            return false;
+        }
+        if (cpf.length() == 11) {
+            Pattern pattern = Pattern.compile(CPF_REGEX_SEM_PONTUACAO);
+            Matcher matcher = pattern.matcher(cpf);
+            return matcher.matches();
+        }else if(cpf.length() == 14){
+            Pattern pattern = Pattern.compile(CPF_REGEX);
+            Matcher matcher = pattern.matcher(cpf);
+            return matcher.matches();
+        }
+
+
+        return false;
     }
 
 
